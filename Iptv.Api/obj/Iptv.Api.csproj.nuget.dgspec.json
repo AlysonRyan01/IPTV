@@ -1,41 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\IPTV\\Iptv.Api\\Iptv.Api.csproj": {}
+    "C:\\Projetos\\IPTV\\iptv.api\\Iptv.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\IPTV\\Iptv.Api\\Iptv.Api.csproj": {
+    "C:\\Projetos\\IPTV\\iptv.api\\Iptv.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\IPTV\\Iptv.Api\\Iptv.Api.csproj",
+        "projectUniqueName": "C:\\Projetos\\IPTV\\iptv.api\\Iptv.Api.csproj",
         "projectName": "Iptv.Api",
-        "projectPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\IPTV\\Iptv.Api\\Iptv.Api.csproj",
-        "packagesPath": "C:\\Users\\TVS'PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\IPTV\\Iptv.Api\\obj\\",
+        "projectPath": "C:\\Projetos\\IPTV\\iptv.api\\Iptv.Api.csproj",
+        "packagesPath": "C:\\Users\\alyso\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\IPTV\\iptv.api\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\TVS'PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\alyso\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj": {
-                "projectPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj"
+              "C:\\Projetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj": {
+                "projectPath": "C:\\Projetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj"
               }
             }
           }
@@ -48,16 +40,31 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -83,34 +90,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj": {
+    "C:\\Projetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj",
+        "projectUniqueName": "C:\\Projetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj",
         "projectName": "Iptv.Core",
-        "projectPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj",
-        "packagesPath": "C:\\Users\\TVS'PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\IPTV\\Iptv.Core\\obj\\",
+        "projectPath": "C:\\Projetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj",
+        "packagesPath": "C:\\Users\\alyso\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\IPTV\\Iptv.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\TVS'PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\alyso\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -127,8 +126,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -159,7 +159,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

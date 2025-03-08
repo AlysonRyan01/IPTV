@@ -11,7 +11,7 @@ public class Order
     public string Number { get; set; } = Guid.NewGuid().ToString("N")[..8];
     public string? ExternalReference { get; set; } = null;
 
-    public int TvBoxId { get; set; }
+    public long TvBoxId { get; set; }
     public TvBox TvBox { get; set; } = null!;
     
     public DateTime CreatedAt { get; set; } = DateTime.Now;

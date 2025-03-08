@@ -31,5 +31,10 @@ public class IdentityUserMap : IEntityTypeConfiguration<User>
         builder.HasMany<IdentityUserLogin<long>>().WithOne().HasForeignKey(ul => ul.UserId).IsRequired();
         builder.HasMany<IdentityUserToken<long>>().WithOne().HasForeignKey(ut => ut.UserId).IsRequired();
         builder.HasMany<IdentityUserRole<long>>().WithOne().HasForeignKey(ur => ur.UserId).IsRequired();
+        
+        builder.HasOne(u => u.Address)
+            .WithOne()
+            .HasForeignKey<Address>(e => e.UserId)
+            .OnDelete(DeleteBehavior.Cascade);
     }
 }

@@ -17,9 +17,9 @@ public class IptvDbContext(DbContextOptions<IptvDbContext> options)
         IdentityRoleClaim<long>,
         IdentityUserToken<long>>(options)
 {
-    public DbSet<Address> Categories { get; set; } = null!;
-    public DbSet<Order> Transactions { get; set; } = null!;
-    public DbSet<TvBox> Vouchers { get; set; } = null!;
+    public DbSet<Address> Addresses { get; set; } = null!;
+    public DbSet<Order> Orders { get; set; } = null!;
+    public DbSet<TvBox> TvBoxes { get; set; } = null!;
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

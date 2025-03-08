@@ -16,10 +16,11 @@ public class OrderMap : IEntityTypeConfiguration<Order>
         builder.Property(o => o.Id)
             .ValueGeneratedOnAdd();
         
-        builder.HasOne<User>()
-            .WithMany()
-            .HasForeignKey(o => o.UserId) 
-            .OnDelete(DeleteBehavior.Restrict); 
+        builder.HasOne(o => o.Address)
+            .WithMany(a => a.Orders)
+            .HasForeignKey(o => o.AddressId)
+            .OnDelete(DeleteBehavior.Restrict)
+            .IsRequired();
         
         builder.Property(o => o.Number)
             .HasMaxLength(10)
@@ -43,12 +44,6 @@ public class OrderMap : IEntityTypeConfiguration<Order>
         
         builder.Property(o => o.UpdatedAt)
             .HasColumnType("DATETIME2")
-            .IsRequired();
-        
-        builder.HasOne(o => o.Address)
-            .WithOne()
-            .HasForeignKey<Order>(o => o.AddressId)
-            .OnDelete(DeleteBehavior.Cascade)
             .IsRequired();
         
         builder.Property(o => o.ShippingCost)

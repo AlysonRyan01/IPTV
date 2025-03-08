@@ -22,6 +22,11 @@ public class AddressMap : IEntityTypeConfiguration<Address>
             .HasForeignKey<Address>(e => e.UserId)
             .OnDelete(DeleteBehavior.Cascade)
             .IsRequired();
+        
+        builder.HasMany(a => a.Orders)
+            .WithOne(o => o.Address)
+            .HasForeignKey(o => o.AddressId)
+            .OnDelete(DeleteBehavior.Restrict);
 
         builder.Property(a => a.Street)
             .HasMaxLength(255)
