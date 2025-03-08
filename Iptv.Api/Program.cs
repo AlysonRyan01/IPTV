@@ -1,8 +1,11 @@
 using Iptv.Api.Common;
+using Iptv.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddCorsConfiguration();
+builder.AddServices();
+builder.AddSwaggerGen();
 builder.AddIdentity();
 builder.AddDbConfiguration();
 builder.AddConfigurationApiUrl();
@@ -20,7 +23,9 @@ if (app.Environment.IsDevelopment())
     app.ConfigureDevEnvironment();
 
 
-app.MapGet("/", () => "api rodando");
+app.MapGet("/", (TokenService tokenService) =>
+    tokenService.Generate(null)
+);
 
 app.Run();
 

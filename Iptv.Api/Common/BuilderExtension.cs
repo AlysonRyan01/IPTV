@@ -1,6 +1,7 @@
 using System.Text.Json;
 using Iptv.Api.Data;
 using Iptv.Api.Models;
+using Iptv.Api.Services;
 using Iptv.Core;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,11 @@ public static class BuilderExtension
     {
         builder.Services.AddDbContext<IptvDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    }
+
+    public static void AddServices(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddTransient<TokenService>();
     }
     
     public static void AddIdentity(this WebApplicationBuilder builder)
@@ -28,6 +34,7 @@ public static class BuilderExtension
     
     public static void AddConfigurationApiUrl(this WebApplicationBuilder builder)
     {
+        ApiConfiguration.JwtKey = builder.Configuration["Jwt:Secret"] ?? string.Empty;
         Configuration.ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? String.Empty;
         Configuration.BackendUrl = builder.Configuration.GetValue<string>("BackendUrl") ?? String.Empty;
         Configuration.FrontendUrl = builder.Configuration.GetValue<string>("FrontendUrl") ?? String.Empty;
@@ -42,6 +49,11 @@ public static class BuilderExtension
                 options.JsonSerializerOptions.WriteIndented = true; 
                 options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase; 
             });
+    }
+
+    public static void AddSwaggerGen(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddSwaggerGen();
     }
     
     public static void AddCorsConfiguration(this WebApplicationBuilder builder)

@@ -11,3 +11,16 @@ C:\Projetos\IPTV\Iptv.Core\obj\Debug\net9.0\Iptv.Core.dll
 C:\Projetos\IPTV\Iptv.Core\obj\Debug\net9.0\refint\Iptv.Core.dll
 C:\Projetos\IPTV\Iptv.Core\obj\Debug\net9.0\Iptv.Core.pdb
 C:\Projetos\IPTV\Iptv.Core\obj\Debug\net9.0\ref\Iptv.Core.dll
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\bin\Debug\net9.0\Iptv.Core.deps.json
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\bin\Debug\net9.0\Iptv.Core.dll
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\bin\Debug\net9.0\Iptv.Core.pdb
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\obj\Debug\net9.0\Iptv.Core.csproj.AssemblyReference.cache
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\obj\Debug\net9.0\Iptv.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\obj\Debug\net9.0\Iptv.Core.AssemblyInfoInputs.cache
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\obj\Debug\net9.0\Iptv.Core.AssemblyInfo.cs
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\obj\Debug\net9.0\Iptv.Core.csproj.CoreCompileInputs.cache
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\obj\Debug\net9.0\Iptv.Core.sourcelink.json
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\obj\Debug\net9.0\Iptv.Core.dll
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\obj\Debug\net9.0\refint\Iptv.Core.dll
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\obj\Debug\net9.0\Iptv.Core.pdb
+C:\Users\TVS'PC\Documents\MeusProjetos\IPTV\Iptv.Core\obj\Debug\net9.0\ref\Iptv.Core.dll
