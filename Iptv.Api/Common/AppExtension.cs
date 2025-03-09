@@ -6,7 +6,6 @@ public static class AppExtension
     {
         app.UseSwagger();
         app.UseSwaggerUI();
-        app.MapSwagger().RequireAuthorization();
     }
 
     public static void UseSecurity(this WebApplication app)

@@ -1,10 +1,16 @@
+using System.Text;
 using System.Text.Json;
 using Iptv.Api.Data;
+using Iptv.Api.Handlers;
 using Iptv.Api.Models;
 using Iptv.Api.Services;
 using Iptv.Core;
+using Iptv.Core.Handlers;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 
 namespace Iptv.Api.Common;
 
@@ -16,15 +22,47 @@ public static class BuilderExtension
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
     }
 
+    public static void AddAuthorizationConfiguration(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddAuthorization(options =>
+        {
+            options.AddPolicy("IsAdmin", policy =>
+                policy.RequireClaim("IsAdmin", "true"));
+        });
+    }
+
     public static void AddServices(this WebApplicationBuilder builder)
     {
         builder.Services.AddTransient<TokenService>();
+        builder.Services.AddTransient<IIdentityHandler, IdentityHandler>();
+        builder.Services.AddTransient<IOrderHandler, OrderHandler>();
+    }
+
+    public static void AddJwtConfiguration(this WebApplicationBuilder builder)
+    {
+        var key = Encoding.ASCII.GetBytes(ApiConfiguration.JwtKey);
+        
+        builder.Services.AddAuthentication(x =>
+            {	
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
+            });
     }
     
     public static void AddIdentity(this WebApplicationBuilder builder)
     {
-        builder.Services.AddDataProtection();
-        
         builder.Services.AddIdentityCore<User>()
             .AddRoles<IdentityRole<long>>()
             .AddEntityFrameworkStores<IptvDbContext>()
@@ -53,7 +91,31 @@ public static class BuilderExtension
 
     public static void AddSwaggerGen(this WebApplicationBuilder builder)
     {
-        builder.Services.AddSwaggerGen();
+        builder.Services.AddSwaggerGen(c =>
+        {
+            c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+            {
+                In = ParameterLocation.Header,
+                Name = "Authorization",
+                Type = SecuritySchemeType.ApiKey,
+                BearerFormat = "JWT",
+                Description = "Insira o token JWT no formato 'Bearer {token}'"
+            });
+            c.AddSecurityRequirement(new OpenApiSecurityRequirement
+            {
+                {
+                    new OpenApiSecurityScheme
+                    {
+                        Reference = new OpenApiReference
+                        {
+                            Type = ReferenceType.SecurityScheme,
+                            Id = "Bearer"
+                        }
+                    },
+                    new string[] {}
+                }
+            });
+        });
     }
     
     public static void AddCorsConfiguration(this WebApplicationBuilder builder)

@@ -9,7 +9,7 @@ public class Order
     public long UserId { get; set; }
     
     public string Number { get; set; } = Guid.NewGuid().ToString("N")[..8];
-    public string? ExternalReference { get; set; } = null;
+    public string? ExternalReference { get; set; }
 
     public long TvBoxId { get; set; }
     public TvBox TvBox { get; set; } = null!;
@@ -19,7 +19,7 @@ public class Order
 
     public EPaymentGateway PaymentGateway { get; set; } = EPaymentGateway.Stripe;
 
-    public EOrderStatus OrderStatus { get; set; } = EOrderStatus.AwaitingPayment;
+    public EOrderStatus OrderStatus { get; set; } = EOrderStatus.WaitingPayment;
 
     public Address Address { get; set; } = null!;
     public long AddressId { get; set; }

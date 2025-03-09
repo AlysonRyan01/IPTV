@@ -8,4 +8,5 @@ public class User : IdentityUser<long>
     public string FirstName { get; set; } = string.Empty;
     public string LastName { get; set; } = string.Empty;
     public Address? Address { get; set; }
+    public bool IsAdmin { get; set; } = false;
 }
