@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l9oujhE7euM=",
+  "dgSpecHash": "1+MqBzcvoOY=",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\IPTV\\Iptv.Api\\Iptv.Api.csproj",
+  "projectFilePath": "C:\\Projetos\\IPTV\\iptv.api\\Iptv.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alyso\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\alyso\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

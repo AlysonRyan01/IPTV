@@ -5,12 +5,12 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Iptv.Web.styles.css",
-      "PackagePath": "staticwebassets\\Iptv.Web.styles.css"
-    },
-    {
       "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\appsettings.json",
       "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\Style.css",
+      "PackagePath": "staticwebassets\\css\\Style.css"
     },
     {
       "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\app.css",
@@ -23,6 +23,10 @@
     {
       "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\particle-lines-futuristic-gradient-background.jpg",
+      "PackagePath": "staticwebassets\\images\\particle-lines-futuristic-gradient-background.jpg"
     },
     {
       "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\index.html",

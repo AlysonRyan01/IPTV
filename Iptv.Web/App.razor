@@ -1,7 +1,10 @@
 ﻿<CascadingAuthenticationState>
+    <MudThemeProvider Theme="@WebConfiguration.theme" />
+    <MudDialogProvider />
+    <MudSnackbarProvider />
     <Router AppAssembly="@typeof(App).Assembly">
         <Found Context="routeData">
-            <AuthorizeRouteView RouteData="routeData" DefaultLayout="@typeof(MainLayout)">
+            <AuthorizeRouteView RouteData="routeData">
                 <Authorizing>
                     <div style="display: flex; justify-content: center; align-items: center; height: 20vh; flex-direction: column;">
                         <p style="margin-top: 10px; font-size: 18px;">Carregando...</p>
@@ -14,10 +17,8 @@
         </Found>
         <NotFound>
             <PageTitle>Not found</PageTitle>
-            <LayoutView Layout="@typeof(MainLayout)">
-                <h1>Erro 404</h1>
-                <p>Página não encontrada</p>
-            </LayoutView>
+            <h1>Erro 404</h1>
+            <p>Página não encontrada</p>
         </NotFound>
     </Router>
 </CascadingAuthenticationState>

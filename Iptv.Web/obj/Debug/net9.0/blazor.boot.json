@@ -1,10 +1,11 @@
 {
   "mainAssemblyName": "Iptv.Web",
   "resources": {
-    "hash": "sha256-N85lJCTKYzKy28PRj47WtAwrYmxLjVZluQQGhKoaixA=",
+    "hash": "sha256-jGM9HARWfmT2qPeiB7tlwrwAHw0Nsv5zrBU2phyDtsQ=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
+      "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "Microsoft.AspNetCore.Authorization.esv38zo127.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.cwj0bpb71v.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Authorization.f7z3anr7a9.wasm": "Microsoft.AspNetCore.Components.Authorization.wasm",
@@ -39,6 +40,8 @@
       "Microsoft.Extensions.Http.jmxtshryzr.wasm": "Microsoft.Extensions.Http.wasm",
       "Microsoft.Extensions.Identity.Core.k578673qi7.wasm": "Microsoft.Extensions.Identity.Core.wasm",
       "Microsoft.Extensions.Identity.Stores.hhyvpd1jc1.wasm": "Microsoft.Extensions.Identity.Stores.wasm",
+      "Microsoft.Extensions.Localization.bvn14pws96.wasm": "Microsoft.Extensions.Localization.wasm",
+      "Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm": "Microsoft.Extensions.Localization.Abstractions.wasm",
       "Microsoft.Extensions.Logging.95bgqrnv72.wasm": "Microsoft.Extensions.Logging.wasm",
       "Microsoft.Extensions.Logging.Abstractions.r95vt1inlr.wasm": "Microsoft.Extensions.Logging.Abstractions.wasm",
       "Microsoft.Extensions.Options.i5at4ga9io.wasm": "Microsoft.Extensions.Options.wasm",
@@ -56,6 +59,7 @@
       "Microsoft.JSInterop.WebAssembly.vzj7d1zf5j.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
       "Microsoft.SqlServer.Server.yamodpu5qp.wasm": "Microsoft.SqlServer.Server.wasm",
       "Microsoft.Win32.SystemEvents.asbyu30enw.wasm": "Microsoft.Win32.SystemEvents.wasm",
+      "MudBlazor.d77vteuu8h.wasm": "MudBlazor.wasm",
       "System.ClientModel.8j5eiu0uyl.wasm": "System.ClientModel.wasm",
       "System.Configuration.ConfigurationManager.okmrelmv0a.wasm": "System.Configuration.ConfigurationManager.wasm",
       "System.Drawing.Common.3y29mvytmn.wasm": "System.Drawing.Common.wasm",
@@ -241,10 +245,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Iptv.Core.9y63adx41e.wasm": "Iptv.Core.wasm",
-      "Iptv.Core.18c72fg7fc.pdb": "Iptv.Core.pdb",
-      "Iptv.Web.yos3h5suz6.wasm": "Iptv.Web.wasm",
-      "Iptv.Web.b80l4lurvd.pdb": "Iptv.Web.pdb"
+      "Iptv.Core.1cupxqpv64.wasm": "Iptv.Core.wasm",
+      "Iptv.Core.j73k61wfqi.pdb": "Iptv.Core.pdb",
+      "Iptv.Web.po5eue4odk.wasm": "Iptv.Web.wasm",
+      "Iptv.Web.4obbgcik1u.pdb": "Iptv.Web.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -267,6 +271,7 @@
     "assembly": {
       "Azure.Core.92q6rqqhly.wasm": "sha256-cUx0yT4TBboCr8yulFrimAvC9ecu4FtrhfEZ7T8ragU=",
       "Azure.Identity.b6ekoqlu3w.wasm": "sha256-wxR1E0zJLWYxnckYUOXZsbZoUjCYCwgg3aYbYbCLaGo=",
+      "Blazored.LocalStorage.12n6dz54qr.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
       "Microsoft.AspNetCore.Authorization.esv38zo127.wasm": "sha256-rvfJ4vWD9REicee49XUtbmMWVdG0gSGCfb9oZFv9gkY=",
       "Microsoft.AspNetCore.Components.cwj0bpb71v.wasm": "sha256-RDzFNwWFeDHfByrpBjtoeDosPx0W+62WnUqQnxj4pzs=",
       "Microsoft.AspNetCore.Components.Authorization.f7z3anr7a9.wasm": "sha256-+0pw8eh9ess7ISQ+PBhRIIUqqkQNxObNR00MmvBkPlY=",
@@ -301,6 +306,8 @@
       "Microsoft.Extensions.Http.jmxtshryzr.wasm": "sha256-hQBuZqm9oDerqzwTZsIu6tnlGi2Lhu6YbjKcXXlP/3g=",
       "Microsoft.Extensions.Identity.Core.k578673qi7.wasm": "sha256-OMhnvgiO87pHHu3KIBzNmtpPIiM0+TuHSosXKNEWAnk=",
       "Microsoft.Extensions.Identity.Stores.hhyvpd1jc1.wasm": "sha256-VZ0PT6FnByAULQXvmxDCr7Gn1a7fPyT0/0v7T2GgYy4=",
+      "Microsoft.Extensions.Localization.bvn14pws96.wasm": "sha256-6UgMJoVZBfDdfzYR0aKVK6BWArxpXC1qiQDDjiXw/L4=",
+      "Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm": "sha256-GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=",
       "Microsoft.Extensions.Logging.95bgqrnv72.wasm": "sha256-bXI40g7FV9Auzp7Gkf/qaOpV57AB9LC/77YgdkBPY6Y=",
       "Microsoft.Extensions.Logging.Abstractions.r95vt1inlr.wasm": "sha256-kRIQ4HhyW0v7+i6zYTjl+BrSzIVS5rdciOLbrEa7+40=",
       "Microsoft.Extensions.Options.i5at4ga9io.wasm": "sha256-pnyeMavDPmoZSrcbVUR5oTMXXyZmckP6mmbo05pyQCg=",
@@ -318,6 +325,7 @@
       "Microsoft.JSInterop.WebAssembly.vzj7d1zf5j.wasm": "sha256-+yETq3HNwmgPEHJePavXqUT5HcOeuur5PgP7H5vXEa4=",
       "Microsoft.SqlServer.Server.yamodpu5qp.wasm": "sha256-Fig+5hq00gGQlXAgSnyFlUlWyhlx9f+yPJb4INt3gNc=",
       "Microsoft.Win32.SystemEvents.asbyu30enw.wasm": "sha256-1kUoFxSGzlbndQM4zal3G/YBdouUTf444lDjqhuWALU=",
+      "MudBlazor.d77vteuu8h.wasm": "sha256-OcvtTjiKC8VNFwZVT5LSHvMCkBU0tn/kvdJ3/RkREkg=",
       "System.ClientModel.8j5eiu0uyl.wasm": "sha256-hB3YvRqtJh9HC69ryOu2jplvTqYa8opx1wPk+N/txKs=",
       "System.Configuration.ConfigurationManager.okmrelmv0a.wasm": "sha256-+PLYdcVZv3KxeaVwz0s4UYBHOGGP8xo3I8tCkSLGWjU=",
       "System.Drawing.Common.3y29mvytmn.wasm": "sha256-K4kz7R8w/w1hXO31g3GdLNqPgu4KDENnDuMEnMfDDnc=",
@@ -494,12 +502,12 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "Iptv.Core.9y63adx41e.wasm": "sha256-DwwQ2QaKr6qbo0vxewnQPoCTtLG1ATORhyqul9xqR2A=",
-      "Iptv.Web.yos3h5suz6.wasm": "sha256-AtlXboFCWd8vqq9fVM1UqaJIk23PTHKwdlttEoq3lBg="
+      "Iptv.Core.1cupxqpv64.wasm": "sha256-L+ES3MnCU0K/Teun9zX6nIOryMqpcaP4G/QLUqfXQic=",
+      "Iptv.Web.po5eue4odk.wasm": "sha256-SSr/Tgq0pK1qPbcGI6FbEkXAXMuApCja+QNMM7i9dJc="
     },
     "pdb": {
-      "Iptv.Core.18c72fg7fc.pdb": "sha256-odf78rDvbYQYWF6EbZXfYdmnJC4+oaasOfRYaNrf0n4=",
-      "Iptv.Web.b80l4lurvd.pdb": "sha256-a4zsZFy2QHdscQc37sw1Bu0ivh0hPup7+yApwrCcbAc="
+      "Iptv.Core.j73k61wfqi.pdb": "sha256-P3fsOqBt+pciGBE4Kiu6GV5elqrLLmtYbqC5FaFgpC4=",
+      "Iptv.Web.4obbgcik1u.pdb": "sha256-1O9WEve3AS5DGz17zMyq4+DwXBRGI8aduWuH3lwFN4Q="
     }
   },
   "cacheBootResources": true,

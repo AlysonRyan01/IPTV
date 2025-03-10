@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NclrnNzAIHIJcoVh5Uju66H2BjmStHImKHUfQa5pd0Y=",
+  "Hash": "XpYeh5RyYyoQN0+4cJ4pK5hKbiymUNZQGtrMaKn30CQ=",
   "Source": "Iptv.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "jbduefze5n",
-      "Integrity": "EUd82zPhNhWarmdTqVZlToQ8L7hsr7BrMocYZHACNXY=",
+      "Fingerprint": "bcl1jbfi5w",
+      "Integrity": "S5GERIZkODoOaLekIG95wCe3tYS82T2J6iH69/E546o=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\alyso\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\9.0.2\\build\\net9.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "SourceId": "Iptv.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "12n6dz54qr",
+      "Integrity": "OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\webcil\\Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\dotnet.js",
@@ -304,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "18c72fg7fc",
-      "Integrity": "odf78rDvbYQYWF6EbZXfYdmnJC4+oaasOfRYaNrf0n4=",
+      "Fingerprint": "j73k61wfqi",
+      "Integrity": "P3fsOqBt+pciGBE4Kiu6GV5elqrLLmtYbqC5FaFgpC4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\Iptv.Core\\bin\\Debug\\net9.0\\Iptv.Core.pdb"
@@ -325,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "9y63adx41e",
-      "Integrity": "DwwQ2QaKr6qbo0vxewnQPoCTtLG1ATORhyqul9xqR2A=",
+      "Fingerprint": "1cupxqpv64",
+      "Integrity": "L+ES3MnCU0K/Teun9zX6nIOryMqpcaP4G/QLUqfXQic=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\webcil\\Iptv.Core.wasm"
@@ -346,8 +367,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "b80l4lurvd",
-      "Integrity": "a4zsZFy2QHdscQc37sw1Bu0ivh0hPup7+yApwrCcbAc=",
+      "Fingerprint": "4obbgcik1u",
+      "Integrity": "1O9WEve3AS5DGz17zMyq4+DwXBRGI8aduWuH3lwFN4Q=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\Iptv.Web.pdb"
@@ -367,8 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "yos3h5suz6",
-      "Integrity": "AtlXboFCWd8vqq9fVM1UqaJIk23PTHKwdlttEoq3lBg=",
+      "Fingerprint": "po5eue4odk",
+      "Integrity": "SSr/Tgq0pK1qPbcGI6FbEkXAXMuApCja+QNMM7i9dJc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\webcil\\Iptv.Web.wasm"
@@ -1109,6 +1130,48 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Identity.Stores.wasm"
     },
     {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.wasm",
+      "SourceId": "Iptv.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "o4jp2hcm79",
+      "Integrity": "GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Localization.Abstractions.wasm"
+    },
+    {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.wasm",
+      "SourceId": "Iptv.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "bvn14pws96",
+      "Integrity": "6UgMJoVZBfDdfzYR0aKVK6BWArxpXC1qiQDDjiXw/L4=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\webcil\\Microsoft.Extensions.Localization.wasm"
+    },
+    {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.wasm",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
@@ -1569,6 +1632,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\webcil\\mscorlib.wasm"
+    },
+    {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MudBlazor.wasm",
+      "SourceId": "Iptv.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor#[.{fingerprint}]!.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "d77vteuu8h",
+      "Integrity": "OcvtTjiKC8VNFwZVT5LSHvMCkBU0tn/kvdJ3/RkREkg=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\webcil\\MudBlazor.wasm"
     },
     {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\netstandard.wasm",
@@ -5204,12 +5288,12 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Windows.wasm"
     },
     {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\07j045vvu9-18c72fg7fc.gz",
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\07j045vvu9-j73k61wfqi.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Iptv.Core#[.{fingerprint=18c72fg7fc}]!.pdb.gz",
+      "RelativePath": "_framework/Iptv.Core#[.{fingerprint=j73k61wfqi}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5218,8 +5302,8 @@
       "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Core.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "25g0a2b1v5",
-      "Integrity": "SizzEnIYdEKSne5js5cOTrFtJtVTJjUfis3qsnzix/8=",
+      "Fingerprint": "pgfwfumtoo",
+      "Integrity": "t6KYDj4Xv96VE1UcKFnIlppPCKmcDTR39zwoXYdj5D0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Core.pdb"
@@ -5267,12 +5351,12 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0f65hne602-b80l4lurvd.gz",
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0f65hne602-4obbgcik1u.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Iptv.Web#[.{fingerprint=b80l4lurvd}]!.pdb.gz",
+      "RelativePath": "_framework/Iptv.Web#[.{fingerprint=4obbgcik1u}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5281,11 +5365,32 @@
       "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Web.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "gchpdhakr2",
-      "Integrity": "ENU6WUNgtBMHBJ5JKv2Nx3mTsmZ4o2KH9RXA/I6uv/c=",
+      "Fingerprint": "w461sceeg6",
+      "Integrity": "sH4vlgiZ3f7HhVDtFCJwhAbHjy/fode1lOhkjwujT2o=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Web.pdb"
+    },
+    {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0fb9rss97i-12n6dz54qr.gz",
+      "SourceId": "Iptv.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage#[.{fingerprint=12n6dz54qr}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mvc2yakc5l",
+      "Integrity": "srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0fs5b7jdfa-5u3ggi9wzq.gz",
@@ -5349,6 +5454,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Cryptography.Internal.wasm"
+    },
+    {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0wz98yz2xy-tspksaymx7.gz",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "38oyroe53l",
+      "Integrity": "IyoNhl6MrV1B9MHmk4EvsQwuZhryw5pfXcNgx/nICrc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\11csvu2ccb-gcchvdkxdm.gz",
@@ -5519,12 +5645,12 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.wasm"
     },
     {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\2nlbor8j37-yos3h5suz6.gz",
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\2nlbor8j37-po5eue4odk.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Iptv.Web#[.{fingerprint=yos3h5suz6}]!.wasm.gz",
+      "RelativePath": "_framework/Iptv.Web#[.{fingerprint=po5eue4odk}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5533,8 +5659,8 @@
       "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Web.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ysfq6kcpdh",
-      "Integrity": "gmh7AY7Ugrsccl+9TDddMy0uarcoOpZvIZk5d4M5nsU=",
+      "Fingerprint": "1iwyp9o299",
+      "Integrity": "CVZ8LZhaBfUiplYy1GZL/PstMQNtejcFNMGkmy0Itig=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Web.wasm"
@@ -5687,12 +5813,12 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Diagnostics.Tracing.wasm"
     },
     {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\31lpbvgt6c-8rbvw3on5j.gz",
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\31lpbvgt6c-66hfbvscfl.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=8rbvw3on5j}]?.css.gz",
+      "RelativePath": "css/app#[.{fingerprint=66hfbvscfl}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5701,8 +5827,8 @@
       "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ri8oomj080",
-      "Integrity": "3V6n6GUWrXibPBz7fhqi3nKUDtOkIOblRDVtLs9wCh4=",
+      "Fingerprint": "j3u4z538ra",
+      "Integrity": "X9j7O4+dRBQPD1vVSTxZLFYvWhuJBWN5bUhZaCh4qUo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\app.css"
@@ -6716,7 +6842,7 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\dotnet.native.wasm"
     },
     {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\8j1qfiazmd-jbduefze5n.gz",
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\8j1qfiazmd-bcl1jbfi5w.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
@@ -6730,8 +6856,8 @@
       "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zalqnzqg9o",
-      "Integrity": "W3FZfKe1vFtHuQX8iwwQei7fpgAM056gPxSRoyDnwCk=",
+      "Fingerprint": "f5i8s1j1nm",
+      "Integrity": "472JA9KvKbFNXO4pkr65dJE+4SbWAin6PuWuQHogLpc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7031,12 +7157,12 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\acq5ls8krs-7hmwejwepq.gz",
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\acq5ls8krs-yg9a97or11.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=7hmwejwepq}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=yg9a97or11}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7045,8 +7171,8 @@
       "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xv8zwyoz0p",
-      "Integrity": "Q8BozT6TsG3liG9IQ+jMk8k/99o3jfpSDEvJIR1jWXo=",
+      "Fingerprint": "hhvs7ng7gf",
+      "Integrity": "ZXH9c72yjtUbFommBDHNXxnMojIDJ0PPYFCR34tbzSA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\index.html"
@@ -7787,12 +7913,12 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.Http.Json.wasm"
     },
     {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\dxzcyygq5h-6ipsmy1wjm.gz",
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\dxzcyygq5h-2bol0amzn6.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "appsettings#[.{fingerprint=6ipsmy1wjm}]?.json.gz",
+      "RelativePath": "appsettings#[.{fingerprint=2bol0amzn6}]?.json.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7801,8 +7927,8 @@
       "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\appsettings.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lfa0y9mpd2",
-      "Integrity": "0fprI+gbcqktSCIw8KTfJ4Y/Nf2av9DQghdmnjrjMv4=",
+      "Fingerprint": "tn5mt73qag",
+      "Integrity": "KS/bS60nQNdQS/gfttOYNlIVhYIaK61sEQ15kDY2YyE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\appsettings.json"
@@ -7932,6 +8058,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Diagnostics.StackTrace.wasm"
+    },
+    {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\egx6x9vc5l-d77vteuu8h.gz",
+      "SourceId": "Iptv.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor#[.{fingerprint=d77vteuu8h}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MudBlazor.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "p7yxd21hbt",
+      "Integrity": "dfBK7jxauNY7b75y/huSN63RBAnm7jxhZM1+14tzs10=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MudBlazor.wasm"
     },
     {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\el5pvs1fr4-3zw3ktpmm7.gz",
@@ -8291,27 +8438,6 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Xml.Serialization.wasm"
     },
     {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\gekk2r4oor-a20vroyz4k.gz",
-      "SourceId": "Iptv.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "/",
-      "RelativePath": "Iptv.Web#[.{fingerprint=a20vroyz4k}]!.bundle.scp.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Iptv.Web.bundle.scp.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "3okgkimc7z",
-      "Integrity": "XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Iptv.Web.bundle.scp.css"
-    },
-    {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\ghggf8vbns-w11q1ch9mx.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
@@ -8543,6 +8669,27 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\i15hoa64ri-p1d1uaqoy2.gz",
+      "SourceId": "Iptv.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "css/Style#[.{fingerprint=p1d1uaqoy2}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\Style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "tw7dfhuox5",
+      "Integrity": "TZwNAW7Pi20DZ8xWyRNvkbjQ0nx1ZfgP4KZoWISUD8g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\Style.css"
+    },
+    {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\i8v8tz9jn4-thuf78ea6u.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
@@ -8583,6 +8730,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Xml.XPath.wasm"
+    },
+    {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\ibr7cd4szh-o4jp2hcm79.gz",
+      "SourceId": "Iptv.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions#[.{fingerprint=o4jp2hcm79}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "iijz9b5a5s",
+      "Integrity": "di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.wasm"
     },
     {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\ig7qs5bpw0-c2oey78nd0.gz",
@@ -9341,27 +9509,6 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IO.Pipes.wasm"
     },
     {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\m5qzuzils2-a20vroyz4k.gz",
-      "SourceId": "Iptv.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "/",
-      "RelativePath": "Iptv.Web#[.{fingerprint=a20vroyz4k}]?.styles.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Iptv.Web.styles.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "3okgkimc7z",
-      "Integrity": "XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Iptv.Web.styles.css"
-    },
-    {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\mj3zoi8937-680lcgmlbm.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
@@ -9803,12 +9950,12 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\pjxxaycsjz-9y63adx41e.gz",
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\pjxxaycsjz-1cupxqpv64.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Iptv.Core#[.{fingerprint=9y63adx41e}]!.wasm.gz",
+      "RelativePath": "_framework/Iptv.Core#[.{fingerprint=1cupxqpv64}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9817,8 +9964,8 @@
       "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Core.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mdzvic8h0t",
-      "Integrity": "2oaC7Xkt5mUb5fG7d581i2VjNZjAQnItn2Q9dR7dK+0=",
+      "Fingerprint": "zh8u23ox6i",
+      "Integrity": "h3QGHnfMflYmryEiGeyMlVq8WgsFloFKDPNf3bKfLV8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Core.wasm"
@@ -10223,6 +10370,27 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Reflection.Emit.wasm"
     },
     {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\sbg7g6gahe-bvn14pws96.gz",
+      "SourceId": "Iptv.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization#[.{fingerprint=bvn14pws96}]!.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "66g4pb54t1",
+      "Integrity": "3j+uzjtmX1lwC4MpuV+yMliVB3KiWyDykTBd7obL1X8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.wasm"
+    },
+    {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\sdrjrv3a00-fsbi9cje9m.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Discovered",
@@ -10557,6 +10725,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\tzxjg6is5z-hmu6kx9mgf.gz",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ckxk5mvy4m",
+      "Integrity": "FGzj5N96agzRrpcAEzEpc1eJaogdOMgTMenRMgFkfUA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css"
     },
     {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\u1c4lajc8e-l50h3hda5q.gz",
@@ -11420,48 +11609,6 @@
       "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Runtime.Serialization.Json.wasm"
     },
     {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Iptv.Web.styles.css",
-      "SourceId": "Iptv.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
-      "BasePath": "/",
-      "RelativePath": "Iptv.Web#[.{fingerprint}]?.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "a20vroyz4k",
-      "Integrity": "Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Iptv.Web.styles.css"
-    },
-    {
-      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Iptv.Web.bundle.scp.css",
-      "SourceId": "Iptv.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
-      "BasePath": "/",
-      "RelativePath": "Iptv.Web#[.{fingerprint}]!.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "a20vroyz4k",
-      "Integrity": "Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Iptv.Web.bundle.scp.css"
-    },
-    {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\appsettings.json",
       "SourceId": "Iptv.Web",
       "SourceType": "Discovered",
@@ -11476,8 +11623,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "settings",
-      "Fingerprint": "6ipsmy1wjm",
-      "Integrity": "4uGrkYlwezeCRmQhn44A3UNCgKEUVTfBSqTUVGF4Dek=",
+      "Fingerprint": "2bol0amzn6",
+      "Integrity": "TvYWxXvn4Q4zr7AVrYFUCIw7mgX/e4KsABRa6Raqn9o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\appsettings.json"
@@ -11497,11 +11644,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8rbvw3on5j",
-      "Integrity": "vGbjgqEqv4y3q5OB8W2R9LthkuF8mQfHFeNdKSReSmU=",
+      "Fingerprint": "66hfbvscfl",
+      "Integrity": "UnTN7hmVTsTljR60kkZrIG8jlPq3rXea40++eXAmCHw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\Style.css",
+      "SourceId": "Iptv.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/Style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p1d1uaqoy2",
+      "Integrity": "syFMzNFZz6yXAAvcnNm6MHoxPE2N/36RxvrPqXWQDZo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Style.css"
     },
     {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\favicon.png",
@@ -11546,6 +11714,27 @@
       "OriginalItemSpec": "wwwroot\\icon-192.png"
     },
     {
+      "Identity": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\particle-lines-futuristic-gradient-background.jpg",
+      "SourceId": "Iptv.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/particle-lines-futuristic-gradient-background#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ooiq8luebl",
+      "Integrity": "6ELmkefhcKap5eRvc3qB5XhWcYPjhQwc8WitL+vqxhk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\particle-lines-futuristic-gradient-background.jpg"
+    },
+    {
       "Identity": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\index.html",
       "SourceId": "Iptv.Web",
       "SourceType": "Discovered",
@@ -11560,8 +11749,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7hmwejwepq",
-      "Integrity": "NUxdTqcZecnO+3mVElDjacsWce//diWRlR8JOjlVeHE=",
+      "Fingerprint": "yg9a97or11",
+      "Integrity": "jkzYa/gDP0XDMIL0w8z/XqOlBgVhur1o7HuIsNFnI5M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -12531,6 +12720,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\alyso\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\9.0.2\\staticwebassets\\AuthenticationService.js"
+    },
+    {
+      "Identity": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hmu6kx9mgf",
+      "Integrity": "d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tspksaymx7",
+      "Integrity": "Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js"
     }
   ],
   "Endpoints": [
@@ -12668,6 +12899,370 @@
         {
           "Name": "integrity",
           "Value": "sha256-Dmk/HbaCkisGr8Vgk5M4ZS0yeQNNs/uoWecA7Wrysbs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\tzxjg6is5z-hmu6kx9mgf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000015496428"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64530"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FGzj5N96agzRrpcAEzEpc1eJaogdOMgTMenRMgFkfUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\tzxjg6is5z-hmu6kx9mgf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64530"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FGzj5N96agzRrpcAEzEpc1eJaogdOMgTMenRMgFkfUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FGzj5N96agzRrpcAEzEpc1eJaogdOMgTMenRMgFkfUA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.hmu6kx9mgf.css",
+      "AssetFile": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hmu6kx9mgf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/MudBlazor/MudBlazor.min.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0wz98yz2xy-tspksaymx7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000085389804"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11710"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IyoNhl6MrV1B9MHmk4EvsQwuZhryw5pfXcNgx/nICrc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0wz98yz2xy-tspksaymx7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11710"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IyoNhl6MrV1B9MHmk4EvsQwuZhryw5pfXcNgx/nICrc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IyoNhl6MrV1B9MHmk4EvsQwuZhryw5pfXcNgx/nICrc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.tspksaymx7.js",
+      "AssetFile": "C:\\Users\\alyso\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tspksaymx7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/MudBlazor/MudBlazor.min.js"
         }
       ]
     },
@@ -13278,7 +13873,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "48263"
+          "Value": "49062"
         },
         {
           "Name": "Content-Type",
@@ -13286,11 +13881,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EUd82zPhNhWarmdTqVZlToQ8L7hsr7BrMocYZHACNXY=\""
+          "Value": "\"S5GERIZkODoOaLekIG95wCe3tYS82T2J6iH69/E546o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
+          "Value": "Mon, 10 Mar 2025 00:57:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13300,18 +13895,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EUd82zPhNhWarmdTqVZlToQ8L7hsr7BrMocYZHACNXY="
+          "Value": "sha256-S5GERIZkODoOaLekIG95wCe3tYS82T2J6iH69/E546o="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\8j1qfiazmd-jbduefze5n.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\8j1qfiazmd-bcl1jbfi5w.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000066983723"
+          "Quality": "0.000065910888"
         }
       ],
       "ResponseHeaders": [
@@ -13321,15 +13916,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14928"
+          "Value": "15171"
         },
         {
           "Name": "ETag",
-          "Value": "\"W3FZfKe1vFtHuQX8iwwQei7fpgAM056gPxSRoyDnwCk=\""
+          "Value": "\"472JA9KvKbFNXO4pkr65dJE+4SbWAin6PuWuQHogLpc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Mon, 10 Mar 2025 00:50:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13349,19 +13944,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EUd82zPhNhWarmdTqVZlToQ8L7hsr7BrMocYZHACNXY=\""
+          "Value": "W/\"S5GERIZkODoOaLekIG95wCe3tYS82T2J6iH69/E546o=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EUd82zPhNhWarmdTqVZlToQ8L7hsr7BrMocYZHACNXY="
+          "Value": "sha256-S5GERIZkODoOaLekIG95wCe3tYS82T2J6iH69/E546o="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\8j1qfiazmd-jbduefze5n.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\8j1qfiazmd-bcl1jbfi5w.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13370,7 +13965,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14928"
+          "Value": "15171"
         },
         {
           "Name": "Content-Type",
@@ -13378,11 +13973,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W3FZfKe1vFtHuQX8iwwQei7fpgAM056gPxSRoyDnwCk=\""
+          "Value": "\"472JA9KvKbFNXO4pkr65dJE+4SbWAin6PuWuQHogLpc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Mon, 10 Mar 2025 00:50:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13400,7 +13995,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-W3FZfKe1vFtHuQX8iwwQei7fpgAM056gPxSRoyDnwCk="
+          "Value": "sha256-472JA9KvKbFNXO4pkr65dJE+4SbWAin6PuWuQHogLpc="
         }
       ]
     },
@@ -13466,7 +14061,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
+          "Value": "Fri, 17 Jan 2025 20:14:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13519,7 +14114,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
+          "Value": "Fri, 17 Jan 2025 20:14:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13538,6 +14133,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-aODHHN99ZO6xBdRfQYKCKDEdMXpBUI2D7x+JOLJt8MQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.12n6dz54qr.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:13:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "12n6dz54qr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Blazored.LocalStorage.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.12n6dz54qr.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0fb9rss97i-12n6dz54qr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000072290899"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13832"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:13:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "12n6dz54qr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Blazored.LocalStorage.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.12n6dz54qr.wasm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0fb9rss97i-12n6dz54qr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:13:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "12n6dz54qr"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Blazored.LocalStorage.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:13:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0fb9rss97i-12n6dz54qr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000072290899"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13832"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:13:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Blazored.LocalStorage.wasm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0fb9rss97i-12n6dz54qr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:13:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-srf0i7f1ZBMYoZk8GKU7atGmbtuLFcsFUI2QjHPSEMY="
         }
       ]
     },
@@ -13611,7 +14504,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13672,7 +14565,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13764,7 +14657,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13864,7 +14757,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13925,7 +14818,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13978,7 +14871,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14062,7 +14955,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14115,7 +15008,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14895,7 +15788,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14956,7 +15849,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15093,7 +15986,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15146,7 +16039,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Thu, 16 Jan 2025 19:03:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16224,168 +17117,7 @@
       ]
     },
     {
-      "Route": "_framework/Iptv.Core.18c72fg7fc.pdb",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Core.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17784"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"odf78rDvbYQYWF6EbZXfYdmnJC4+oaasOfRYaNrf0n4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 03:33:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "18c72fg7fc"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Iptv.Core.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-odf78rDvbYQYWF6EbZXfYdmnJC4+oaasOfRYaNrf0n4="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Core.18c72fg7fc.pdb",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\07j045vvu9-18c72fg7fc.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000102270403"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9777"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SizzEnIYdEKSne5js5cOTrFtJtVTJjUfis3qsnzix/8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"odf78rDvbYQYWF6EbZXfYdmnJC4+oaasOfRYaNrf0n4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "18c72fg7fc"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Iptv.Core.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-odf78rDvbYQYWF6EbZXfYdmnJC4+oaasOfRYaNrf0n4="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Core.18c72fg7fc.pdb.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\07j045vvu9-18c72fg7fc.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9777"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SizzEnIYdEKSne5js5cOTrFtJtVTJjUfis3qsnzix/8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "18c72fg7fc"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Iptv.Core.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SizzEnIYdEKSne5js5cOTrFtJtVTJjUfis3qsnzix/8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Core.9y63adx41e.wasm",
+      "Route": "_framework/Iptv.Core.1cupxqpv64.wasm",
       "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Core.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -16403,11 +17135,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DwwQ2QaKr6qbo0vxewnQPoCTtLG1ATORhyqul9xqR2A=\""
+          "Value": "\"L+ES3MnCU0K/Teun9zX6nIOryMqpcaP4G/QLUqfXQic=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:06 GMT"
+          "Value": "Sun, 09 Mar 2025 17:13:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16417,7 +17149,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9y63adx41e"
+          "Value": "1cupxqpv64"
         },
         {
           "Name": "label",
@@ -16425,13 +17157,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DwwQ2QaKr6qbo0vxewnQPoCTtLG1ATORhyqul9xqR2A="
+          "Value": "sha256-L+ES3MnCU0K/Teun9zX6nIOryMqpcaP4G/QLUqfXQic="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Core.9y63adx41e.wasm",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\pjxxaycsjz-9y63adx41e.gz",
+      "Route": "_framework/Iptv.Core.1cupxqpv64.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\pjxxaycsjz-1cupxqpv64.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -16450,11 +17182,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2oaC7Xkt5mUb5fG7d581i2VjNZjAQnItn2Q9dR7dK+0=\""
+          "Value": "\"h3QGHnfMflYmryEiGeyMlVq8WgsFloFKDPNf3bKfLV8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Sun, 09 Mar 2025 17:13:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16474,13 +17206,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DwwQ2QaKr6qbo0vxewnQPoCTtLG1ATORhyqul9xqR2A=\""
+          "Value": "W/\"L+ES3MnCU0K/Teun9zX6nIOryMqpcaP4G/QLUqfXQic=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9y63adx41e"
+          "Value": "1cupxqpv64"
         },
         {
           "Name": "label",
@@ -16488,13 +17220,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DwwQ2QaKr6qbo0vxewnQPoCTtLG1ATORhyqul9xqR2A="
+          "Value": "sha256-L+ES3MnCU0K/Teun9zX6nIOryMqpcaP4G/QLUqfXQic="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Core.9y63adx41e.wasm.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\pjxxaycsjz-9y63adx41e.gz",
+      "Route": "_framework/Iptv.Core.1cupxqpv64.wasm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\pjxxaycsjz-1cupxqpv64.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16511,11 +17243,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2oaC7Xkt5mUb5fG7d581i2VjNZjAQnItn2Q9dR7dK+0=\""
+          "Value": "\"h3QGHnfMflYmryEiGeyMlVq8WgsFloFKDPNf3bKfLV8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Sun, 09 Mar 2025 17:13:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16533,7 +17265,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9y63adx41e"
+          "Value": "1cupxqpv64"
         },
         {
           "Name": "label",
@@ -16541,7 +17273,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2oaC7Xkt5mUb5fG7d581i2VjNZjAQnItn2Q9dR7dK+0="
+          "Value": "sha256-h3QGHnfMflYmryEiGeyMlVq8WgsFloFKDPNf3bKfLV8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Core.j73k61wfqi.pdb",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Core.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17784"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P3fsOqBt+pciGBE4Kiu6GV5elqrLLmtYbqC5FaFgpC4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:04:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j73k61wfqi"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Iptv.Core.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P3fsOqBt+pciGBE4Kiu6GV5elqrLLmtYbqC5FaFgpC4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Core.j73k61wfqi.pdb",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\07j045vvu9-j73k61wfqi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000102280863"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9776"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t6KYDj4Xv96VE1UcKFnIlppPCKmcDTR39zwoXYdj5D0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:04:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"P3fsOqBt+pciGBE4Kiu6GV5elqrLLmtYbqC5FaFgpC4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j73k61wfqi"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Iptv.Core.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P3fsOqBt+pciGBE4Kiu6GV5elqrLLmtYbqC5FaFgpC4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Core.j73k61wfqi.pdb.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\07j045vvu9-j73k61wfqi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t6KYDj4Xv96VE1UcKFnIlppPCKmcDTR39zwoXYdj5D0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:04:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j73k61wfqi"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Iptv.Core.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t6KYDj4Xv96VE1UcKFnIlppPCKmcDTR39zwoXYdj5D0="
         }
       ]
     },
@@ -16564,11 +17457,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"odf78rDvbYQYWF6EbZXfYdmnJC4+oaasOfRYaNrf0n4=\""
+          "Value": "\"P3fsOqBt+pciGBE4Kiu6GV5elqrLLmtYbqC5FaFgpC4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 03:33:35 GMT"
+          "Value": "Mon, 10 Mar 2025 00:04:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16578,18 +17471,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-odf78rDvbYQYWF6EbZXfYdmnJC4+oaasOfRYaNrf0n4="
+          "Value": "sha256-P3fsOqBt+pciGBE4Kiu6GV5elqrLLmtYbqC5FaFgpC4="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Core.pdb",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\07j045vvu9-18c72fg7fc.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\07j045vvu9-j73k61wfqi.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000102270403"
+          "Quality": "0.000102280863"
         }
       ],
       "ResponseHeaders": [
@@ -16599,15 +17492,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9777"
+          "Value": "9776"
         },
         {
           "Name": "ETag",
-          "Value": "\"SizzEnIYdEKSne5js5cOTrFtJtVTJjUfis3qsnzix/8=\""
+          "Value": "\"t6KYDj4Xv96VE1UcKFnIlppPCKmcDTR39zwoXYdj5D0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Mon, 10 Mar 2025 00:04:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16627,19 +17520,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"odf78rDvbYQYWF6EbZXfYdmnJC4+oaasOfRYaNrf0n4=\""
+          "Value": "W/\"P3fsOqBt+pciGBE4Kiu6GV5elqrLLmtYbqC5FaFgpC4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-odf78rDvbYQYWF6EbZXfYdmnJC4+oaasOfRYaNrf0n4="
+          "Value": "sha256-P3fsOqBt+pciGBE4Kiu6GV5elqrLLmtYbqC5FaFgpC4="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Core.pdb.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\07j045vvu9-18c72fg7fc.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\07j045vvu9-j73k61wfqi.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16648,7 +17541,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9777"
+          "Value": "9776"
         },
         {
           "Name": "Content-Type",
@@ -16656,11 +17549,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SizzEnIYdEKSne5js5cOTrFtJtVTJjUfis3qsnzix/8=\""
+          "Value": "\"t6KYDj4Xv96VE1UcKFnIlppPCKmcDTR39zwoXYdj5D0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Mon, 10 Mar 2025 00:04:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16678,7 +17571,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SizzEnIYdEKSne5js5cOTrFtJtVTJjUfis3qsnzix/8="
+          "Value": "sha256-t6KYDj4Xv96VE1UcKFnIlppPCKmcDTR39zwoXYdj5D0="
         }
       ]
     },
@@ -16701,11 +17594,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DwwQ2QaKr6qbo0vxewnQPoCTtLG1ATORhyqul9xqR2A=\""
+          "Value": "\"L+ES3MnCU0K/Teun9zX6nIOryMqpcaP4G/QLUqfXQic=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:06 GMT"
+          "Value": "Sun, 09 Mar 2025 17:13:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16715,13 +17608,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DwwQ2QaKr6qbo0vxewnQPoCTtLG1ATORhyqul9xqR2A="
+          "Value": "sha256-L+ES3MnCU0K/Teun9zX6nIOryMqpcaP4G/QLUqfXQic="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Core.wasm",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\pjxxaycsjz-9y63adx41e.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\pjxxaycsjz-1cupxqpv64.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -16740,11 +17633,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2oaC7Xkt5mUb5fG7d581i2VjNZjAQnItn2Q9dR7dK+0=\""
+          "Value": "\"h3QGHnfMflYmryEiGeyMlVq8WgsFloFKDPNf3bKfLV8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Sun, 09 Mar 2025 17:13:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16764,19 +17657,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DwwQ2QaKr6qbo0vxewnQPoCTtLG1ATORhyqul9xqR2A=\""
+          "Value": "W/\"L+ES3MnCU0K/Teun9zX6nIOryMqpcaP4G/QLUqfXQic=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DwwQ2QaKr6qbo0vxewnQPoCTtLG1ATORhyqul9xqR2A="
+          "Value": "sha256-L+ES3MnCU0K/Teun9zX6nIOryMqpcaP4G/QLUqfXQic="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Core.wasm.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\pjxxaycsjz-9y63adx41e.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\pjxxaycsjz-1cupxqpv64.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16793,11 +17686,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2oaC7Xkt5mUb5fG7d581i2VjNZjAQnItn2Q9dR7dK+0=\""
+          "Value": "\"h3QGHnfMflYmryEiGeyMlVq8WgsFloFKDPNf3bKfLV8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Sun, 09 Mar 2025 17:13:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16815,12 +17708,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2oaC7Xkt5mUb5fG7d581i2VjNZjAQnItn2Q9dR7dK+0="
+          "Value": "sha256-h3QGHnfMflYmryEiGeyMlVq8WgsFloFKDPNf3bKfLV8="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Web.b80l4lurvd.pdb",
+      "Route": "_framework/Iptv.Web.4obbgcik1u.pdb",
       "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Web.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -16830,7 +17723,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25840"
+          "Value": "25916"
         },
         {
           "Name": "Content-Type",
@@ -16838,11 +17731,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a4zsZFy2QHdscQc37sw1Bu0ivh0hPup7+yApwrCcbAc=\""
+          "Value": "\"1O9WEve3AS5DGz17zMyq4+DwXBRGI8aduWuH3lwFN4Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:05 GMT"
+          "Value": "Mon, 10 Mar 2025 00:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16852,7 +17745,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b80l4lurvd"
+          "Value": "4obbgcik1u"
         },
         {
           "Name": "label",
@@ -16860,18 +17753,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a4zsZFy2QHdscQc37sw1Bu0ivh0hPup7+yApwrCcbAc="
+          "Value": "sha256-1O9WEve3AS5DGz17zMyq4+DwXBRGI8aduWuH3lwFN4Q="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Web.b80l4lurvd.pdb",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0f65hne602-b80l4lurvd.gz",
+      "Route": "_framework/Iptv.Web.4obbgcik1u.pdb",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0f65hne602-4obbgcik1u.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000054920914"
+          "Quality": "0.000059783583"
         }
       ],
       "ResponseHeaders": [
@@ -16881,15 +17774,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18207"
+          "Value": "16726"
         },
         {
           "Name": "ETag",
-          "Value": "\"ENU6WUNgtBMHBJ5JKv2Nx3mTsmZ4o2KH9RXA/I6uv/c=\""
+          "Value": "\"sH4vlgiZ3f7HhVDtFCJwhAbHjy/fode1lOhkjwujT2o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Mon, 10 Mar 2025 00:57:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16909,13 +17802,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"a4zsZFy2QHdscQc37sw1Bu0ivh0hPup7+yApwrCcbAc=\""
+          "Value": "W/\"1O9WEve3AS5DGz17zMyq4+DwXBRGI8aduWuH3lwFN4Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b80l4lurvd"
+          "Value": "4obbgcik1u"
         },
         {
           "Name": "label",
@@ -16923,13 +17816,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a4zsZFy2QHdscQc37sw1Bu0ivh0hPup7+yApwrCcbAc="
+          "Value": "sha256-1O9WEve3AS5DGz17zMyq4+DwXBRGI8aduWuH3lwFN4Q="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Web.b80l4lurvd.pdb.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0f65hne602-b80l4lurvd.gz",
+      "Route": "_framework/Iptv.Web.4obbgcik1u.pdb.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0f65hne602-4obbgcik1u.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16938,7 +17831,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18207"
+          "Value": "16726"
         },
         {
           "Name": "Content-Type",
@@ -16946,11 +17839,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ENU6WUNgtBMHBJ5JKv2Nx3mTsmZ4o2KH9RXA/I6uv/c=\""
+          "Value": "\"sH4vlgiZ3f7HhVDtFCJwhAbHjy/fode1lOhkjwujT2o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Mon, 10 Mar 2025 00:57:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16968,7 +17861,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b80l4lurvd"
+          "Value": "4obbgcik1u"
         },
         {
           "Name": "label",
@@ -16976,7 +17869,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ENU6WUNgtBMHBJ5JKv2Nx3mTsmZ4o2KH9RXA/I6uv/c="
+          "Value": "sha256-sH4vlgiZ3f7HhVDtFCJwhAbHjy/fode1lOhkjwujT2o="
         }
       ]
     },
@@ -16991,7 +17884,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25840"
+          "Value": "25916"
         },
         {
           "Name": "Content-Type",
@@ -16999,11 +17892,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a4zsZFy2QHdscQc37sw1Bu0ivh0hPup7+yApwrCcbAc=\""
+          "Value": "\"1O9WEve3AS5DGz17zMyq4+DwXBRGI8aduWuH3lwFN4Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:05 GMT"
+          "Value": "Mon, 10 Mar 2025 00:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17013,18 +17906,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a4zsZFy2QHdscQc37sw1Bu0ivh0hPup7+yApwrCcbAc="
+          "Value": "sha256-1O9WEve3AS5DGz17zMyq4+DwXBRGI8aduWuH3lwFN4Q="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Web.pdb",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0f65hne602-b80l4lurvd.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0f65hne602-4obbgcik1u.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000054920914"
+          "Quality": "0.000059783583"
         }
       ],
       "ResponseHeaders": [
@@ -17034,15 +17927,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18207"
+          "Value": "16726"
         },
         {
           "Name": "ETag",
-          "Value": "\"ENU6WUNgtBMHBJ5JKv2Nx3mTsmZ4o2KH9RXA/I6uv/c=\""
+          "Value": "\"sH4vlgiZ3f7HhVDtFCJwhAbHjy/fode1lOhkjwujT2o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Mon, 10 Mar 2025 00:57:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17062,19 +17955,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"a4zsZFy2QHdscQc37sw1Bu0ivh0hPup7+yApwrCcbAc=\""
+          "Value": "W/\"1O9WEve3AS5DGz17zMyq4+DwXBRGI8aduWuH3lwFN4Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a4zsZFy2QHdscQc37sw1Bu0ivh0hPup7+yApwrCcbAc="
+          "Value": "sha256-1O9WEve3AS5DGz17zMyq4+DwXBRGI8aduWuH3lwFN4Q="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Web.pdb.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0f65hne602-b80l4lurvd.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\0f65hne602-4obbgcik1u.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17083,7 +17976,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18207"
+          "Value": "16726"
         },
         {
           "Name": "Content-Type",
@@ -17091,11 +17984,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ENU6WUNgtBMHBJ5JKv2Nx3mTsmZ4o2KH9RXA/I6uv/c=\""
+          "Value": "\"sH4vlgiZ3f7HhVDtFCJwhAbHjy/fode1lOhkjwujT2o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Mon, 10 Mar 2025 00:57:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17113,12 +18006,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ENU6WUNgtBMHBJ5JKv2Nx3mTsmZ4o2KH9RXA/I6uv/c="
+          "Value": "sha256-sH4vlgiZ3f7HhVDtFCJwhAbHjy/fode1lOhkjwujT2o="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Web.wasm",
+      "Route": "_framework/Iptv.Web.po5eue4odk.wasm",
       "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Web.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -17128,7 +18021,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18197"
+          "Value": "33045"
         },
         {
           "Name": "Content-Type",
@@ -17136,148 +18029,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AtlXboFCWd8vqq9fVM1UqaJIk23PTHKwdlttEoq3lBg=\""
+          "Value": "\"SSr/Tgq0pK1qPbcGI6FbEkXAXMuApCja+QNMM7i9dJc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AtlXboFCWd8vqq9fVM1UqaJIk23PTHKwdlttEoq3lBg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Web.wasm",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\2nlbor8j37-yos3h5suz6.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000124906320"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8005"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gmh7AY7Ugrsccl+9TDddMy0uarcoOpZvIZk5d4M5nsU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"AtlXboFCWd8vqq9fVM1UqaJIk23PTHKwdlttEoq3lBg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AtlXboFCWd8vqq9fVM1UqaJIk23PTHKwdlttEoq3lBg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Web.wasm.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\2nlbor8j37-yos3h5suz6.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8005"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gmh7AY7Ugrsccl+9TDddMy0uarcoOpZvIZk5d4M5nsU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gmh7AY7Ugrsccl+9TDddMy0uarcoOpZvIZk5d4M5nsU="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Web.yos3h5suz6.wasm",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Web.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18197"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AtlXboFCWd8vqq9fVM1UqaJIk23PTHKwdlttEoq3lBg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:06 GMT"
+          "Value": "Mon, 10 Mar 2025 00:57:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17287,7 +18043,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yos3h5suz6"
+          "Value": "po5eue4odk"
         },
         {
           "Name": "label",
@@ -17295,18 +18051,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AtlXboFCWd8vqq9fVM1UqaJIk23PTHKwdlttEoq3lBg="
+          "Value": "sha256-SSr/Tgq0pK1qPbcGI6FbEkXAXMuApCja+QNMM7i9dJc="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Web.yos3h5suz6.wasm",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\2nlbor8j37-yos3h5suz6.gz",
+      "Route": "_framework/Iptv.Web.po5eue4odk.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\2nlbor8j37-po5eue4odk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000124906320"
+          "Quality": "0.000069051236"
         }
       ],
       "ResponseHeaders": [
@@ -17316,15 +18072,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8005"
+          "Value": "14481"
         },
         {
           "Name": "ETag",
-          "Value": "\"gmh7AY7Ugrsccl+9TDddMy0uarcoOpZvIZk5d4M5nsU=\""
+          "Value": "\"CVZ8LZhaBfUiplYy1GZL/PstMQNtejcFNMGkmy0Itig=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Mon, 10 Mar 2025 00:57:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17344,13 +18100,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"AtlXboFCWd8vqq9fVM1UqaJIk23PTHKwdlttEoq3lBg=\""
+          "Value": "W/\"SSr/Tgq0pK1qPbcGI6FbEkXAXMuApCja+QNMM7i9dJc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yos3h5suz6"
+          "Value": "po5eue4odk"
         },
         {
           "Name": "label",
@@ -17358,13 +18114,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AtlXboFCWd8vqq9fVM1UqaJIk23PTHKwdlttEoq3lBg="
+          "Value": "sha256-SSr/Tgq0pK1qPbcGI6FbEkXAXMuApCja+QNMM7i9dJc="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Web.yos3h5suz6.wasm.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\2nlbor8j37-yos3h5suz6.gz",
+      "Route": "_framework/Iptv.Web.po5eue4odk.wasm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\2nlbor8j37-po5eue4odk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17373,7 +18129,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8005"
+          "Value": "14481"
         },
         {
           "Name": "Content-Type",
@@ -17381,11 +18137,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gmh7AY7Ugrsccl+9TDddMy0uarcoOpZvIZk5d4M5nsU=\""
+          "Value": "\"CVZ8LZhaBfUiplYy1GZL/PstMQNtejcFNMGkmy0Itig=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:08 GMT"
+          "Value": "Mon, 10 Mar 2025 00:57:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17403,7 +18159,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yos3h5suz6"
+          "Value": "po5eue4odk"
         },
         {
           "Name": "label",
@@ -17411,7 +18167,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gmh7AY7Ugrsccl+9TDddMy0uarcoOpZvIZk5d4M5nsU="
+          "Value": "sha256-CVZ8LZhaBfUiplYy1GZL/PstMQNtejcFNMGkmy0Itig="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Web.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Iptv.Web.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SSr/Tgq0pK1qPbcGI6FbEkXAXMuApCja+QNMM7i9dJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:57:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SSr/Tgq0pK1qPbcGI6FbEkXAXMuApCja+QNMM7i9dJc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Web.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\2nlbor8j37-po5eue4odk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000069051236"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14481"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CVZ8LZhaBfUiplYy1GZL/PstMQNtejcFNMGkmy0Itig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:57:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SSr/Tgq0pK1qPbcGI6FbEkXAXMuApCja+QNMM7i9dJc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SSr/Tgq0pK1qPbcGI6FbEkXAXMuApCja+QNMM7i9dJc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Web.wasm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\2nlbor8j37-po5eue4odk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CVZ8LZhaBfUiplYy1GZL/PstMQNtejcFNMGkmy0Itig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:57:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CVZ8LZhaBfUiplYy1GZL/PstMQNtejcFNMGkmy0Itig="
         }
       ]
     },
@@ -27846,6 +28739,602 @@
       ]
     },
     {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o4jp2hcm79"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\ibr7cd4szh-o4jp2hcm79.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000266453504"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3752"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o4jp2hcm79"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\ibr7cd4szh-o4jp2hcm79.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o4jp2hcm79"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\ibr7cd4szh-o4jp2hcm79.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000266453504"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3752"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.Abstractions.wasm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\ibr7cd4szh-o4jp2hcm79.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-di088bLcKqrTdZHmkGePxdnl2/xV1E88Yi4KjByq9Pw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.bvn14pws96.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6UgMJoVZBfDdfzYR0aKVK6BWArxpXC1qiQDDjiXw/L4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bvn14pws96"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Localization.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6UgMJoVZBfDdfzYR0aKVK6BWArxpXC1qiQDDjiXw/L4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.bvn14pws96.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\sbg7g6gahe-bvn14pws96.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000099058940"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10094"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3j+uzjtmX1lwC4MpuV+yMliVB3KiWyDykTBd7obL1X8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6UgMJoVZBfDdfzYR0aKVK6BWArxpXC1qiQDDjiXw/L4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bvn14pws96"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Localization.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6UgMJoVZBfDdfzYR0aKVK6BWArxpXC1qiQDDjiXw/L4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.bvn14pws96.wasm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\sbg7g6gahe-bvn14pws96.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3j+uzjtmX1lwC4MpuV+yMliVB3KiWyDykTBd7obL1X8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bvn14pws96"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Microsoft.Extensions.Localization.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3j+uzjtmX1lwC4MpuV+yMliVB3KiWyDykTBd7obL1X8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6UgMJoVZBfDdfzYR0aKVK6BWArxpXC1qiQDDjiXw/L4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6UgMJoVZBfDdfzYR0aKVK6BWArxpXC1qiQDDjiXw/L4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\sbg7g6gahe-bvn14pws96.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000099058940"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10094"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3j+uzjtmX1lwC4MpuV+yMliVB3KiWyDykTBd7obL1X8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6UgMJoVZBfDdfzYR0aKVK6BWArxpXC1qiQDDjiXw/L4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6UgMJoVZBfDdfzYR0aKVK6BWArxpXC1qiQDDjiXw/L4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Microsoft.Extensions.Localization.wasm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\sbg7g6gahe-bvn14pws96.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3j+uzjtmX1lwC4MpuV+yMliVB3KiWyDykTBd7obL1X8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3j+uzjtmX1lwC4MpuV+yMliVB3KiWyDykTBd7obL1X8="
+        }
+      ]
+    },
+    {
       "Route": "_framework/Microsoft.Extensions.Logging.95bgqrnv72.wasm",
       "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.wasm",
       "Selectors": [],
@@ -34398,6 +35887,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-89hN35LICIwFReOKr4UmEkx6wdeoZXKktwdOfWutCxs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MudBlazor.d77vteuu8h.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MudBlazor.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9255193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OcvtTjiKC8VNFwZVT5LSHvMCkBU0tn/kvdJ3/RkREkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d77vteuu8h"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MudBlazor.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OcvtTjiKC8VNFwZVT5LSHvMCkBU0tn/kvdJ3/RkREkg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MudBlazor.d77vteuu8h.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\egx6x9vc5l-d77vteuu8h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000000504529"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1982046"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dfBK7jxauNY7b75y/huSN63RBAnm7jxhZM1+14tzs10=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OcvtTjiKC8VNFwZVT5LSHvMCkBU0tn/kvdJ3/RkREkg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d77vteuu8h"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MudBlazor.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OcvtTjiKC8VNFwZVT5LSHvMCkBU0tn/kvdJ3/RkREkg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MudBlazor.d77vteuu8h.wasm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\egx6x9vc5l-d77vteuu8h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1982046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dfBK7jxauNY7b75y/huSN63RBAnm7jxhZM1+14tzs10=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d77vteuu8h"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/MudBlazor.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dfBK7jxauNY7b75y/huSN63RBAnm7jxhZM1+14tzs10="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MudBlazor.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\MudBlazor.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9255193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OcvtTjiKC8VNFwZVT5LSHvMCkBU0tn/kvdJ3/RkREkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OcvtTjiKC8VNFwZVT5LSHvMCkBU0tn/kvdJ3/RkREkg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MudBlazor.wasm",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\egx6x9vc5l-d77vteuu8h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000000504529"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1982046"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dfBK7jxauNY7b75y/huSN63RBAnm7jxhZM1+14tzs10=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OcvtTjiKC8VNFwZVT5LSHvMCkBU0tn/kvdJ3/RkREkg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OcvtTjiKC8VNFwZVT5LSHvMCkBU0tn/kvdJ3/RkREkg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/MudBlazor.wasm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\egx6x9vc5l-d77vteuu8h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1982046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dfBK7jxauNY7b75y/huSN63RBAnm7jxhZM1+14tzs10=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 20:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dfBK7jxauNY7b75y/huSN63RBAnm7jxhZM1+14tzs10="
         }
       ]
     },
@@ -85658,8 +87445,8 @@
       ]
     },
     {
-      "Route": "appsettings.6ipsmy1wjm.json",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\dxzcyygq5h-6ipsmy1wjm.gz",
+      "Route": "appsettings.2bol0amzn6.json",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\dxzcyygq5h-2bol0amzn6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -85678,11 +87465,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0fprI+gbcqktSCIw8KTfJ4Y/Nf2av9DQghdmnjrjMv4=\""
+          "Value": "\"KS/bS60nQNdQS/gfttOYNlIVhYIaK61sEQ15kDY2YyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:15:31 GMT"
+          "Value": "Sun, 09 Mar 2025 04:21:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85702,13 +87489,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4uGrkYlwezeCRmQhn44A3UNCgKEUVTfBSqTUVGF4Dek=\""
+          "Value": "W/\"TvYWxXvn4Q4zr7AVrYFUCIw7mgX/e4KsABRa6Raqn9o=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6ipsmy1wjm"
+          "Value": "2bol0amzn6"
         },
         {
           "Name": "label",
@@ -85716,12 +87503,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4uGrkYlwezeCRmQhn44A3UNCgKEUVTfBSqTUVGF4Dek="
+          "Value": "sha256-TvYWxXvn4Q4zr7AVrYFUCIw7mgX/e4KsABRa6Raqn9o="
         }
       ]
     },
     {
-      "Route": "appsettings.6ipsmy1wjm.json",
+      "Route": "appsettings.2bol0amzn6.json",
       "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\appsettings.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -85739,11 +87526,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4uGrkYlwezeCRmQhn44A3UNCgKEUVTfBSqTUVGF4Dek=\""
+          "Value": "\"TvYWxXvn4Q4zr7AVrYFUCIw7mgX/e4KsABRa6Raqn9o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:15:31 GMT"
+          "Value": "Sun, 09 Mar 2025 04:21:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85753,7 +87540,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6ipsmy1wjm"
+          "Value": "2bol0amzn6"
         },
         {
           "Name": "label",
@@ -85761,13 +87548,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4uGrkYlwezeCRmQhn44A3UNCgKEUVTfBSqTUVGF4Dek="
+          "Value": "sha256-TvYWxXvn4Q4zr7AVrYFUCIw7mgX/e4KsABRa6Raqn9o="
         }
       ]
     },
     {
-      "Route": "appsettings.6ipsmy1wjm.json.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\dxzcyygq5h-6ipsmy1wjm.gz",
+      "Route": "appsettings.2bol0amzn6.json.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\dxzcyygq5h-2bol0amzn6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -85784,11 +87571,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0fprI+gbcqktSCIw8KTfJ4Y/Nf2av9DQghdmnjrjMv4=\""
+          "Value": "\"KS/bS60nQNdQS/gfttOYNlIVhYIaK61sEQ15kDY2YyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:15:31 GMT"
+          "Value": "Sun, 09 Mar 2025 04:21:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85806,7 +87593,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6ipsmy1wjm"
+          "Value": "2bol0amzn6"
         },
         {
           "Name": "label",
@@ -85814,13 +87601,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0fprI+gbcqktSCIw8KTfJ4Y/Nf2av9DQghdmnjrjMv4="
+          "Value": "sha256-KS/bS60nQNdQS/gfttOYNlIVhYIaK61sEQ15kDY2YyE="
         }
       ]
     },
     {
       "Route": "appsettings.json",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\dxzcyygq5h-6ipsmy1wjm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\dxzcyygq5h-2bol0amzn6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -85839,11 +87626,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0fprI+gbcqktSCIw8KTfJ4Y/Nf2av9DQghdmnjrjMv4=\""
+          "Value": "\"KS/bS60nQNdQS/gfttOYNlIVhYIaK61sEQ15kDY2YyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:15:31 GMT"
+          "Value": "Sun, 09 Mar 2025 04:21:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85863,13 +87650,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4uGrkYlwezeCRmQhn44A3UNCgKEUVTfBSqTUVGF4Dek=\""
+          "Value": "W/\"TvYWxXvn4Q4zr7AVrYFUCIw7mgX/e4KsABRa6Raqn9o=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4uGrkYlwezeCRmQhn44A3UNCgKEUVTfBSqTUVGF4Dek="
+          "Value": "sha256-TvYWxXvn4Q4zr7AVrYFUCIw7mgX/e4KsABRa6Raqn9o="
         }
       ]
     },
@@ -85892,11 +87679,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4uGrkYlwezeCRmQhn44A3UNCgKEUVTfBSqTUVGF4Dek=\""
+          "Value": "\"TvYWxXvn4Q4zr7AVrYFUCIw7mgX/e4KsABRa6Raqn9o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:15:31 GMT"
+          "Value": "Sun, 09 Mar 2025 04:21:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85906,13 +87693,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4uGrkYlwezeCRmQhn44A3UNCgKEUVTfBSqTUVGF4Dek="
+          "Value": "sha256-TvYWxXvn4Q4zr7AVrYFUCIw7mgX/e4KsABRa6Raqn9o="
         }
       ]
     },
     {
       "Route": "appsettings.json.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\dxzcyygq5h-6ipsmy1wjm.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\dxzcyygq5h-2bol0amzn6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -85929,11 +87716,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0fprI+gbcqktSCIw8KTfJ4Y/Nf2av9DQghdmnjrjMv4=\""
+          "Value": "\"KS/bS60nQNdQS/gfttOYNlIVhYIaK61sEQ15kDY2YyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:15:31 GMT"
+          "Value": "Sun, 09 Mar 2025 04:21:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85951,18 +87738,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0fprI+gbcqktSCIw8KTfJ4Y/Nf2av9DQghdmnjrjMv4="
+          "Value": "sha256-KS/bS60nQNdQS/gfttOYNlIVhYIaK61sEQ15kDY2YyE="
         }
       ]
     },
     {
-      "Route": "css/app.8rbvw3on5j.css",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\31lpbvgt6c-8rbvw3on5j.gz",
+      "Route": "css/app.66hfbvscfl.css",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\31lpbvgt6c-66hfbvscfl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000492125984"
+          "Quality": "0.000566251416"
         }
       ],
       "ResponseHeaders": [
@@ -85972,15 +87759,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2031"
+          "Value": "1765"
         },
         {
           "Name": "ETag",
-          "Value": "\"3V6n6GUWrXibPBz7fhqi3nKUDtOkIOblRDVtLs9wCh4=\""
+          "Value": "\"X9j7O4+dRBQPD1vVSTxZLFYvWhuJBWN5bUhZaCh4qUo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
+          "Value": "Sun, 09 Mar 2025 19:40:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86000,13 +87787,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vGbjgqEqv4y3q5OB8W2R9LthkuF8mQfHFeNdKSReSmU=\""
+          "Value": "W/\"UnTN7hmVTsTljR60kkZrIG8jlPq3rXea40++eXAmCHw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8rbvw3on5j"
+          "Value": "66hfbvscfl"
         },
         {
           "Name": "label",
@@ -86014,12 +87801,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vGbjgqEqv4y3q5OB8W2R9LthkuF8mQfHFeNdKSReSmU="
+          "Value": "sha256-UnTN7hmVTsTljR60kkZrIG8jlPq3rXea40++eXAmCHw="
         }
       ]
     },
     {
-      "Route": "css/app.8rbvw3on5j.css",
+      "Route": "css/app.66hfbvscfl.css",
       "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -86029,7 +87816,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4151"
+          "Value": "3480"
         },
         {
           "Name": "Content-Type",
@@ -86037,11 +87824,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vGbjgqEqv4y3q5OB8W2R9LthkuF8mQfHFeNdKSReSmU=\""
+          "Value": "\"UnTN7hmVTsTljR60kkZrIG8jlPq3rXea40++eXAmCHw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
+          "Value": "Sun, 09 Mar 2025 19:40:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86051,7 +87838,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8rbvw3on5j"
+          "Value": "66hfbvscfl"
         },
         {
           "Name": "label",
@@ -86059,13 +87846,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vGbjgqEqv4y3q5OB8W2R9LthkuF8mQfHFeNdKSReSmU="
+          "Value": "sha256-UnTN7hmVTsTljR60kkZrIG8jlPq3rXea40++eXAmCHw="
         }
       ]
     },
     {
-      "Route": "css/app.8rbvw3on5j.css.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\31lpbvgt6c-8rbvw3on5j.gz",
+      "Route": "css/app.66hfbvscfl.css.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\31lpbvgt6c-66hfbvscfl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -86074,7 +87861,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2031"
+          "Value": "1765"
         },
         {
           "Name": "Content-Type",
@@ -86082,11 +87869,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3V6n6GUWrXibPBz7fhqi3nKUDtOkIOblRDVtLs9wCh4=\""
+          "Value": "\"X9j7O4+dRBQPD1vVSTxZLFYvWhuJBWN5bUhZaCh4qUo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
+          "Value": "Sun, 09 Mar 2025 19:40:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86104,7 +87891,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8rbvw3on5j"
+          "Value": "66hfbvscfl"
         },
         {
           "Name": "label",
@@ -86112,18 +87899,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3V6n6GUWrXibPBz7fhqi3nKUDtOkIOblRDVtLs9wCh4="
+          "Value": "sha256-X9j7O4+dRBQPD1vVSTxZLFYvWhuJBWN5bUhZaCh4qUo="
         }
       ]
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\31lpbvgt6c-8rbvw3on5j.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\31lpbvgt6c-66hfbvscfl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000492125984"
+          "Quality": "0.000566251416"
         }
       ],
       "ResponseHeaders": [
@@ -86133,15 +87920,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2031"
+          "Value": "1765"
         },
         {
           "Name": "ETag",
-          "Value": "\"3V6n6GUWrXibPBz7fhqi3nKUDtOkIOblRDVtLs9wCh4=\""
+          "Value": "\"X9j7O4+dRBQPD1vVSTxZLFYvWhuJBWN5bUhZaCh4qUo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
+          "Value": "Sun, 09 Mar 2025 19:40:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86161,13 +87948,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vGbjgqEqv4y3q5OB8W2R9LthkuF8mQfHFeNdKSReSmU=\""
+          "Value": "W/\"UnTN7hmVTsTljR60kkZrIG8jlPq3rXea40++eXAmCHw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vGbjgqEqv4y3q5OB8W2R9LthkuF8mQfHFeNdKSReSmU="
+          "Value": "sha256-UnTN7hmVTsTljR60kkZrIG8jlPq3rXea40++eXAmCHw="
         }
       ]
     },
@@ -86182,7 +87969,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4151"
+          "Value": "3480"
         },
         {
           "Name": "Content-Type",
@@ -86190,11 +87977,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vGbjgqEqv4y3q5OB8W2R9LthkuF8mQfHFeNdKSReSmU=\""
+          "Value": "\"UnTN7hmVTsTljR60kkZrIG8jlPq3rXea40++eXAmCHw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
+          "Value": "Sun, 09 Mar 2025 19:40:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86204,13 +87991,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vGbjgqEqv4y3q5OB8W2R9LthkuF8mQfHFeNdKSReSmU="
+          "Value": "sha256-UnTN7hmVTsTljR60kkZrIG8jlPq3rXea40++eXAmCHw="
         }
       ]
     },
     {
       "Route": "css/app.css.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\31lpbvgt6c-8rbvw3on5j.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\31lpbvgt6c-66hfbvscfl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -86219,7 +88006,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2031"
+          "Value": "1765"
         },
         {
           "Name": "Content-Type",
@@ -86227,11 +88014,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3V6n6GUWrXibPBz7fhqi3nKUDtOkIOblRDVtLs9wCh4=\""
+          "Value": "\"X9j7O4+dRBQPD1vVSTxZLFYvWhuJBWN5bUhZaCh4qUo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
+          "Value": "Sun, 09 Mar 2025 19:40:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86249,7 +88036,305 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3V6n6GUWrXibPBz7fhqi3nKUDtOkIOblRDVtLs9wCh4="
+          "Value": "sha256-X9j7O4+dRBQPD1vVSTxZLFYvWhuJBWN5bUhZaCh4qUo="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style.css",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\i15hoa64ri-p1d1uaqoy2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003952569170"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZwNAW7Pi20DZ8xWyRNvkbjQ0nx1ZfgP4KZoWISUD8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"syFMzNFZz6yXAAvcnNm6MHoxPE2N/36RxvrPqXWQDZo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-syFMzNFZz6yXAAvcnNm6MHoxPE2N/36RxvrPqXWQDZo="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style.css",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\Style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"syFMzNFZz6yXAAvcnNm6MHoxPE2N/36RxvrPqXWQDZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-syFMzNFZz6yXAAvcnNm6MHoxPE2N/36RxvrPqXWQDZo="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style.css.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\i15hoa64ri-p1d1uaqoy2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZwNAW7Pi20DZ8xWyRNvkbjQ0nx1ZfgP4KZoWISUD8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZwNAW7Pi20DZ8xWyRNvkbjQ0nx1ZfgP4KZoWISUD8g="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style.p1d1uaqoy2.css",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\i15hoa64ri-p1d1uaqoy2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003952569170"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZwNAW7Pi20DZ8xWyRNvkbjQ0nx1ZfgP4KZoWISUD8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"syFMzNFZz6yXAAvcnNm6MHoxPE2N/36RxvrPqXWQDZo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p1d1uaqoy2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-syFMzNFZz6yXAAvcnNm6MHoxPE2N/36RxvrPqXWQDZo="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style.p1d1uaqoy2.css",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\Style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"syFMzNFZz6yXAAvcnNm6MHoxPE2N/36RxvrPqXWQDZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p1d1uaqoy2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-syFMzNFZz6yXAAvcnNm6MHoxPE2N/36RxvrPqXWQDZo="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style.p1d1uaqoy2.css.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\i15hoa64ri-p1d1uaqoy2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZwNAW7Pi20DZ8xWyRNvkbjQ0nx1ZfgP4KZoWISUD8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 00:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p1d1uaqoy2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZwNAW7Pi20DZ8xWyRNvkbjQ0nx1ZfgP4KZoWISUD8g="
         }
       ]
     },
@@ -86418,13 +88503,95 @@
       ]
     },
     {
-      "Route": "index.7hmwejwepq.html",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\acq5ls8krs-7hmwejwepq.gz",
+      "Route": "images/particle-lines-futuristic-gradient-background.jpg",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\particle-lines-futuristic-gradient-background.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2769311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ELmkefhcKap5eRvc3qB5XhWcYPjhQwc8WitL+vqxhk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 23:19:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ELmkefhcKap5eRvc3qB5XhWcYPjhQwc8WitL+vqxhk="
+        }
+      ]
+    },
+    {
+      "Route": "images/particle-lines-futuristic-gradient-background.ooiq8luebl.jpg",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\particle-lines-futuristic-gradient-background.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2769311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ELmkefhcKap5eRvc3qB5XhWcYPjhQwc8WitL+vqxhk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 23:19:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ooiq8luebl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/particle-lines-futuristic-gradient-background.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ELmkefhcKap5eRvc3qB5XhWcYPjhQwc8WitL+vqxhk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\acq5ls8krs-yg9a97or11.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002127659574"
+          "Quality": "0.001428571429"
         }
       ],
       "ResponseHeaders": [
@@ -86434,19 +88601,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "469"
+          "Value": "699"
         },
         {
           "Name": "ETag",
-          "Value": "\"Q8BozT6TsG3liG9IQ+jMk8k/99o3jfpSDEvJIR1jWXo=\""
+          "Value": "\"ZXH9c72yjtUbFommBDHNXxnMojIDJ0PPYFCR34tbzSA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
+          "Value": "Sun, 09 Mar 2025 22:33:24 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -86462,26 +88629,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NUxdTqcZecnO+3mVElDjacsWce//diWRlR8JOjlVeHE=\""
+          "Value": "W/\"jkzYa/gDP0XDMIL0w8z/XqOlBgVhur1o7HuIsNFnI5M=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "7hmwejwepq"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-NUxdTqcZecnO+3mVElDjacsWce//diWRlR8JOjlVeHE="
+          "Value": "sha256-jkzYa/gDP0XDMIL0w8z/XqOlBgVhur1o7HuIsNFnI5M="
         }
       ]
     },
     {
-      "Route": "index.7hmwejwepq.html",
+      "Route": "index.html",
       "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -86491,7 +88650,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "971"
+          "Value": "1760"
         },
         {
           "Name": "Content-Type",
@@ -86499,11 +88658,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NUxdTqcZecnO+3mVElDjacsWce//diWRlR8JOjlVeHE=\""
+          "Value": "\"jkzYa/gDP0XDMIL0w8z/XqOlBgVhur1o7HuIsNFnI5M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
+          "Value": "Sun, 09 Mar 2025 22:33:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jkzYa/gDP0XDMIL0w8z/XqOlBgVhur1o7HuIsNFnI5M="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\acq5ls8krs-yg9a97or11.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "699"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZXH9c72yjtUbFommBDHNXxnMojIDJ0PPYFCR34tbzSA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 22:33:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZXH9c72yjtUbFommBDHNXxnMojIDJ0PPYFCR34tbzSA="
+        }
+      ]
+    },
+    {
+      "Route": "index.yg9a97or11.html",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\acq5ls8krs-yg9a97or11.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001428571429"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "699"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZXH9c72yjtUbFommBDHNXxnMojIDJ0PPYFCR34tbzSA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 22:33:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jkzYa/gDP0XDMIL0w8z/XqOlBgVhur1o7HuIsNFnI5M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yg9a97or11"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jkzYa/gDP0XDMIL0w8z/XqOlBgVhur1o7HuIsNFnI5M="
+        }
+      ]
+    },
+    {
+      "Route": "index.yg9a97or11.html",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jkzYa/gDP0XDMIL0w8z/XqOlBgVhur1o7HuIsNFnI5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 22:33:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86513,7 +88817,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7hmwejwepq"
+          "Value": "yg9a97or11"
         },
         {
           "Name": "label",
@@ -86521,13 +88825,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NUxdTqcZecnO+3mVElDjacsWce//diWRlR8JOjlVeHE="
+          "Value": "sha256-jkzYa/gDP0XDMIL0w8z/XqOlBgVhur1o7HuIsNFnI5M="
         }
       ]
     },
     {
-      "Route": "index.7hmwejwepq.html.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\acq5ls8krs-7hmwejwepq.gz",
+      "Route": "index.yg9a97or11.html.gz",
+      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\acq5ls8krs-yg9a97or11.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -86536,7 +88840,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "469"
+          "Value": "699"
         },
         {
           "Name": "Content-Type",
@@ -86544,11 +88848,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Q8BozT6TsG3liG9IQ+jMk8k/99o3jfpSDEvJIR1jWXo=\""
+          "Value": "\"ZXH9c72yjtUbFommBDHNXxnMojIDJ0PPYFCR34tbzSA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
+          "Value": "Sun, 09 Mar 2025 22:33:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86566,7 +88870,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7hmwejwepq"
+          "Value": "yg9a97or11"
         },
         {
           "Name": "label",
@@ -86574,740 +88878,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Q8BozT6TsG3liG9IQ+jMk8k/99o3jfpSDEvJIR1jWXo="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\acq5ls8krs-7hmwejwepq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002127659574"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "469"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Q8BozT6TsG3liG9IQ+jMk8k/99o3jfpSDEvJIR1jWXo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"NUxdTqcZecnO+3mVElDjacsWce//diWRlR8JOjlVeHE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NUxdTqcZecnO+3mVElDjacsWce//diWRlR8JOjlVeHE="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "971"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NUxdTqcZecnO+3mVElDjacsWce//diWRlR8JOjlVeHE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NUxdTqcZecnO+3mVElDjacsWce//diWRlR8JOjlVeHE="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\acq5ls8krs-7hmwejwepq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "469"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Q8BozT6TsG3liG9IQ+jMk8k/99o3jfpSDEvJIR1jWXo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:02:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Q8BozT6TsG3liG9IQ+jMk8k/99o3jfpSDEvJIR1jWXo="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.a20vroyz4k.bundle.scp.css",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\gekk2r4oor-a20vroyz4k.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000714285714"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1399"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a20vroyz4k"
-        },
-        {
-          "Name": "label",
-          "Value": "Iptv.Web.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.a20vroyz4k.bundle.scp.css",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Iptv.Web.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4653"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a20vroyz4k"
-        },
-        {
-          "Name": "label",
-          "Value": "Iptv.Web.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.a20vroyz4k.bundle.scp.css.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\gekk2r4oor-a20vroyz4k.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1399"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a20vroyz4k"
-        },
-        {
-          "Name": "label",
-          "Value": "Iptv.Web.bundle.scp.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.a20vroyz4k.styles.css",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\m5qzuzils2-a20vroyz4k.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000714285714"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1399"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a20vroyz4k"
-        },
-        {
-          "Name": "label",
-          "Value": "Iptv.Web.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.a20vroyz4k.styles.css",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Iptv.Web.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4653"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a20vroyz4k"
-        },
-        {
-          "Name": "label",
-          "Value": "Iptv.Web.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.a20vroyz4k.styles.css.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\m5qzuzils2-a20vroyz4k.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1399"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "a20vroyz4k"
-        },
-        {
-          "Name": "label",
-          "Value": "Iptv.Web.styles.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.bundle.scp.css",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\gekk2r4oor-a20vroyz4k.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000714285714"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1399"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.bundle.scp.css",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Iptv.Web.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4653"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.bundle.scp.css.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\gekk2r4oor-a20vroyz4k.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1399"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.styles.css",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\m5qzuzils2-a20vroyz4k.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000714285714"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1399"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.styles.css",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Iptv.Web.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4653"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ek3AH6eGJw9FQA/qXklYnLOGhsAZVaCufle3vQGx94E="
-        }
-      ]
-    },
-    {
-      "Route": "Iptv.Web.styles.css.gz",
-      "AssetFile": "C:\\Projetos\\IPTV\\iptv.web\\obj\\Debug\\net9.0\\compressed\\m5qzuzils2-a20vroyz4k.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1399"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 04:20:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-XbfKmDqr7+iNPQFAwZ6NJaYqBJRpPnVVd2vrbKOsv4c="
+          "Value": "sha256-ZXH9c72yjtUbFommBDHNXxnMojIDJ0PPYFCR34tbzSA="
         }
       ]
     },
