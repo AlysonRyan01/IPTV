@@ -1,61 +1,70 @@
-@page "/login"
-@inherits LoginCode
-@using MudBlazor
+@page "/entrar"
 
-<div class="min-vh-100 w-100 d-flex align-items-center justify-content-center bg-grey">
-    <section style="min-height: 70vh;" class="flex flex-column gap-4 justify-content-center p-4 rounded-3 shadow align-items-center text-center col-12 col-sm-10 col-lg-3 col-md-7 bg-white">
-        <h1 class="titulo-login">Entrar</h1>
-        <EditForm Model="Request" OnValidSubmit="Login" Style="width: 80%; align-self: center; justify-self: center; justify-items: center;">
-            <DataAnnotationsValidator/>
+@if (PageIsBusy)
+{
+    <MudProgressCircular Size="Size.Large" Class="align-self-center" Color="Color.Info" Indeterminate="true" />
+}
+else
+{
+    <div class="min-vh-100 w-100 d-flex align-items-center justify-content-center">
+        <video autoplay muted loop class="video-background">
+            <source src="/images/Video%20Background%20in%20Pink%20Blue%20Green%20Gradient%20Style%20.mp4" type="video/mp4">
+        </video>
+        <section style="min-height: 70vh;" class="flex flex-column gap-4 justify-content-center p-4 rounded-3 shadow align-items-center text-center col-12 col-sm-10 col-lg-3 col-md-7 bg-white">
+            <h1 class="titulo-login">Entrar</h1>
+            <EditForm Model="Request" OnValidSubmit="Login" Style="width: 80%; align-self: center; justify-self: center; justify-items: center;">
+                <DataAnnotationsValidator/>
 
-            <MudTextField
-                T="string"
-                Label="E-mail"
-                FullWidth="true"
-                HelperText="Campo obrigatório"
-                Variant="Variant.Text"
-                InputType="InputType.Email"
-                For="@(() => Request.Email)"
-                @bind-Value="Request.Email"
-                Adornment="Adornment.End"
-                AdornmentIcon="@Icons.Material.Filled.Email"
-                AdornmentColor="Color.Primary"
-                Margin="Margin.Dense"/>
+                <MudTextField
+                    T="string"
+                    Label="E-mail"
+                    FullWidth="true"
+                    HelperText="Campo obrigatório"
+                    Variant="Variant.Text"
+                    InputType="InputType.Email"
+                    For="@(() => Request.Email)"
+                    @bind-Value="Request.Email"
+                    Adornment="Adornment.End"
+                    AdornmentIcon="@Icons.Material.Filled.Email"
+                    AdornmentColor="Color.Primary"
+                    Margin="Margin.Dense"/>
 
-            <MudTextField
-                T="string"
-                Label="Senha"
-                FullWidth="true"
-                HelperText="Campo obrigatório"
-                Variant="Variant.Text"
-                InputType="InputType.Password"
-                For="@(() => Request.Password)"
-                @bind-Value="Request.Password"
-                Adornment="Adornment.End"
-                AdornmentColor="Color.Primary"
-                AdornmentIcon="@Icons.Material.Filled.Lock"
-                Margin="Margin.Dense"/>
+                <MudTextField
+                    T="string"
+                    Label="Senha"
+                    FullWidth="true"
+                    HelperText="Campo obrigatório"
+                    Variant="Variant.Text"
+                    InputType="InputType.Password"
+                    For="@(() => Request.Password)"
+                    @bind-Value="Request.Password"
+                    Adornment="Adornment.End"
+                    AdornmentColor="Color.Primary"
+                    AdornmentIcon="@Icons.Material.Filled.Lock"
+                    Margin="Margin.Dense"/>
 
-            <div class="flex mt-15 mb-17">
-                @if (IsBusy == true)
-                {
-                    <MudProgressCircular Color="Color.Info" Indeterminate="true"/>
-                }
-                else
-                {
-                    <MudButton
-                        ButtonType="ButtonType.Submit"
-                        Variant="Variant.Filled"
-                        Color="Color.Primary"
-                        FullWidth="true"
-                        StartIcon="@Icons.Material.Outlined.Login"
-                        IconColor="Color.Secondary"
-                        Size="Size.Large"
-                        Style="width: 250px;"><span style="color: white;">Entrar</span></MudButton>
-                }
-            </div>
-        </EditForm>
-        <p class="nao-tem-conta">Não tem uma conta?</p>
-        <a href="/cadastro" class="login-cadastrar mb-20">Cadastrar</a>
-    </section>
-</div>
+                <div class="flex mt-15 mb-17">
+                    @if (LoginIsBusy)
+                    {
+                        <MudProgressCircular Color="Color.Info" Class="align-self-center" Indeterminate="true"/>
+                    }
+                    else
+                    {
+                        <MudButton
+                            ButtonType="ButtonType.Submit"
+                            Variant="Variant.Filled"
+                            Color="Color.Primary"
+                            FullWidth="true"
+                            StartIcon="@Icons.Material.Outlined.Login"
+                            IconColor="Color.Secondary"
+                            Size="Size.Large"
+                            Style="width: 250px;"><span style="color: white;">Entrar</span></MudButton>
+                    }
+                </div>
+            </EditForm>
+            <p class="nao-tem-conta">Não tem uma conta?</p>
+            <a href="/cadastro" class="login-cadastrar mb-20">Cadastrar</a>
+        </section>
+    </div>
+
+}

@@ -6,10 +6,11 @@ using MudBlazor;
 
 namespace Iptv.Web.Pages.Identity;
 
-public partial class LoginCode : ComponentBase
+public partial class LoginPage : ComponentBase
 {
-    public bool IsBusy { get; set; } = false;
-    public LoginRequest Request { get; set; } = new();
+    private bool PageIsBusy { get; set; }
+    private bool LoginIsBusy { get; set; }
+    private LoginRequest Request { get; set; } = new();
     
     [Inject] public ISnackbar Snackbar { get; set; } = null!;
     [Inject] public NavigationManager NavigationManager { get; set; } = null!;
@@ -18,25 +19,37 @@ public partial class LoginCode : ComponentBase
 
     protected override async Task OnInitializedAsync()
     {
-        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-        var user = authState.User;
-        
-        if (user.Identity?.IsAuthenticated == true)
+        PageIsBusy = true;
+        try
         {
-            NavigationManager.NavigateTo("/");
+            var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+            var user = authState.User;
+
+            if (user.Identity?.IsAuthenticated == true)
+            {
+                NavigationManager.NavigateTo("/");
+            }
+        }
+        catch
+        {
+            Snackbar.Add($"Erro ao carregar a página", Severity.Error);
+        }
+        finally
+        {
+            PageIsBusy = false;
         }
     }
 
-    public async Task Login()
+    private async Task Login()
     {
-        IsBusy = true;
+        LoginIsBusy = true;
         try
         {
             var result = await IdentityHandler.LoginAsync(Request);
 
             if (result.IsSuccess)
             {
-                Snackbar.Add(result?.Message ?? "Login Realizado com sucesso!", Severity.Success);
+                Snackbar.Add(result.Message ?? "Login Realizado com sucesso!", Severity.Success);
                 NavigationManager.NavigateTo("/");
             }
             else
@@ -50,7 +63,7 @@ public partial class LoginCode : ComponentBase
         }
         finally
         {
-            IsBusy = false;
+            LoginIsBusy = false;
         }
     }
 }

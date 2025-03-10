@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Iptv.Web",
   "resources": {
-    "hash": "sha256-jGM9HARWfmT2qPeiB7tlwrwAHw0Nsv5zrBU2phyDtsQ=",
+    "hash": "sha256-7spYWk1nEK/2MjtvffmXQma8lW9882AakMDJ5a4onuM=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
@@ -49,12 +49,12 @@
       "Microsoft.Extensions.Primitives.bq6k0v7oj5.wasm": "Microsoft.Extensions.Primitives.wasm",
       "Microsoft.Identity.Client.6o62jh44up.wasm": "Microsoft.Identity.Client.wasm",
       "Microsoft.Identity.Client.Extensions.Msal.z7cdsa1cr0.wasm": "Microsoft.Identity.Client.Extensions.Msal.wasm",
-      "Microsoft.IdentityModel.Abstractions.ywtvda1e4c.wasm": "Microsoft.IdentityModel.Abstractions.wasm",
-      "Microsoft.IdentityModel.JsonWebTokens.39lcez2l12.wasm": "Microsoft.IdentityModel.JsonWebTokens.wasm",
-      "Microsoft.IdentityModel.Logging.8ithpgtr9z.wasm": "Microsoft.IdentityModel.Logging.wasm",
+      "Microsoft.IdentityModel.Abstractions.8no0lff9kc.wasm": "Microsoft.IdentityModel.Abstractions.wasm",
+      "Microsoft.IdentityModel.JsonWebTokens.tkqngohgon.wasm": "Microsoft.IdentityModel.JsonWebTokens.wasm",
+      "Microsoft.IdentityModel.Logging.n53rg0x6nf.wasm": "Microsoft.IdentityModel.Logging.wasm",
       "Microsoft.IdentityModel.Protocols.sb86v23jm0.wasm": "Microsoft.IdentityModel.Protocols.wasm",
       "Microsoft.IdentityModel.Protocols.OpenIdConnect.eu4njaflvc.wasm": "Microsoft.IdentityModel.Protocols.OpenIdConnect.wasm",
-      "Microsoft.IdentityModel.Tokens.lpd4jqitqf.wasm": "Microsoft.IdentityModel.Tokens.wasm",
+      "Microsoft.IdentityModel.Tokens.440zi927vr.wasm": "Microsoft.IdentityModel.Tokens.wasm",
       "Microsoft.JSInterop.0h2vlrw1wc.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.vzj7d1zf5j.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
       "Microsoft.SqlServer.Server.yamodpu5qp.wasm": "Microsoft.SqlServer.Server.wasm",
@@ -63,7 +63,7 @@
       "System.ClientModel.8j5eiu0uyl.wasm": "System.ClientModel.wasm",
       "System.Configuration.ConfigurationManager.okmrelmv0a.wasm": "System.Configuration.ConfigurationManager.wasm",
       "System.Drawing.Common.3y29mvytmn.wasm": "System.Drawing.Common.wasm",
-      "System.IdentityModel.Tokens.Jwt.x02onqryz4.wasm": "System.IdentityModel.Tokens.Jwt.wasm",
+      "System.IdentityModel.Tokens.Jwt.23q65fvfit.wasm": "System.IdentityModel.Tokens.Jwt.wasm",
       "System.Memory.Data.9qfc8r8gag.wasm": "System.Memory.Data.wasm",
       "System.Runtime.Caching.x8ht7u7x3f.wasm": "System.Runtime.Caching.wasm",
       "System.Security.Cryptography.ProtectedData.15bha6zbjy.wasm": "System.Security.Cryptography.ProtectedData.wasm",
@@ -245,10 +245,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Iptv.Core.1cupxqpv64.wasm": "Iptv.Core.wasm",
-      "Iptv.Core.j73k61wfqi.pdb": "Iptv.Core.pdb",
-      "Iptv.Web.po5eue4odk.wasm": "Iptv.Web.wasm",
-      "Iptv.Web.4obbgcik1u.pdb": "Iptv.Web.pdb"
+      "Iptv.Core.5tuu3pwazv.wasm": "Iptv.Core.wasm",
+      "Iptv.Core.gos182f1g2.pdb": "Iptv.Core.pdb",
+      "Iptv.Web.isp924e0dr.wasm": "Iptv.Web.wasm",
+      "Iptv.Web.aek625bhl9.pdb": "Iptv.Web.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -315,12 +315,12 @@
       "Microsoft.Extensions.Primitives.bq6k0v7oj5.wasm": "sha256-7VRR3wAuBLbJ6+oanznv5mQCqqMwXDYhYFvtXciSZBU=",
       "Microsoft.Identity.Client.6o62jh44up.wasm": "sha256-RqUUQdll3GxLo8wtacfmL9tJYkenzrd0x2atOJoCaEA=",
       "Microsoft.Identity.Client.Extensions.Msal.z7cdsa1cr0.wasm": "sha256-4WyJjsOVdSuGyNEo32OkpX4Mx1kOu0iPXbftEFdTa9Q=",
-      "Microsoft.IdentityModel.Abstractions.ywtvda1e4c.wasm": "sha256-zjEXw82eqpT6mBpJoKGq7h9owR8a9SXQEKdXAtxbxCA=",
-      "Microsoft.IdentityModel.JsonWebTokens.39lcez2l12.wasm": "sha256-aW/J4yAm7Dnvw37F1GKWotc8DDnHtk+03sCjNtwD5dY=",
-      "Microsoft.IdentityModel.Logging.8ithpgtr9z.wasm": "sha256-oDhSS9/aT0sejLJOBaAMY6Vj6YyGPXkm1pUrYprrbbA=",
+      "Microsoft.IdentityModel.Abstractions.8no0lff9kc.wasm": "sha256-xH3ASnm5+cxj9aSAzsEeL0GwFx/xSxLZW+MmrEWOrug=",
+      "Microsoft.IdentityModel.JsonWebTokens.tkqngohgon.wasm": "sha256-TWayPkjcv7UjZNhTMNFXwKuXjJTJVJYYZXjaryvBm1M=",
+      "Microsoft.IdentityModel.Logging.n53rg0x6nf.wasm": "sha256-RRfZXbutz6bKpDYfq+aK9g0wmIlUTv0ZHNpUqt0UFlc=",
       "Microsoft.IdentityModel.Protocols.sb86v23jm0.wasm": "sha256-qCZWN08Qq6E9fBApMutJZBSq1N7wWMKLsRqrfOtBd74=",
       "Microsoft.IdentityModel.Protocols.OpenIdConnect.eu4njaflvc.wasm": "sha256-RgOe7J9L12oMsSaprXN4sC9zXbwXOeqduQY0fz5J0tA=",
-      "Microsoft.IdentityModel.Tokens.lpd4jqitqf.wasm": "sha256-aRkBevAl9X4Lsxqf6yFoTtx1W3wtpcifUVrVNu6ju70=",
+      "Microsoft.IdentityModel.Tokens.440zi927vr.wasm": "sha256-VOHC6tT3wNQwMWxzZFE8o5eUMAzsUx6M248YekY6G8w=",
       "Microsoft.JSInterop.0h2vlrw1wc.wasm": "sha256-RN8viNNg/Osljyrz0SoRUK6TTBv6eYU4nxc2iJ8mgZA=",
       "Microsoft.JSInterop.WebAssembly.vzj7d1zf5j.wasm": "sha256-+yETq3HNwmgPEHJePavXqUT5HcOeuur5PgP7H5vXEa4=",
       "Microsoft.SqlServer.Server.yamodpu5qp.wasm": "sha256-Fig+5hq00gGQlXAgSnyFlUlWyhlx9f+yPJb4INt3gNc=",
@@ -329,7 +329,7 @@
       "System.ClientModel.8j5eiu0uyl.wasm": "sha256-hB3YvRqtJh9HC69ryOu2jplvTqYa8opx1wPk+N/txKs=",
       "System.Configuration.ConfigurationManager.okmrelmv0a.wasm": "sha256-+PLYdcVZv3KxeaVwz0s4UYBHOGGP8xo3I8tCkSLGWjU=",
       "System.Drawing.Common.3y29mvytmn.wasm": "sha256-K4kz7R8w/w1hXO31g3GdLNqPgu4KDENnDuMEnMfDDnc=",
-      "System.IdentityModel.Tokens.Jwt.x02onqryz4.wasm": "sha256-v5COmwdTSk+2jCebXcDk4w3eTs8HT3CFIXlUwrv8GdE=",
+      "System.IdentityModel.Tokens.Jwt.23q65fvfit.wasm": "sha256-csWMlGqFjenaUYhCqdQjNfMOtKkhUT1CLrcvMrEI8os=",
       "System.Memory.Data.9qfc8r8gag.wasm": "sha256-oa47oEq24c04+SqrF0aDKfadFgOh7up7I5vdcwdrLOw=",
       "System.Runtime.Caching.x8ht7u7x3f.wasm": "sha256-kUsGJ8z0EZBNyez+M+cx/8etwLM4To14595QBe450TQ=",
       "System.Security.Cryptography.ProtectedData.15bha6zbjy.wasm": "sha256-W5tMSDmYEB2xQ9h2R6YF/fHX/B7hkusJMm/i/cqRTV4=",
@@ -502,12 +502,12 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "Iptv.Core.1cupxqpv64.wasm": "sha256-L+ES3MnCU0K/Teun9zX6nIOryMqpcaP4G/QLUqfXQic=",
-      "Iptv.Web.po5eue4odk.wasm": "sha256-SSr/Tgq0pK1qPbcGI6FbEkXAXMuApCja+QNMM7i9dJc="
+      "Iptv.Core.5tuu3pwazv.wasm": "sha256-h6GzSs8KM4CqdpBmNplXtWBO4y3vhZ3P/a8YSLdB0NM=",
+      "Iptv.Web.isp924e0dr.wasm": "sha256-0pyA9GYIzRNWW88J4/p7DZ/EA8QHbdUWcbZ3QyonbS4="
     },
     "pdb": {
-      "Iptv.Core.j73k61wfqi.pdb": "sha256-P3fsOqBt+pciGBE4Kiu6GV5elqrLLmtYbqC5FaFgpC4=",
-      "Iptv.Web.4obbgcik1u.pdb": "sha256-1O9WEve3AS5DGz17zMyq4+DwXBRGI8aduWuH3lwFN4Q="
+      "Iptv.Core.gos182f1g2.pdb": "sha256-kDjER2lKQtP0INUAU0dKulycSS8uKYAj6/UVMBE0LdM=",
+      "Iptv.Web.aek625bhl9.pdb": "sha256-Pu3R8rXaH3TkPVod+lOE7cBGIin9vezmIx4dzZtRqVM="
     }
   },
   "cacheBootResources": true,
