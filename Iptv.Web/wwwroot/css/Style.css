@@ -16,7 +16,7 @@
 }
 .titulo-login
 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Titillium Web", sans-serif;
     font-weight: 800;
     font-style: normal;
     padding: 30px 0;
@@ -24,7 +24,7 @@
 
 .titulo-cadastro
 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 800;
     font-style: normal;
     padding: 10px 0;
@@ -32,13 +32,58 @@
 
 .nao-tem-conta
 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .login-cadastrar
 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #bf0603;
+}
+
+.section1
+{
+    display: flex;
+    height: 100vw;
+    max-height: 100vh;
+    background-image: url("/images/Banner6.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header
+{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo-texto
+{
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.nav-menu
+{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.nav-menu-link
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
 }

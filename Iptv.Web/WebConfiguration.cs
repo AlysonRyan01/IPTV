@@ -14,7 +14,7 @@ public static class WebConfiguration
         {
             Default = new DefaultTypography
             {
-                FontFamily = ["Poppins", "sans-serif"],
+                FontFamily = ["Open Sans", "sans-serif"],
                 FontWeight =  "600"
             }
         },

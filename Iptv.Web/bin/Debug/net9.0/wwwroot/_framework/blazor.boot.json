@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Iptv.Web",
   "resources": {
-    "hash": "sha256-7spYWk1nEK/2MjtvffmXQma8lW9882AakMDJ5a4onuM=",
+    "hash": "sha256-+Ixu4dA8FcmLaKrTS6kD0QLNnGZgzSAip2JvLw7sbcA=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
@@ -245,10 +245,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Iptv.Core.5tuu3pwazv.wasm": "Iptv.Core.wasm",
-      "Iptv.Core.gos182f1g2.pdb": "Iptv.Core.pdb",
-      "Iptv.Web.isp924e0dr.wasm": "Iptv.Web.wasm",
-      "Iptv.Web.aek625bhl9.pdb": "Iptv.Web.pdb"
+      "Iptv.Core.53ci0dl2nd.wasm": "Iptv.Core.wasm",
+      "Iptv.Core.zyhe0zkn92.pdb": "Iptv.Core.pdb",
+      "Iptv.Web.gbnpedq8bu.wasm": "Iptv.Web.wasm",
+      "Iptv.Web.pefd6v0cp8.pdb": "Iptv.Web.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -502,12 +502,12 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "Iptv.Core.5tuu3pwazv.wasm": "sha256-h6GzSs8KM4CqdpBmNplXtWBO4y3vhZ3P/a8YSLdB0NM=",
-      "Iptv.Web.isp924e0dr.wasm": "sha256-0pyA9GYIzRNWW88J4/p7DZ/EA8QHbdUWcbZ3QyonbS4="
+      "Iptv.Core.53ci0dl2nd.wasm": "sha256-T860kCeOMU6lfatu2rOjQBbeYitJbqTRkZegT/ZWkwU=",
+      "Iptv.Web.gbnpedq8bu.wasm": "sha256-tPv/RPRA8u+2ONPZCOAOMjo35fzlhQIcD8qFTSQz/AY="
     },
     "pdb": {
-      "Iptv.Core.gos182f1g2.pdb": "sha256-kDjER2lKQtP0INUAU0dKulycSS8uKYAj6/UVMBE0LdM=",
-      "Iptv.Web.aek625bhl9.pdb": "sha256-Pu3R8rXaH3TkPVod+lOE7cBGIin9vezmIx4dzZtRqVM="
+      "Iptv.Core.zyhe0zkn92.pdb": "sha256-hUF7OEeFgi7QcNO7OFR8EonSUsm1d4XtCMsgjAPUrIw=",
+      "Iptv.Web.pefd6v0cp8.pdb": "sha256-v86+o+YQ7aXt2p4mgJU2O620eAhPxX42Y0JpquR8wuY="
     }
   },
   "cacheBootResources": true,
