@@ -20,7 +20,7 @@ public static class WebConfiguration
         },
         PaletteLight = new PaletteLight
         {
-            Primary = "#bf0603",
+            Primary = "#7C45AD",
             Secondary = "#FFFFFF",
             Tertiary = "#3483FA",
             Background = Colors.Gray.Lighten4,

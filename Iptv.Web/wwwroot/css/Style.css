@@ -1,3 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.botao {
+    background-color: #7C45A7;
+    width: 40%;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao-header {
+    background-color: #7C45A7;
+    width: 30%;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #693A8D;
+}
+
 .bg-grey
 {
     background-image: url("/images/particle-lines-futuristic-gradient-background.jpg");
@@ -46,9 +82,10 @@
 .section1
 {
     display: flex;
+    flex-direction: column;
     height: 100vw;
     max-height: 100vh;
-    background-image: url("/images/Banner6.svg");
+    background-image: url("/images/background-rainbow.svg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Open Sans", sans-serif;
@@ -57,10 +94,11 @@
 .header
 {
     display: flex;
-    width: 100%;
+    width: 70%;
+    align-self: center;
     height: fit-content;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-between;
+    padding-top: 20px;
 }
 
 .logo-texto
@@ -76,7 +114,8 @@
 {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 60px;
+    margin: 0;
 }
 
 .nav-menu-link
@@ -86,4 +125,52 @@
     font-style: normal;
     font-size: 1rem;
     color: white;
+    margin: 0;
+}
+
+.principal
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    gap: 30px;
+    align-self: center;
+    height: 100%;
+}
+
+.principal-titulo
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 50%;
+}
+
+.principal-imagens
+{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.titulo-home
+{
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.paragrafo-home
+{
+    font-family: "Open Sans", sans-serif;
+    color: lightgrey;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
