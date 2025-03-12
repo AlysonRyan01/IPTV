@@ -1,4 +1,3 @@
-using Iptv.Api.Models;
 using Iptv.Core.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;

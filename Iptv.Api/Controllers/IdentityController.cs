@@ -1,4 +1,5 @@
 using System.Data.Common;
+using System.Security.Claims;
 using Iptv.Api.Services;
 using Iptv.Core.Handlers;
 using Iptv.Core.Requests.IdentityRequests;
@@ -53,17 +54,6 @@ public class IdentityController(IIdentityHandler identityHandler, TokenService t
             return StatusCode(500, new BaseResponse<string>("Erro inesperado", 500, "Ocorreu um erro no servidor. Tente novamente mais tarde."));
         }
     }
-
-    [HttpGet("user-info")]
-    [Authorize]
-    public async Task<IActionResult> Test()
-    {
-        var user = User;
-
-        var claims = user.Claims;
-
-        return Ok(claims);
-    }
     
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginRequest model)
@@ -85,6 +75,45 @@ public class IdentityController(IIdentityHandler identityHandler, TokenService t
                 return Unauthorized(result);
 
             _tokenService.SetTokensInsideCookie(result.Data, HttpContext);
+            
+            return result.IsSuccess ? Ok(result) : Unauthorized(result);
+        }
+        catch (DbException ex)
+        {
+            Console.WriteLine(ex);
+            return StatusCode(500, new BaseResponse<string>("Erro no banco de dados", 500, ex.Message));
+        }
+        catch (ArgumentException ex)
+        {
+            Console.WriteLine(ex);
+            return BadRequest(new BaseResponse<string>("Argumento inválido", 400, ex.Message));
+        }
+        catch (InvalidOperationException ex)
+        {
+            Console.WriteLine(ex);
+            return BadRequest(new BaseResponse<string>("Erro de operação", 400, ex.Message));
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex);
+            return StatusCode(500, new BaseResponse<string>("Erro inesperado", 500, "Ocorreu um erro no servidor. Tente novamente mais tarde."));
+        }
+    }
+    
+    [Authorize]
+    [HttpGet("user-info")]
+    public async Task<IActionResult> UserInfo()
+    {
+        try
+        {
+            var user = User;
+
+            if (user.Identity == null || !(user.Identity.IsAuthenticated))
+                return Unauthorized();
+            
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? string.Empty;
+            
+            var result = await identityHandler.UserInfo(userId);
             
             return result.IsSuccess ? Ok(result) : Unauthorized(result);
         }

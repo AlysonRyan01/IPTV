@@ -36,6 +36,7 @@ public static class BuilderExtension
         builder.Services.AddTransient<TokenService>();
         builder.Services.AddTransient<IIdentityHandler, IdentityHandler>();
         builder.Services.AddTransient<IOrderHandler, OrderHandler>();
+        builder.Services.AddTransient<IAddressHandler, AddressHandler>();
     }
 
     public static void AddJwtConfiguration(this WebApplicationBuilder builder)

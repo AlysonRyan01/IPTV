@@ -7,5 +7,5 @@ public class TvBox
     public int Quantity  { get; set; }
     public decimal Amount { get; set; }
 
-    public List<Order?> Orders { get; set; }
+    public List<Order> Orders { get; set; } = new();
 }

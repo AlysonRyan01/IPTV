@@ -6,7 +6,7 @@ public class Address
     
     public long UserId { get; set; }
 
-    public List<Order?> Orders { get; set; } = new List<Order?>();
+    public List<Order> Orders { get; set; } = new ();
     
     public string Street { get; set; } = string.Empty;
     public string Number { get; set; } = string.Empty;

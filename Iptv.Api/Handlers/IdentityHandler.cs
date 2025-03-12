@@ -12,14 +12,11 @@ namespace Iptv.Api.Handlers;
 
 public class IdentityHandler(
     UserManager<User> userManager,
-    SignInManager<User> signInManager,
     IptvDbContext context,
-    TokenService tokenService)
+    TokenService tokenService,
+    IAddressHandler addressHandler)
     : IIdentityHandler
 {
-    private readonly SignInManager<User> _signInManager = signInManager;
-    private readonly TokenService _tokenService = tokenService;
-
     public async Task<BaseResponse<string>> RegisterAsync(RegisterRequest request)
     {
         using var transaction = await context.Database.BeginTransactionAsync();
@@ -84,13 +81,47 @@ public class IdentityHandler(
             if (!isPasswordValid)
                 return new BaseResponse<string>("Senha ou email incorretos", 401, "Senha ou email incorretos");
 
-            var token = await _tokenService.Generate(user);
+            var token = await tokenService.Generate(user);
 
             return new BaseResponse<string>(token, 200, "Login realizado com sucesso");
         }
         catch (Exception e)
         {
             return new BaseResponse<string>(e.Message, 500, "Erro no login");
+        }
+    }
+
+    public async Task<BaseResponse<UserInfo>> UserInfo(string userId)
+    {
+        try
+        {
+            var user = await userManager.FindByIdAsync(userId);
+            var address = new Address();
+            
+            if (user == null)
+                return new BaseResponse<UserInfo>(null, 404, "Usuario não encontrado");
+
+            var addressResult = await addressHandler.GetAddress(userId);
+
+            if (addressResult.IsSuccess)
+                address = addressResult.Data;
+
+            var userInfo = new UserInfo
+            {
+                UserId = user.Id,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email ?? string.Empty,
+                Phone = user.PhoneNumber ?? string.Empty,
+                Address = address ?? new (),
+                IsAdmin = user.IsAdmin
+            };
+            
+            return new BaseResponse<UserInfo>(userInfo, 200, "Usuario encontrado com sucesso");
+        }
+        catch
+        {
+            return new BaseResponse<UserInfo>(null, 500, "Erro ao retornar informações do cliente");
         }
     }
 }

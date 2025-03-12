@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Iptv.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b636c67d159818954e2b10e2e1332a6d204e22ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b08c1a645df6b2da2c738a09c16ff0330378019")]
 [assembly: System.Reflection.AssemblyProductAttribute("Iptv.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Iptv.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
