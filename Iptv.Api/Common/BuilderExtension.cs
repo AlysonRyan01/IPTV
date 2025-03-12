@@ -60,6 +60,17 @@ public static class BuilderExtension
                     ValidateLifetime = true,
                     ClockSkew = TimeSpan.Zero
                 };
+                x.Events = new JwtBearerEvents
+                {
+                    OnMessageReceived = ctx =>
+                    {
+                        ctx.Request.Cookies.TryGetValue("accessToken", out var accessToken);
+                        if (!string.IsNullOrEmpty(accessToken))
+                            ctx.Token = accessToken;
+
+                        return Task.CompletedTask;
+                    }
+                };
             });
     }
     

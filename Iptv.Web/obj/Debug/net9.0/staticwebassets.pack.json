@@ -217,6 +217,10 @@
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/Cookie.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/Cookie.js"
+    },
+    {
       "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },

@@ -1,15 +1,19 @@
 using System.Data.Common;
+using Iptv.Api.Services;
 using Iptv.Core.Handlers;
 using Iptv.Core.Requests.IdentityRequests;
 using Iptv.Core.Responses;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Iptv.Api.Controllers;
 
 [ApiController]
 [Route("v1/identity/")]
-public class IdentityController(IIdentityHandler identityHandler) : ControllerBase
+public class IdentityController(IIdentityHandler identityHandler, TokenService tokenService) : ControllerBase
 {
+    private readonly TokenService _tokenService = tokenService;
+
     [HttpPost("register")]
     public async Task<IActionResult> Register(RegisterRequest model)
     {
@@ -49,6 +53,17 @@ public class IdentityController(IIdentityHandler identityHandler) : ControllerBa
             return StatusCode(500, new BaseResponse<string>("Erro inesperado", 500, "Ocorreu um erro no servidor. Tente novamente mais tarde."));
         }
     }
+
+    [HttpGet("user-info")]
+    [Authorize]
+    public async Task<IActionResult> Test()
+    {
+        var user = User;
+
+        var claims = user.Claims;
+
+        return Ok(claims);
+    }
     
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginRequest model)
@@ -65,6 +80,11 @@ public class IdentityController(IIdentityHandler identityHandler) : ControllerBa
         try
         {
             var result = await identityHandler.LoginAsync(model);
+
+            if (string.IsNullOrEmpty(result.Data))
+                return Unauthorized(result);
+
+            _tokenService.SetTokensInsideCookie(result.Data, HttpContext);
             
             return result.IsSuccess ? Ok(result) : Unauthorized(result);
         }

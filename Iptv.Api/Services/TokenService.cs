@@ -51,5 +51,16 @@ public class TokenService(UserManager<User> userManager)
         
         return ci;
     }
+
+    public void SetTokensInsideCookie(string token, HttpContext context)
+    {
+        context.Response.Cookies.Append("accessToken", token, new CookieOptions
+        {
+            Expires = DateTime.UtcNow.AddHours(2),
+            HttpOnly = true,
+            IsEssential = true,
+            SameSite = SameSiteMode.Strict
+        });
+    }
 }
 

@@ -19,6 +19,7 @@ Configuration.FrontendUrl = builder.Configuration.GetValue<string>("FrontendUrl"
 WebConfiguration.BackendUrl = builder.Configuration.GetValue<string>("BackendUrl") ?? String.Empty;
 
 builder.Services.AddScoped<BaseAddressAuthorizationMessageHandler>();
+builder.Services.AddScoped<ICookieService, CookieService>();
 builder.Services.AddTransient<IdentityServices>();
 builder.Services.AddTransient<IIdentityHandler, IdentityHandler>();
 builder.Services.AddBlazoredLocalStorage();

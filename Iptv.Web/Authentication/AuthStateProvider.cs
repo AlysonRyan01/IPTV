@@ -1,6 +1,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Blazored.LocalStorage;
+using Iptv.Web.Services;
 using Microsoft.AspNetCore.Components.Authorization;
 
 namespace Iptv.Web.Authentication;
@@ -8,17 +9,16 @@ namespace Iptv.Web.Authentication;
 public class AuthStateProvider : AuthenticationStateProvider
 {
     private readonly HttpClient _httpClient;
-    private readonly ILocalStorageService _localStorage;
+    private readonly ICookieService _cookieService;
 
-    public AuthStateProvider(IHttpClientFactory httpClientFactory, ILocalStorageService localStorage)
+    public AuthStateProvider(IHttpClientFactory httpClientFactory, ICookieService cookieService)
     {
         _httpClient = httpClientFactory.CreateClient("identity");
-        _localStorage = localStorage;
+        _cookieService = cookieService;
     }
-
     public override async Task<AuthenticationState> GetAuthenticationStateAsync()
     {
-        var token = await _localStorage.GetItemAsync<string>("authToken");
+        var token = await _cookieService.GetCookieAsync("accessToken");
 
         if (string.IsNullOrEmpty(token))
         {
@@ -43,9 +43,10 @@ public class AuthStateProvider : AuthenticationStateProvider
     
     public async Task LogoutAsync()
     {
-        await _localStorage.RemoveItemAsync("authToken");
+        await _cookieService.RemoveCookieAsync("accessToken");
         _httpClient.DefaultRequestHeaders.Authorization = null;
         NotifyUserLogout();
+
     }
 
     public void NotifyUserLogout()

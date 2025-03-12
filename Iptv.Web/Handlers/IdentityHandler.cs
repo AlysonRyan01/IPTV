@@ -14,14 +14,12 @@ public class IdentityHandler : IIdentityHandler
     private readonly IdentityServices _identityServices;
     private readonly HttpClient _httpClient;
     private readonly AuthStateProvider _authStateProvider;
-    private readonly ILocalStorageService _localStorage;
 
-    public IdentityHandler(IHttpClientFactory httpClientFactory, IdentityServices identityServices, AuthStateProvider authStateProvider, ILocalStorageService localStorage)
+    public IdentityHandler(IHttpClientFactory httpClientFactory, IdentityServices identityServices, AuthStateProvider authStateProvider)
     {
         _identityServices = identityServices;
         _httpClient = httpClientFactory.CreateClient("identity");
         _authStateProvider = authStateProvider;
-        _localStorage = localStorage;
     }
     
     public async Task<BaseResponse<string>> RegisterAsync(RegisterRequest request)
@@ -72,13 +70,12 @@ public class IdentityHandler : IIdentityHandler
             
             var token = baseResponse.Data;
             
-            await _localStorage.SetItemAsync("authToken", token);
-
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", token);
-            
+
             _authStateProvider.NotifyUserAuthentication(token);
-            
-            return new BaseResponse<string>(token,200, "Login realizado com sucesso!");
+
+            return new BaseResponse<string>(token, 200, "Login realizado com sucesso!");
+
         }
         catch (HttpRequestException ex)
         {
