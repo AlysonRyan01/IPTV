@@ -225,6 +225,7 @@
     flex-direction: column;
     width: 70%;
     min-width: 350px;
+    gap: 15px;
 }
 
 .nosso-servico-texto-titulo
@@ -233,7 +234,7 @@
     color: #262626;
     font-size: 2.5rem;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .nosso-servico-texto-paragrafo
@@ -288,5 +289,25 @@
     font-size: 2.2rem;
     font-weight: 700;
     color: #7C45AD;
-    
+}
+
+.section4
+{
+    display: flex;
+    width: 90%;
+    min-height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.titulo-avaliacao
+{
+    font-family: "Titillium Web", sans-serif;
+    width: 35%;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #262626;
+    margin-top: 50px;
 }

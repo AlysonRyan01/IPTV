@@ -1,303 +1,323 @@
 {
   "Files": [
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\appsettings.json",
-      "PackagePath": "staticwebassets\\appsettings.json"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/appsettings.json",
+      "PackagePath": "staticwebassets/appsettings.json"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\Style.css",
-      "PackagePath": "staticwebassets\\css\\Style.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/css/Style.css",
+      "PackagePath": "staticwebassets/css/Style.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\css\\app.css",
-      "PackagePath": "staticwebassets\\css\\app.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\icon-192.png",
-      "PackagePath": "staticwebassets\\icon-192.png"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\Banner6.svg",
-      "PackagePath": "staticwebassets\\images\\Banner6.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/Avaliacoes.svg",
+      "PackagePath": "staticwebassets/images/Avaliacoes.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\Banner7.svg",
-      "PackagePath": "staticwebassets\\images\\Banner7.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/Banner6.svg",
+      "PackagePath": "staticwebassets/images/Banner6.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\Banner8.svg",
-      "PackagePath": "staticwebassets\\images\\Banner8.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/Banner7.svg",
+      "PackagePath": "staticwebassets/images/Banner7.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\ROKU.svg",
-      "PackagePath": "staticwebassets\\images\\ROKU.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/Banner8.svg",
+      "PackagePath": "staticwebassets/images/Banner8.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\Suporte.svg",
-      "PackagePath": "staticwebassets\\images\\Suporte.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/ROKU.svg",
+      "PackagePath": "staticwebassets/images/ROKU.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\Video Background in Pink Blue Green Gradient Style .mp4",
-      "PackagePath": "staticwebassets\\images\\Video Background in Pink Blue Green Gradient Style .mp4"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/Suporte.svg",
+      "PackagePath": "staticwebassets/images/Suporte.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\background-blue.svg",
-      "PackagePath": "staticwebassets\\images\\background-blue.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/Video Background in Pink Blue Green Gradient Style .mp4",
+      "PackagePath": "staticwebassets/images/Video Background in Pink Blue Green Gradient Style .mp4"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\background-rainbow.svg",
-      "PackagePath": "staticwebassets\\images\\background-rainbow.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/avaliacao-icon.png",
+      "PackagePath": "staticwebassets/images/avaliacao-icon.png"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\banner5.svg",
-      "PackagePath": "staticwebassets\\images\\banner5.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/avaliacao1.svg",
+      "PackagePath": "staticwebassets/images/avaliacao1.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\iptv-service.svg",
-      "PackagePath": "staticwebassets\\images\\iptv-service.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/avaliacao2.svg",
+      "PackagePath": "staticwebassets/images/avaliacao2.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\iptv-star.svg",
-      "PackagePath": "staticwebassets\\images\\iptv-star.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/avaliacao3.svg",
+      "PackagePath": "staticwebassets/images/avaliacao3.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\iptvimage.svg",
-      "PackagePath": "staticwebassets\\images\\iptvimage.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/background-blue.svg",
+      "PackagePath": "staticwebassets/images/background-blue.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\logo.png",
-      "PackagePath": "staticwebassets\\images\\logo.png"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/background-rainbow.svg",
+      "PackagePath": "staticwebassets/images/background-rainbow.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\mao.svg",
-      "PackagePath": "staticwebassets\\images\\mao.svg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/banner5.svg",
+      "PackagePath": "staticwebassets/images/banner5.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\particle-lines-futuristic-gradient-background.jpg",
-      "PackagePath": "staticwebassets\\images\\particle-lines-futuristic-gradient-background.jpg"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/iptv-service.svg",
+      "PackagePath": "staticwebassets/images/iptv-service.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\roku-oquevem.png",
-      "PackagePath": "staticwebassets\\images\\roku-oquevem.png"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/iptv-star.svg",
+      "PackagePath": "staticwebassets/images/iptv-star.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\roku-video.mp4",
-      "PackagePath": "staticwebassets\\images\\roku-video.mp4"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/iptvimage.svg",
+      "PackagePath": "staticwebassets/images/iptvimage.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/mao.svg",
+      "PackagePath": "staticwebassets/images/mao.svg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/particle-lines-futuristic-gradient-background.jpg",
+      "PackagePath": "staticwebassets/images/particle-lines-futuristic-gradient-background.jpg"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/roku-oquevem.png",
+      "PackagePath": "staticwebassets/images/roku-oquevem.png"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/images/roku-video.mp4",
+      "PackagePath": "staticwebassets/images/roku-video.mp4"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\Cookie.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\Cookie.js"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/Cookie.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/Cookie.js"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\sample-data\\weather.json",
-      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Iptv.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Iptv.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Iptv.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Iptv.Web.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Iptv.Web.props",
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.Iptv.Web.props",
       "PackagePath": "build\\Iptv.Web.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Iptv.Web.props",
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.Iptv.Web.props",
       "PackagePath": "buildMultiTargeting\\Iptv.Web.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Iptv.Web.props",
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.Iptv.Web.props",
       "PackagePath": "buildTransitive\\Iptv.Web.props"
     }
   ],
