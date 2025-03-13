@@ -2,10 +2,12 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using Blazored.LocalStorage;
 using Iptv.Core.Handlers;
+using Iptv.Core.Models;
 using Iptv.Core.Requests.IdentityRequests;
 using Iptv.Core.Responses;
 using Iptv.Web.Authentication;
 using Iptv.Web.Services;
+using Microsoft.IdentityModel.JsonWebTokens;
 
 namespace Iptv.Web.Handlers;
 
@@ -13,13 +15,11 @@ public class IdentityHandler : IIdentityHandler
 {
     private readonly IdentityServices _identityServices;
     private readonly HttpClient _httpClient;
-    private readonly AuthStateProvider _authStateProvider;
 
-    public IdentityHandler(IHttpClientFactory httpClientFactory, IdentityServices identityServices, AuthStateProvider authStateProvider)
+    public IdentityHandler(IHttpClientFactory httpClientFactory, IdentityServices identityServices)
     {
         _identityServices = identityServices;
         _httpClient = httpClientFactory.CreateClient("identity");
-        _authStateProvider = authStateProvider;
     }
     
     public async Task<BaseResponse<string>> RegisterAsync(RegisterRequest request)
@@ -65,17 +65,14 @@ public class IdentityHandler : IIdentityHandler
             
             var baseResponse = await response.Content.ReadFromJsonAsync<BaseResponse<string>>();
             
-            if (baseResponse == null || string.IsNullOrEmpty(baseResponse.Data))
+            if (baseResponse == null)
                 return new BaseResponse<string>("Token inválido ou resposta inesperada", 500, "A resposta da API não contém um token válido.");
-            
-            var token = baseResponse.Data;
-            
-            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", token);
 
-            _authStateProvider.NotifyUserAuthentication(token);
+            var jwtToken = baseResponse.Data ?? "";
 
-            return new BaseResponse<string>(token, 200, "Login realizado com sucesso!");
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwtToken);
 
+            return new BaseResponse<string>("Login realizado com sucesso!", 200, "Login realizado com sucesso!");
         }
         catch (HttpRequestException ex)
         {
@@ -84,6 +81,29 @@ public class IdentityHandler : IIdentityHandler
         catch (Exception ex)
         {
             return new BaseResponse<string>("Erro inesperado", 500, ex.Message);
+        }
+    }
+
+    public async Task<BaseResponse<UserInfo>> UserInfo(string userId)
+    {
+        try
+        {
+            var response = await _httpClient.GetFromJsonAsync<BaseResponse<UserInfo>>("user-info");
+
+            if (response == null)
+                return new BaseResponse<UserInfo>(null, 500, "Erro no servidor");
+            
+            return response.IsSuccess 
+                ? new BaseResponse<UserInfo>(response.Data, 200, "Dados do usuario obtidos com sucesso!") 
+                : new BaseResponse<UserInfo>(null, 500, "Erro ao obter os dados do usuario");
+        }
+        catch (HttpRequestException ex)
+        {
+            return new BaseResponse<UserInfo>(null, 500, ex.Message);
+        }
+        catch (Exception ex)
+        {
+            return new BaseResponse<UserInfo>(null, 500, ex.Message);
         }
     }
 }

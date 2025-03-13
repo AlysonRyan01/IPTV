@@ -1,6 +1,12 @@
 @page "/"
 
-<section class="section1">
+@if (PageIsBusy)
+{
+    <MudProgressCircular Size="Size.Large" Class="align-self-center" Color="Color.Info" Indeterminate="true" />
+}
+else
+{
+    <section class="section1">
     <div class="header">
         <div class="logo">
             <h1 class="logo-texto">ROKU <span style="font-size: 1.7rem; font-weight: 600">Iptv</span></h1>
@@ -31,7 +37,7 @@
 </section>
 <section class="section2">
     <div class="nosso-servico">
-        <img src="/images/iptv-service.svg" alt="iptv service imagem" style="height: 400px;"/>
+        <img src="/images/iptv-star.svg" alt="iptv service imagem" style="width: 330px;"/>
         <div class="nosso-servico-texto">
             <h1 class="nosso-servico-texto-titulo">
                 Transforme sua experiência de entretenimento com o nosso IPTV!
@@ -53,6 +59,10 @@
         <source src="/images/roku-video.mp4" type="video/mp4">
     </video>
     <div class="roku-info">
-        
+        <h1 class="itens-incluidos">
+            O que vem na caixa
+        </h1>
+        <img src="/images/roku-oquevem.png" style="width: 100%"/>
     </div>
 </section>
+}

@@ -210,9 +210,10 @@
 {
     display: flex;
     flex-direction: row;
+    text-align: left;
     justify-content: center;
     justify-self: center;
-    align-items: start;
+    align-items: center;
     width: 100%;
     gap: 40px;
 }
@@ -222,17 +223,17 @@
 {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    min-width: 600px;
+    width: 70%;
+    min-width: 350px;
 }
 
 .nosso-servico-texto-titulo
 {
     font-family: "Titillium Web", sans-serif;
     color: #262626;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .nosso-servico-texto-paragrafo
@@ -245,7 +246,7 @@
 .nosso-servico-texto-paragrafo-bold
 {
     font-family: "Titillium Web", sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: #5A2E89;
 }
@@ -273,5 +274,19 @@
 
 .roku-info
 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    justify-content: start;
     width: 50%;
+}
+
+.itens-incluidos
+{
+    font-family: "Titillium Web", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #7C45AD;
+    
 }

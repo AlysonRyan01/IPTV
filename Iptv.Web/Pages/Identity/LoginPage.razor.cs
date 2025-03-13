@@ -1,5 +1,6 @@
 using Iptv.Core.Handlers;
 using Iptv.Core.Requests.IdentityRequests;
+using Iptv.Web.Authentication;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 using MudBlazor;
@@ -15,14 +16,14 @@ public partial class LoginPage : ComponentBase
     [Inject] public ISnackbar Snackbar { get; set; } = null!;
     [Inject] public NavigationManager NavigationManager { get; set; } = null!;
     [Inject] public IIdentityHandler IdentityHandler { get; set; } = null!;
-    [Inject] public AuthenticationStateProvider AuthenticationStateProvider { get; set; } = null!;
+    [Inject] public AuthStateProvider AuthStateProvider { get; set; } = null!;
 
     protected override async Task OnInitializedAsync()
     {
         PageIsBusy = true;
         try
         {
-            var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+            var authState = await AuthStateProvider.GetAuthenticationStateAsync();
             var user = authState.User;
 
             if (user.Identity?.IsAuthenticated == true)
@@ -46,9 +47,10 @@ public partial class LoginPage : ComponentBase
         try
         {
             var result = await IdentityHandler.LoginAsync(Request);
-
+            
             if (result.IsSuccess)
             {
+                await AuthStateProvider.NotifyUserAuthentication();
                 Snackbar.Add(result.Message ?? "Login Realizado com sucesso!", Severity.Success);
                 NavigationManager.NavigateTo("/");
             }

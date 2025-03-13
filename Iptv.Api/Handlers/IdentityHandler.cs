@@ -95,6 +95,9 @@ public class IdentityHandler(
     {
         try
         {
+            if (string.IsNullOrEmpty(userId))
+                return new BaseResponse<UserInfo>(null, 400, "UserId não pode ser nulo ou vazio.");
+
             var user = await userManager.FindByIdAsync(userId);
             var address = new Address();
             
@@ -103,8 +106,7 @@ public class IdentityHandler(
 
             var addressResult = await addressHandler.GetAddress(userId);
 
-            if (addressResult.IsSuccess)
-                address = addressResult.Data;
+            address = addressResult.IsSuccess ? addressResult.Data : new Address();
 
             var userInfo = new UserInfo
             {

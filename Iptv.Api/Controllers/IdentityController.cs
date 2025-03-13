@@ -48,9 +48,8 @@ public class IdentityController(IIdentityHandler identityHandler, TokenService t
             Console.WriteLine(ex);
             return BadRequest(new BaseResponse<string>("Erro de operação", 400, ex.Message));
         }
-        catch (Exception ex)
+        catch
         {
-            Console.WriteLine(ex);
             return StatusCode(500, new BaseResponse<string>("Erro inesperado", 500, "Ocorreu um erro no servidor. Tente novamente mais tarde."));
         }
     }
@@ -108,10 +107,13 @@ public class IdentityController(IIdentityHandler identityHandler, TokenService t
         {
             var user = User;
 
-            if (user.Identity == null || !(user.Identity.IsAuthenticated))
+            if (user.Identity == null || !user.Identity.IsAuthenticated)
                 return Unauthorized();
             
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? string.Empty;
+
+            if (string.IsNullOrEmpty(userId))
+                return Unauthorized(new BaseResponse<string>("UserId não encontrado nas claims.", 401, "UserId não encontrado nas claims."));
             
             var result = await identityHandler.UserInfo(userId);
             
@@ -132,9 +134,8 @@ public class IdentityController(IIdentityHandler identityHandler, TokenService t
             Console.WriteLine(ex);
             return BadRequest(new BaseResponse<string>("Erro de operação", 400, ex.Message));
         }
-        catch (Exception ex)
+        catch
         {
-            Console.WriteLine(ex);
             return StatusCode(500, new BaseResponse<string>("Erro inesperado", 500, "Ocorreu um erro no servidor. Tente novamente mais tarde."));
         }
     }

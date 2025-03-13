@@ -58,8 +58,7 @@ public class TokenService(UserManager<User> userManager)
         {
             Expires = DateTime.UtcNow.AddHours(2),
             HttpOnly = true,
-            IsEssential = true,
-            SameSite = SameSiteMode.Strict
+            IsEssential = true
         });
     }
 }

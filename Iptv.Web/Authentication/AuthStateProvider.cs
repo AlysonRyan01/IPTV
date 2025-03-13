@@ -1,64 +1,78 @@
-using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using Blazored.LocalStorage;
-using Iptv.Web.Services;
+using Iptv.Core.Handlers;
+using Iptv.Core.Models;
 using Microsoft.AspNetCore.Components.Authorization;
 
 namespace Iptv.Web.Authentication;
 
-public class AuthStateProvider : AuthenticationStateProvider
+public class AuthStateProvider(IIdentityHandler identityHandler) : AuthenticationStateProvider
 {
-    private readonly HttpClient _httpClient;
-    private readonly ICookieService _cookieService;
-
-    public AuthStateProvider(IHttpClientFactory httpClientFactory, ICookieService cookieService)
-    {
-        _httpClient = httpClientFactory.CreateClient("identity");
-        _cookieService = cookieService;
-    }
     public override async Task<AuthenticationState> GetAuthenticationStateAsync()
     {
-        var token = await _cookieService.GetCookieAsync("accessToken");
+        try
+        {
+            var userInfoResponse = await identityHandler.UserInfo(string.Empty);
 
-        if (string.IsNullOrEmpty(token))
+            if (userInfoResponse == null || !userInfoResponse.IsSuccess || userInfoResponse.Data == null)
+            {
+                return new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity()));
+            }
+
+            var claims = GetClaims(userInfoResponse.Data);
+            
+            var identity = new ClaimsIdentity(claims, "jwt");
+            var user = new ClaimsPrincipal(identity);
+
+            return new AuthenticationState(user);
+            }
+        catch
         {
             return new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity()));
-        } 
-
-        var claims = ParseClaimsFromJwt(token);
-        var identity = new ClaimsIdentity(claims, "jwt");
-        var user = new ClaimsPrincipal(identity);
-
-        return new AuthenticationState(user);
+        }
     }
 
-    public void NotifyUserAuthentication(string token)
+    public List<Claim> GetClaims(UserInfo userInfo)
     {
-        var claims = ParseClaimsFromJwt(token);
-        var identity = new ClaimsIdentity(claims, "jwt");
-        var user = new ClaimsPrincipal(identity);
+        
+        var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.NameIdentifier, userInfo.UserId.ToString()),
+            new Claim(ClaimTypes.Name, userInfo.FullName),
+            new Claim(ClaimTypes.Email, userInfo.Email),
+            new Claim("PhoneNumber", userInfo.Phone),
+            new Claim("IsAdmin", userInfo.IsAdmin.ToString())
+        };
 
-        NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(user)));
+        return claims;
     }
-    
-    public async Task LogoutAsync()
+
+    public async Task NotifyUserAuthentication()
     {
-        await _cookieService.RemoveCookieAsync("accessToken");
-        _httpClient.DefaultRequestHeaders.Authorization = null;
+        try
+        {
+            var userInfoResponse = await identityHandler.UserInfo(string.Empty);
+
+            if (userInfoResponse == null || !userInfoResponse.IsSuccess || userInfoResponse.Data == null)
+            {
+                NotifyUserLogout();
+                return;
+            }
+
+            var claims = GetClaims(userInfoResponse.Data);
+            var identity = new ClaimsIdentity(claims, "jwt");
+            var user = new ClaimsPrincipal(identity);
+
+            NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(user)));
+        }
+    catch
+    {
         NotifyUserLogout();
-
+    }
     }
 
     public void NotifyUserLogout()
     {
         var anonymousUser = new ClaimsPrincipal(new ClaimsIdentity());
         NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(anonymousUser)));
-    }
-
-    private IEnumerable<Claim> ParseClaimsFromJwt(string jwt)
-    {
-        var handler = new JwtSecurityTokenHandler();
-        var token = handler.ReadJwtToken(jwt);
-        return token.Claims;
     }
 }

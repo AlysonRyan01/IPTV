@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>WasmResource</AssetTraitName>
       <AssetTraitValue>settings</AssetTraitValue>
-      <Fingerprint>ref68kjtmg</Fingerprint>
-      <Integrity>g9vXzO4KVH9Nen7hjqUuoC0F8YS7ihFfRxmtWiO/wX4=</Integrity>
+      <Fingerprint>2bol0amzn6</Fingerprint>
+      <Integrity>TvYWxXvn4Q4zr7AVrYFUCIw7mgX/e4KsABRa6Raqn9o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\appsettings.json'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>emowml4nwc</Fingerprint>
-      <Integrity>po5em9SuBY5qQ8ZZzHAl1yHqKVdgmrjJEwoC9c+71AQ=</Integrity>
+      <Fingerprint>66hfbvscfl</Fingerprint>
+      <Integrity>UnTN7hmVTsTljR60kkZrIG8jlPq3rXea40++eXAmCHw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1pw0acxqb0</Fingerprint>
-      <Integrity>e9BwZ1r0dxjeUNfvfzf22fWI/hNxe2izeoT7lrT9zTM=</Integrity>
+      <Fingerprint>wlyqch2nwe</Fingerprint>
+      <Integrity>tIEZzxQRSrgGcWi93kAIAbDEQbTAazSsNPdL4o5/T7g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Style.css'))</OriginalItemSpec>
@@ -216,6 +216,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\iptv-service.svg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\iptv-star.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Iptv.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>images/iptv-star.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>g7nn8q06uz</Fingerprint>
+      <Integrity>xPq9e8FC6X/AzLX6ywWduCmCBMV77D51+G3PHeQQB3A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\iptv-star.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\iptvimage.svg'))">
       <SourceType>Package</SourceType>
       <SourceId>Iptv.Web</SourceId>
@@ -300,11 +318,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fqmgxoeeyd</Fingerprint>
-      <Integrity>6aeGzDbyXbGPcR0asNN+aervc8HrznTJ0eI8dhYBt9w=</Integrity>
+      <Fingerprint>xc7smhw3jz</Fingerprint>
+      <Integrity>QY5Yp+MnDdZTPL8+bLVyRjx3ajRnhOuHmVkkOKl3yQg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ROKU.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\roku-oquevem.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Iptv.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>images/roku-oquevem.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h8uhwcpaty</Fingerprint>
+      <Integrity>r2wzPSokehSG0dqQpkHc/E0oa2VGltzwxnoUK2TSHcY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\roku-oquevem.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\roku-video.mp4'))">
       <SourceType>Package</SourceType>
@@ -372,8 +408,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cqbox2jmq7</Fingerprint>
-      <Integrity>ZAoyRGXodmpScPSgKX/EKUW1ci8rAULl3IpY7XcMdYI=</Integrity>
+      <Fingerprint>4rdn1g5ahl</Fingerprint>
+      <Integrity>YFbDBOfefKInpRAGCEL2mgrHLYqi3QDUgBCKqQQaHL0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -1182,8 +1218,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>861fqow46h</Fingerprint>
-      <Integrity>sG0pdoH8pLVoZkB4lwPK7gFLS223hmv9cFHS7Re7gsA=</Integrity>
+      <Fingerprint>1ln5oc5y5t</Fingerprint>
+      <Integrity>pZ4zZ+SO1Opwc54U/44o/IijSDiCBYgWnqFNafyXmaQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\Cookie.js'))</OriginalItemSpec>
@@ -1200,8 +1236,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vnc9dmv67p</Fingerprint>
-      <Integrity>paIeuWnSzjeLGITWkk4p3rcejUsZWCJGPeOK9UhWXtg=</Integrity>
+      <Fingerprint>iag0ou56lh</Fingerprint>
+      <Integrity>enKgCMkYmCpfEcmg6Annbmc40VZ/A6aYYSQjZfVn2cU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sample-data\weather.json'))</OriginalItemSpec>
