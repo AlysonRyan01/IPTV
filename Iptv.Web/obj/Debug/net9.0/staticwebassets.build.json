@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9Ag+zFqKRkYK2AQDabUUKvqQLFZoYIl4xQbd8IGs5Cw=",
+  "Hash": "YJfiGo8R5K3f9YNOKm0rbRobpB6c3d0VHvtv4iiCOy4=",
   "Source": "Iptv.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "9weub2zloq",
-      "Integrity": "6UnfPFgMWvNerVskBhof64AGcpU2MMTJOa4Nliz9938=",
+      "Fingerprint": "mqtm9cyy64",
+      "Integrity": "8sYedKb8keCmKP2mSh0O+fHH2VPNYFpv0ePYArbhUbg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -388,8 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "btjyhdoyaw",
-      "Integrity": "MWIx8THwkVqpgCwSYFgRO6G9fJTZL0R3QVn2FNzTxJY=",
+      "Fingerprint": "0la23u487i",
+      "Integrity": "7AIVwzlJ8QK8mJ+dKHAuS08cAcNSRxQwjnHSTEgF2d4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Core/bin/Debug/net9.0/Iptv.Core.pdb"
@@ -409,8 +409,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "zeez1bw6k0",
-      "Integrity": "RZ8snkzhQymow5+SedFgVmXFn3pDKquKIazHD76GsNY=",
+      "Fingerprint": "9fh3ilv7jm",
+      "Integrity": "Cw8PZwPOUCiey2d9n2+RORBuk/fiOQA8wPCiVI6KIjw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/webcil/Iptv.Core.wasm"
@@ -430,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "qk33vq6mev",
-      "Integrity": "2juPnckovGIFGlOtacGzSa0G8XtX357Qw5TVKWgiH3c=",
+      "Fingerprint": "axt8235mtj",
+      "Integrity": "gri4b/m2kVOdwL0jy4xfmlQTXy9DKDLIBkRM9G1tmgc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/Iptv.Web.pdb"
@@ -451,8 +451,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "nl5sqplbty",
-      "Integrity": "W3kmLFaCZxMtFMUbrL8pQ8ZHSV/oYn0eFQwW2nT7wYc=",
+      "Fingerprint": "tfc8i0kk8m",
+      "Integrity": "+YLt3HfIPbw1asuUGqOoVFjO2NJv5uoiwFnglWCdnO8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/webcil/Iptv.Web.wasm"
@@ -5351,12 +5351,12 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/System.Windows.wasm"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/07j045vvu9-btjyhdoyaw.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/07j045vvu9-0la23u487i.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Iptv.Core#[.{fingerprint=btjyhdoyaw}]!.pdb.gz",
+      "RelativePath": "_framework/Iptv.Core#[.{fingerprint=0la23u487i}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5365,8 +5365,8 @@
       "RelatedAsset": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Core.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "bqrtptocfp",
-      "Integrity": "o/6RkMv3WiF8Z7JryCFtTJLxAmY+aiVJ/pweWnTNrqo=",
+      "Fingerprint": "ardm2uv69q",
+      "Integrity": "2iYkWiIJ2cGeyM9pxrzRUB1cYUqH+5uQSGSWimv305k=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Core.pdb"
@@ -5414,12 +5414,12 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/0f65hne602-qk33vq6mev.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/0f65hne602-axt8235mtj.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Iptv.Web#[.{fingerprint=qk33vq6mev}]!.pdb.gz",
+      "RelativePath": "_framework/Iptv.Web#[.{fingerprint=axt8235mtj}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5428,8 +5428,8 @@
       "RelatedAsset": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Web.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "csmmw5jrit",
-      "Integrity": "3GBuys9WSPsTexAW5jg3XRcDwMkZvtf/oUrz+7D/fFY=",
+      "Fingerprint": "es3gbq3cid",
+      "Integrity": "0sUHLyf3cZOWyrjPPvQT9jszFkjdnXoFBliSMYSi6qk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Web.pdb"
@@ -5729,12 +5729,12 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Binder.wasm"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/2nlbor8j37-nl5sqplbty.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/2nlbor8j37-tfc8i0kk8m.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Iptv.Web#[.{fingerprint=nl5sqplbty}]!.wasm.gz",
+      "RelativePath": "_framework/Iptv.Web#[.{fingerprint=tfc8i0kk8m}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5743,8 +5743,8 @@
       "RelatedAsset": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Web.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zyvfb76y6d",
-      "Integrity": "ZWkH9v7ypL7i7GoT2vs+fz+YNRpnVgq/UYWYdQrcimE=",
+      "Fingerprint": "x8b97lkwzl",
+      "Integrity": "MbzlI6z+tRNn+nBvN+32ItBl1KJY+DuDduCXRdKTUcs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Web.wasm"
@@ -6968,7 +6968,7 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/dotnet.native.wasm"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/8j1qfiazmd-9weub2zloq.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/8j1qfiazmd-mqtm9cyy64.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/",
@@ -6982,8 +6982,8 @@
       "RelatedAsset": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ptz005wei6",
-      "Integrity": "XWnZBaMEzBBn/wMXSqZiAjnAjciHCeVFgu0fk21hECk=",
+      "Fingerprint": "87cx7i3gxb",
+      "Integrity": "BNv4/8SordwfwSnvNikxCWF2Uz/TbN2XasCpW7OUZVA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -10265,12 +10265,12 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/pjxxaycsjz-zeez1bw6k0.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/pjxxaycsjz-9fh3ilv7jm.gz",
       "SourceId": "Iptv.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Iptv.Core#[.{fingerprint=zeez1bw6k0}]!.wasm.gz",
+      "RelativePath": "_framework/Iptv.Core#[.{fingerprint=9fh3ilv7jm}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -10279,8 +10279,8 @@
       "RelatedAsset": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Core.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ziq0x9xmqe",
-      "Integrity": "S5uK7xk9xNcX+g1AuW6XmcFrrvhnb/gt0g4BJg5exno=",
+      "Fingerprint": "l9fwpodaov",
+      "Integrity": "t4ESa7OWtVv6+URlHmhqNCsT++3yHLoLtK5Ak3gOk+k=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Core.wasm"
@@ -14784,11 +14784,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6UnfPFgMWvNerVskBhof64AGcpU2MMTJOa4Nliz9938=\""
+          "Value": "\"8sYedKb8keCmKP2mSh0O+fHH2VPNYFpv0ePYArbhUbg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:51:30 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14798,13 +14798,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6UnfPFgMWvNerVskBhof64AGcpU2MMTJOa4Nliz9938="
+          "Value": "sha256-8sYedKb8keCmKP2mSh0O+fHH2VPNYFpv0ePYArbhUbg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/8j1qfiazmd-9weub2zloq.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/8j1qfiazmd-mqtm9cyy64.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -14823,11 +14823,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XWnZBaMEzBBn/wMXSqZiAjnAjciHCeVFgu0fk21hECk=\""
+          "Value": "\"BNv4/8SordwfwSnvNikxCWF2Uz/TbN2XasCpW7OUZVA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:03 GMT"
+          "Value": "Sat, 15 Mar 2025 03:51:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14847,19 +14847,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6UnfPFgMWvNerVskBhof64AGcpU2MMTJOa4Nliz9938=\""
+          "Value": "W/\"8sYedKb8keCmKP2mSh0O+fHH2VPNYFpv0ePYArbhUbg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6UnfPFgMWvNerVskBhof64AGcpU2MMTJOa4Nliz9938="
+          "Value": "sha256-8sYedKb8keCmKP2mSh0O+fHH2VPNYFpv0ePYArbhUbg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/8j1qfiazmd-9weub2zloq.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/8j1qfiazmd-mqtm9cyy64.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14876,11 +14876,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XWnZBaMEzBBn/wMXSqZiAjnAjciHCeVFgu0fk21hECk=\""
+          "Value": "\"BNv4/8SordwfwSnvNikxCWF2Uz/TbN2XasCpW7OUZVA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:03 GMT"
+          "Value": "Sat, 15 Mar 2025 03:51:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14898,7 +14898,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XWnZBaMEzBBn/wMXSqZiAjnAjciHCeVFgu0fk21hECk="
+          "Value": "sha256-BNv4/8SordwfwSnvNikxCWF2Uz/TbN2XasCpW7OUZVA="
         }
       ]
     },
@@ -18020,7 +18020,7 @@
       ]
     },
     {
-      "Route": "_framework/Iptv.Core.btjyhdoyaw.pdb",
+      "Route": "_framework/Iptv.Core.0la23u487i.pdb",
       "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Core.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -18038,11 +18038,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MWIx8THwkVqpgCwSYFgRO6G9fJTZL0R3QVn2FNzTxJY=\""
+          "Value": "\"7AIVwzlJ8QK8mJ+dKHAuS08cAcNSRxQwjnHSTEgF2d4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:47:59 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18052,7 +18052,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "btjyhdoyaw"
+          "Value": "0la23u487i"
         },
         {
           "Name": "label",
@@ -18060,18 +18060,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MWIx8THwkVqpgCwSYFgRO6G9fJTZL0R3QVn2FNzTxJY="
+          "Value": "sha256-7AIVwzlJ8QK8mJ+dKHAuS08cAcNSRxQwjnHSTEgF2d4="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Core.btjyhdoyaw.pdb",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/07j045vvu9-btjyhdoyaw.gz",
+      "Route": "_framework/Iptv.Core.0la23u487i.pdb",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/07j045vvu9-0la23u487i.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000099235884"
+          "Quality": "0.000099255583"
         }
       ],
       "ResponseHeaders": [
@@ -18081,15 +18081,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10076"
+          "Value": "10074"
         },
         {
           "Name": "ETag",
-          "Value": "\"o/6RkMv3WiF8Z7JryCFtTJLxAmY+aiVJ/pweWnTNrqo=\""
+          "Value": "\"2iYkWiIJ2cGeyM9pxrzRUB1cYUqH+5uQSGSWimv305k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18109,13 +18109,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MWIx8THwkVqpgCwSYFgRO6G9fJTZL0R3QVn2FNzTxJY=\""
+          "Value": "W/\"7AIVwzlJ8QK8mJ+dKHAuS08cAcNSRxQwjnHSTEgF2d4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "btjyhdoyaw"
+          "Value": "0la23u487i"
         },
         {
           "Name": "label",
@@ -18123,13 +18123,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MWIx8THwkVqpgCwSYFgRO6G9fJTZL0R3QVn2FNzTxJY="
+          "Value": "sha256-7AIVwzlJ8QK8mJ+dKHAuS08cAcNSRxQwjnHSTEgF2d4="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Core.btjyhdoyaw.pdb.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/07j045vvu9-btjyhdoyaw.gz",
+      "Route": "_framework/Iptv.Core.0la23u487i.pdb.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/07j045vvu9-0la23u487i.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18138,7 +18138,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10076"
+          "Value": "10074"
         },
         {
           "Name": "Content-Type",
@@ -18146,11 +18146,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"o/6RkMv3WiF8Z7JryCFtTJLxAmY+aiVJ/pweWnTNrqo=\""
+          "Value": "\"2iYkWiIJ2cGeyM9pxrzRUB1cYUqH+5uQSGSWimv305k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18168,7 +18168,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "btjyhdoyaw"
+          "Value": "0la23u487i"
         },
         {
           "Name": "label",
@@ -18176,7 +18176,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-o/6RkMv3WiF8Z7JryCFtTJLxAmY+aiVJ/pweWnTNrqo="
+          "Value": "sha256-2iYkWiIJ2cGeyM9pxrzRUB1cYUqH+5uQSGSWimv305k="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Core.9fh3ilv7jm.wasm",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Core.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cw8PZwPOUCiey2d9n2+RORBuk/fiOQA8wPCiVI6KIjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:55:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9fh3ilv7jm"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Iptv.Core.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cw8PZwPOUCiey2d9n2+RORBuk/fiOQA8wPCiVI6KIjw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Core.9fh3ilv7jm.wasm",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/pjxxaycsjz-9fh3ilv7jm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000145751348"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6860"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t4ESa7OWtVv6+URlHmhqNCsT++3yHLoLtK5Ak3gOk+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Cw8PZwPOUCiey2d9n2+RORBuk/fiOQA8wPCiVI6KIjw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9fh3ilv7jm"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Iptv.Core.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cw8PZwPOUCiey2d9n2+RORBuk/fiOQA8wPCiVI6KIjw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Core.9fh3ilv7jm.wasm.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/pjxxaycsjz-9fh3ilv7jm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t4ESa7OWtVv6+URlHmhqNCsT++3yHLoLtK5Ak3gOk+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9fh3ilv7jm"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Iptv.Core.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t4ESa7OWtVv6+URlHmhqNCsT++3yHLoLtK5Ak3gOk+k="
         }
       ]
     },
@@ -18199,11 +18360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MWIx8THwkVqpgCwSYFgRO6G9fJTZL0R3QVn2FNzTxJY=\""
+          "Value": "\"7AIVwzlJ8QK8mJ+dKHAuS08cAcNSRxQwjnHSTEgF2d4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:47:59 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18213,18 +18374,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MWIx8THwkVqpgCwSYFgRO6G9fJTZL0R3QVn2FNzTxJY="
+          "Value": "sha256-7AIVwzlJ8QK8mJ+dKHAuS08cAcNSRxQwjnHSTEgF2d4="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Core.pdb",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/07j045vvu9-btjyhdoyaw.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/07j045vvu9-0la23u487i.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000099235884"
+          "Quality": "0.000099255583"
         }
       ],
       "ResponseHeaders": [
@@ -18234,15 +18395,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10076"
+          "Value": "10074"
         },
         {
           "Name": "ETag",
-          "Value": "\"o/6RkMv3WiF8Z7JryCFtTJLxAmY+aiVJ/pweWnTNrqo=\""
+          "Value": "\"2iYkWiIJ2cGeyM9pxrzRUB1cYUqH+5uQSGSWimv305k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18262,19 +18423,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MWIx8THwkVqpgCwSYFgRO6G9fJTZL0R3QVn2FNzTxJY=\""
+          "Value": "W/\"7AIVwzlJ8QK8mJ+dKHAuS08cAcNSRxQwjnHSTEgF2d4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MWIx8THwkVqpgCwSYFgRO6G9fJTZL0R3QVn2FNzTxJY="
+          "Value": "sha256-7AIVwzlJ8QK8mJ+dKHAuS08cAcNSRxQwjnHSTEgF2d4="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Core.pdb.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/07j045vvu9-btjyhdoyaw.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/07j045vvu9-0la23u487i.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18283,7 +18444,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10076"
+          "Value": "10074"
         },
         {
           "Name": "Content-Type",
@@ -18291,11 +18452,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"o/6RkMv3WiF8Z7JryCFtTJLxAmY+aiVJ/pweWnTNrqo=\""
+          "Value": "\"2iYkWiIJ2cGeyM9pxrzRUB1cYUqH+5uQSGSWimv305k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18313,7 +18474,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-o/6RkMv3WiF8Z7JryCFtTJLxAmY+aiVJ/pweWnTNrqo="
+          "Value": "sha256-2iYkWiIJ2cGeyM9pxrzRUB1cYUqH+5uQSGSWimv305k="
         }
       ]
     },
@@ -18336,11 +18497,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RZ8snkzhQymow5+SedFgVmXFn3pDKquKIazHD76GsNY=\""
+          "Value": "\"Cw8PZwPOUCiey2d9n2+RORBuk/fiOQA8wPCiVI6KIjw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:03 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18350,18 +18511,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RZ8snkzhQymow5+SedFgVmXFn3pDKquKIazHD76GsNY="
+          "Value": "sha256-Cw8PZwPOUCiey2d9n2+RORBuk/fiOQA8wPCiVI6KIjw="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Core.wasm",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/pjxxaycsjz-zeez1bw6k0.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/pjxxaycsjz-9fh3ilv7jm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000145602796"
+          "Quality": "0.000145751348"
         }
       ],
       "ResponseHeaders": [
@@ -18371,15 +18532,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6867"
+          "Value": "6860"
         },
         {
           "Name": "ETag",
-          "Value": "\"S5uK7xk9xNcX+g1AuW6XmcFrrvhnb/gt0g4BJg5exno=\""
+          "Value": "\"t4ESa7OWtVv6+URlHmhqNCsT++3yHLoLtK5Ak3gOk+k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18399,19 +18560,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"RZ8snkzhQymow5+SedFgVmXFn3pDKquKIazHD76GsNY=\""
+          "Value": "W/\"Cw8PZwPOUCiey2d9n2+RORBuk/fiOQA8wPCiVI6KIjw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RZ8snkzhQymow5+SedFgVmXFn3pDKquKIazHD76GsNY="
+          "Value": "sha256-Cw8PZwPOUCiey2d9n2+RORBuk/fiOQA8wPCiVI6KIjw="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Core.wasm.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/pjxxaycsjz-zeez1bw6k0.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/pjxxaycsjz-9fh3ilv7jm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18420,7 +18581,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6867"
+          "Value": "6860"
         },
         {
           "Name": "Content-Type",
@@ -18428,11 +18589,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"S5uK7xk9xNcX+g1AuW6XmcFrrvhnb/gt0g4BJg5exno=\""
+          "Value": "\"t4ESa7OWtVv6+URlHmhqNCsT++3yHLoLtK5Ak3gOk+k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18450,334 +18611,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-S5uK7xk9xNcX+g1AuW6XmcFrrvhnb/gt0g4BJg5exno="
+          "Value": "sha256-t4ESa7OWtVv6+URlHmhqNCsT++3yHLoLtK5Ak3gOk+k="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Core.zeez1bw6k0.wasm",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Core.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16661"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RZ8snkzhQymow5+SedFgVmXFn3pDKquKIazHD76GsNY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zeez1bw6k0"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Iptv.Core.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RZ8snkzhQymow5+SedFgVmXFn3pDKquKIazHD76GsNY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Core.zeez1bw6k0.wasm",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/pjxxaycsjz-zeez1bw6k0.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000145602796"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6867"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S5uK7xk9xNcX+g1AuW6XmcFrrvhnb/gt0g4BJg5exno=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"RZ8snkzhQymow5+SedFgVmXFn3pDKquKIazHD76GsNY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zeez1bw6k0"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Iptv.Core.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RZ8snkzhQymow5+SedFgVmXFn3pDKquKIazHD76GsNY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Core.zeez1bw6k0.wasm.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/pjxxaycsjz-zeez1bw6k0.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6867"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S5uK7xk9xNcX+g1AuW6XmcFrrvhnb/gt0g4BJg5exno=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zeez1bw6k0"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Iptv.Core.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-S5uK7xk9xNcX+g1AuW6XmcFrrvhnb/gt0g4BJg5exno="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Web.nl5sqplbty.wasm",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Web.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "68885"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"W3kmLFaCZxMtFMUbrL8pQ8ZHSV/oYn0eFQwW2nT7wYc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nl5sqplbty"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Iptv.Web.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-W3kmLFaCZxMtFMUbrL8pQ8ZHSV/oYn0eFQwW2nT7wYc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Web.nl5sqplbty.wasm",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/2nlbor8j37-nl5sqplbty.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000042383657"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23593"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZWkH9v7ypL7i7GoT2vs+fz+YNRpnVgq/UYWYdQrcimE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"W3kmLFaCZxMtFMUbrL8pQ8ZHSV/oYn0eFQwW2nT7wYc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nl5sqplbty"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Iptv.Web.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-W3kmLFaCZxMtFMUbrL8pQ8ZHSV/oYn0eFQwW2nT7wYc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Web.nl5sqplbty.wasm.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/2nlbor8j37-nl5sqplbty.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "23593"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZWkH9v7ypL7i7GoT2vs+fz+YNRpnVgq/UYWYdQrcimE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nl5sqplbty"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Iptv.Web.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZWkH9v7ypL7i7GoT2vs+fz+YNRpnVgq/UYWYdQrcimE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Web.pdb",
+      "Route": "_framework/Iptv.Web.axt8235mtj.pdb",
       "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Web.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -18795,148 +18634,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2juPnckovGIFGlOtacGzSa0G8XtX357Qw5TVKWgiH3c=\""
+          "Value": "\"gri4b/m2kVOdwL0jy4xfmlQTXy9DKDLIBkRM9G1tmgc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2juPnckovGIFGlOtacGzSa0G8XtX357Qw5TVKWgiH3c="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Web.pdb",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/0f65hne602-qk33vq6mev.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000036507009"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "27391"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3GBuys9WSPsTexAW5jg3XRcDwMkZvtf/oUrz+7D/fFY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"2juPnckovGIFGlOtacGzSa0G8XtX357Qw5TVKWgiH3c=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2juPnckovGIFGlOtacGzSa0G8XtX357Qw5TVKWgiH3c="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Web.pdb.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/0f65hne602-qk33vq6mev.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "27391"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3GBuys9WSPsTexAW5jg3XRcDwMkZvtf/oUrz+7D/fFY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3GBuys9WSPsTexAW5jg3XRcDwMkZvtf/oUrz+7D/fFY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Iptv.Web.qk33vq6mev.pdb",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Web.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "39248"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2juPnckovGIFGlOtacGzSa0G8XtX357Qw5TVKWgiH3c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:03 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18946,7 +18648,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qk33vq6mev"
+          "Value": "axt8235mtj"
         },
         {
           "Name": "label",
@@ -18954,18 +18656,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2juPnckovGIFGlOtacGzSa0G8XtX357Qw5TVKWgiH3c="
+          "Value": "sha256-gri4b/m2kVOdwL0jy4xfmlQTXy9DKDLIBkRM9G1tmgc="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Web.qk33vq6mev.pdb",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/0f65hne602-qk33vq6mev.gz",
+      "Route": "_framework/Iptv.Web.axt8235mtj.pdb",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/0f65hne602-axt8235mtj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000036507009"
+          "Quality": "0.000036511008"
         }
       ],
       "ResponseHeaders": [
@@ -18975,15 +18677,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27391"
+          "Value": "27388"
         },
         {
           "Name": "ETag",
-          "Value": "\"3GBuys9WSPsTexAW5jg3XRcDwMkZvtf/oUrz+7D/fFY=\""
+          "Value": "\"0sUHLyf3cZOWyrjPPvQT9jszFkjdnXoFBliSMYSi6qk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19003,13 +18705,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2juPnckovGIFGlOtacGzSa0G8XtX357Qw5TVKWgiH3c=\""
+          "Value": "W/\"gri4b/m2kVOdwL0jy4xfmlQTXy9DKDLIBkRM9G1tmgc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qk33vq6mev"
+          "Value": "axt8235mtj"
         },
         {
           "Name": "label",
@@ -19017,13 +18719,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2juPnckovGIFGlOtacGzSa0G8XtX357Qw5TVKWgiH3c="
+          "Value": "sha256-gri4b/m2kVOdwL0jy4xfmlQTXy9DKDLIBkRM9G1tmgc="
         }
       ]
     },
     {
-      "Route": "_framework/Iptv.Web.qk33vq6mev.pdb.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/0f65hne602-qk33vq6mev.gz",
+      "Route": "_framework/Iptv.Web.axt8235mtj.pdb.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/0f65hne602-axt8235mtj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -19032,7 +18734,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27391"
+          "Value": "27388"
         },
         {
           "Name": "Content-Type",
@@ -19040,11 +18742,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3GBuys9WSPsTexAW5jg3XRcDwMkZvtf/oUrz+7D/fFY=\""
+          "Value": "\"0sUHLyf3cZOWyrjPPvQT9jszFkjdnXoFBliSMYSi6qk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19062,7 +18764,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qk33vq6mev"
+          "Value": "axt8235mtj"
         },
         {
           "Name": "label",
@@ -19070,7 +18772,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3GBuys9WSPsTexAW5jg3XRcDwMkZvtf/oUrz+7D/fFY="
+          "Value": "sha256-0sUHLyf3cZOWyrjPPvQT9jszFkjdnXoFBliSMYSi6qk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Web.pdb",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Web.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gri4b/m2kVOdwL0jy4xfmlQTXy9DKDLIBkRM9G1tmgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:55:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gri4b/m2kVOdwL0jy4xfmlQTXy9DKDLIBkRM9G1tmgc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Web.pdb",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/0f65hne602-axt8235mtj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000036511008"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27388"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0sUHLyf3cZOWyrjPPvQT9jszFkjdnXoFBliSMYSi6qk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gri4b/m2kVOdwL0jy4xfmlQTXy9DKDLIBkRM9G1tmgc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gri4b/m2kVOdwL0jy4xfmlQTXy9DKDLIBkRM9G1tmgc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Web.pdb.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/0f65hne602-axt8235mtj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0sUHLyf3cZOWyrjPPvQT9jszFkjdnXoFBliSMYSi6qk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0sUHLyf3cZOWyrjPPvQT9jszFkjdnXoFBliSMYSi6qk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Web.tfc8i0kk8m.wasm",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/bin/Debug/net9.0/wwwroot/_framework/Iptv.Web.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68885"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+YLt3HfIPbw1asuUGqOoVFjO2NJv5uoiwFnglWCdnO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:55:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tfc8i0kk8m"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Iptv.Web.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+YLt3HfIPbw1asuUGqOoVFjO2NJv5uoiwFnglWCdnO8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Web.tfc8i0kk8m.wasm",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/2nlbor8j37-tfc8i0kk8m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000042378268"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23596"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbzlI6z+tRNn+nBvN+32ItBl1KJY+DuDduCXRdKTUcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+YLt3HfIPbw1asuUGqOoVFjO2NJv5uoiwFnglWCdnO8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tfc8i0kk8m"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Iptv.Web.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+YLt3HfIPbw1asuUGqOoVFjO2NJv5uoiwFnglWCdnO8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Iptv.Web.tfc8i0kk8m.wasm.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/2nlbor8j37-tfc8i0kk8m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbzlI6z+tRNn+nBvN+32ItBl1KJY+DuDduCXRdKTUcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tfc8i0kk8m"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Iptv.Web.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbzlI6z+tRNn+nBvN+32ItBl1KJY+DuDduCXRdKTUcs="
         }
       ]
     },
@@ -19093,11 +19093,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W3kmLFaCZxMtFMUbrL8pQ8ZHSV/oYn0eFQwW2nT7wYc=\""
+          "Value": "\"+YLt3HfIPbw1asuUGqOoVFjO2NJv5uoiwFnglWCdnO8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:03 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19107,18 +19107,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-W3kmLFaCZxMtFMUbrL8pQ8ZHSV/oYn0eFQwW2nT7wYc="
+          "Value": "sha256-+YLt3HfIPbw1asuUGqOoVFjO2NJv5uoiwFnglWCdnO8="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Web.wasm",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/2nlbor8j37-nl5sqplbty.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/2nlbor8j37-tfc8i0kk8m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000042383657"
+          "Quality": "0.000042378268"
         }
       ],
       "ResponseHeaders": [
@@ -19128,15 +19128,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23593"
+          "Value": "23596"
         },
         {
           "Name": "ETag",
-          "Value": "\"ZWkH9v7ypL7i7GoT2vs+fz+YNRpnVgq/UYWYdQrcimE=\""
+          "Value": "\"MbzlI6z+tRNn+nBvN+32ItBl1KJY+DuDduCXRdKTUcs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19156,19 +19156,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"W3kmLFaCZxMtFMUbrL8pQ8ZHSV/oYn0eFQwW2nT7wYc=\""
+          "Value": "W/\"+YLt3HfIPbw1asuUGqOoVFjO2NJv5uoiwFnglWCdnO8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-W3kmLFaCZxMtFMUbrL8pQ8ZHSV/oYn0eFQwW2nT7wYc="
+          "Value": "sha256-+YLt3HfIPbw1asuUGqOoVFjO2NJv5uoiwFnglWCdnO8="
         }
       ]
     },
     {
       "Route": "_framework/Iptv.Web.wasm.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/2nlbor8j37-nl5sqplbty.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Web/obj/Debug/net9.0/compressed/2nlbor8j37-tfc8i0kk8m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -19177,7 +19177,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23593"
+          "Value": "23596"
         },
         {
           "Name": "Content-Type",
@@ -19185,11 +19185,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZWkH9v7ypL7i7GoT2vs+fz+YNRpnVgq/UYWYdQrcimE=\""
+          "Value": "\"MbzlI6z+tRNn+nBvN+32ItBl1KJY+DuDduCXRdKTUcs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 03:48:04 GMT"
+          "Value": "Sat, 15 Mar 2025 13:55:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19207,7 +19207,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZWkH9v7ypL7i7GoT2vs+fz+YNRpnVgq/UYWYdQrcimE="
+          "Value": "sha256-MbzlI6z+tRNn+nBvN+32ItBl1KJY+DuDduCXRdKTUcs="
         }
       ]
     },

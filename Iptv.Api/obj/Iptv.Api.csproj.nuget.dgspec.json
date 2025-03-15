@@ -13,7 +13,6 @@
         "packagesPath": "/Users/alysonryanullirsch/.nuget/packages/",
         "outputPath": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Api/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/alysonryanullirsch/.nuget/NuGet/NuGet.Config"
         ],
@@ -43,7 +42,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -108,7 +108,6 @@
         "packagesPath": "/Users/alysonryanullirsch/.nuget/packages/",
         "outputPath": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Core/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/alysonryanullirsch/.nuget/NuGet/NuGet.Config"
         ],
@@ -134,7 +133,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
