@@ -1,0 +1,21 @@
+{
+  "name": "iptv.web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:init": "npx tailwindcss init",
+    "test": "npx tailwindcss --version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vanilla-tilt": "^1.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  }
+}

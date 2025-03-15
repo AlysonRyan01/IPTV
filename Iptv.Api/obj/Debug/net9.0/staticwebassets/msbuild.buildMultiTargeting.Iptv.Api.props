@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/Iptv.Api.props" />
+  <Import Project="..\build\Iptv.Api.props" />
 </Project>
