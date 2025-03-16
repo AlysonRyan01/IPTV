@@ -7,7 +7,8 @@ module.exports = {
     colors: {
       "background" : "#131126",
       "white" : "#FFFFFF",
-      "titlecolor": "#262626"
+      "titlecolor": "#262626",
+      "roxo": "#7C45AD"
     },
     extend: {
       fontFamily: {

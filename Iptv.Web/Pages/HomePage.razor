@@ -6,109 +6,117 @@
 }
 else
 {
-    <section class="section1">
-    <div class="header">
-        <div class="logo">
-            <h1 class="logo-texto">ROKU <span style="font-size: 1.7rem; font-weight: 600">Iptv</span></h1>
-        </div>
-        <div class="nav-menu">
-            <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="nav-menu-link">Home</p></MudLink>
-            <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="nav-menu-link">Detalhes</p></MudLink>
-            <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="nav-menu-link">Preço</p></MudLink>
-            <MudButton Variant="Variant.Filled" Color="Color.Primary" FullWidth="false" StartIcon="@Icons.Material.Outlined.ShoppingCart" IconColor="Color.Secondary" Size="Size.Medium" 
-            ><span style="color: white;">Comprar</span></MudButton>
-        </div>
-    </div>
-        <div class="principal">
-            <div class="principal-titulo">
-                <h1 class="titulo-home">
+    <section class="flex flex-col h-screen max-h-[950px] bg-[url('/images/background-rainbow.svg')] bg-no-repeat bg-cover font-['Open_Sans',sans-serif] overflow-hidden">
+        <div class="flex flex-row w-[90%] self-center h-fit justify-between pt-5 sm:w-[70%] lg:w-[70%]">
+            <h1 class="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white">UniTV <span class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-light text-white ">canais</span></h1>
+            <img @onclick="OpenDrawer" src="/images/cardapio.png" alt="menu" class="w-11 h-10 lg:hidden"/>
+            
+            <div class="hidden lg:flex flex-row items-center m-0 gap-10">
+                <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="nav-menu-link">Home</p></MudLink>
+                <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="nav-menu-link">Detalhes</p></MudLink>
+                <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="nav-menu-link">Preço</p></MudLink>
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" FullWidth="false" StartIcon="@Icons.Material.Outlined.ShoppingCart" IconColor="Color.Secondary" Size="Size.Medium" 
+                ><span style="color: white;">Comprar</span></MudButton>
+            </div>
+        </div>  
+        <div class="flex flex-col lg:flex-row lg:justify-between sm:w-[70%] lg:w-[70%] items-center w-[90%] gap-[30px] self-center h-full">
+            <div class="flex flex-col gap-9 w-full mt-15 lg:w-[50%] lg:min-w-[400px]">
+                <h1 class="font-serif text-[#FFD700] font-extrabold text-6xl lg:text-8xl">
                     Cansado de pagar caro em streaming?
                 </h1>
-                <p class="paragrafo-home">
+                <p class="text-white font-sans text-xs font-light sm:text-base">
                     Todos os canais + filmes + séries em um só lugar por um preço incrível e com um único pagamento!
                 </p>
-                <MudButton Style="width: 50%" Variant="Variant.Filled" Color="Color.Primary" FullWidth="false" Size="Size.Large"
-                ><span style="color: white;">Comprar</span></MudButton>
+                <img class="cssanimation hu__hu__ sequence self-center lg:hidden" src="/images/streaming-on-line.png" style="width: 90%; max-width: 400px;" alt="foto do aparelho ROKU EXPRESS">
+                <MudButton Style="width: 50%; min-width: 300px;" class="self-center mb-10 mt-4 lg:self-start" Variant="Variant.Filled" Color="Color.Primary" FullWidth="false" Size="Size.Large"
+                ><span class="text-white">Comprar</span></MudButton>
             </div>
-            <div class="principal-imagens">
-                <img class="cssanimation hu__hu__ sequence" src="/images/IPTV-UNITV.PNG" alt="foto do aparelho ROKU EXPRESS" style="width: 70%;">
+            <div class="hidden lg:flex items-center flex-col w-2/4 min-w-[400px]">
+                <img class="cssanimation hu__hu__ sequence" src="/images/streaming-on-line.png" alt="foto do aparelho ROKU EXPRESS" style="width: 70%;">
             </div>
         </div>
     </section>
-    <section class="section2" data-aos="fade-up" data-aos-duration="1000">
-        <div class="nosso-servico">
-            <img src="/images/Man1.svg" alt="iptv service imagem" style="width: 330px;"/>
-            <div class="nosso-servico-texto">
-                <h1 class="nosso-servico-texto-titulo">
+    <section class="flex flex-col min-h-[60vh] self-center justify-center w-[70%] mt-10 mb-10 justify-self-center font-sans" data-aos="fade-up" data-aos-duration="1000">
+        <div class="flex flex-row text-left justify-center self-center items-center w-full gap-[40px]">
+            <img class="hidden sm:flex lg:flex" src="/images/Man1.svg" alt="iptv service imagem" style="width: 30%;"/>
+            <div class="flex flex-col w-[100%] sm:w-[70%] lg:w-[70%] min-w-[350px] gap-[15px]">
+                <h1 class="font-serif text-[#262626] text-[1.5rem] font-extrabold mb-[10px] lg:text-[2.5rem]">
                     Transforme sua experiência de entretenimento com o nosso IPTV!
                 </h1>
-                <p class="nosso-servico-texto-paragrafo">
+                <p class="font-sans text-[0.9rem] font-normal lg:text-base">
                     Diga adeus às assinaturas caras e complicadas! Com nosso IPTV vitalício, você paga apenas uma vez e tem acesso completo a filmes, séries, documentários e muito mais, reunindo conteúdos das principais plataformas de streaming em um só lugar.                
                 </p>
-                <p class="nosso-servico-texto-paragrafo">
+                <p class="font-sans text-[0.9rem] font-normal lg:text-base">
                     Aproveite todos os canais de TV ao vivo, incluindo exclusivos como UFC, Premiere e muito mais, para não perder nenhum lance do seu esporte favorito.
                 </p>
-                <p class="nosso-servico-texto-paragrafo">
-                    Tudo isso com qualidade 4K, atualizações constantes e uma experiência sem interrupções. Pague uma vez e assista para sempre!
-                </p>
-                <ul>
-                    <li class="nosso-servico-texto-li"><strong>Acesso completo</strong> a filmes, séries, documentários e muito mais, com conteúdos de todas as principais plataformas de streaming, tudo em um único lugar!</li>
-                    <li class="nosso-servico-texto-li"><strong>Todos os canais de TV ao vivo</strong>, incluindo canais exclusivos como UFC, Premiere e muito mais, para você acompanhar ao vivo seus programas e esportes favoritos.</li>
-                    <li class="nosso-servico-texto-li"><strong>Conteúdo de qualidade</strong> em alta definição, com atualização constante e uma experiência sem interrupções.</li>
+                <ul class="list-none mt-4">
+                    <li class="flex items-start mb-5">
+                        <img class="mr-3" src="/images/seta-para-baixo-direita.png"/>
+                        <p class="text-[0.8rem] lg:text-base font-sans font-semibold">Acesso completo a filmes, séries, documentários e muito mais, com conteúdos de todas as principais plataformas de streaming, tudo em um único lugar!</p>
+                    </li>
+                    <li class="flex items-start  mb-5">
+                        <img class="mr-3" src="/images/seta-para-baixo-direita.png"/>
+                        <p class="text-[0.8rem] lg:text-base font-sans font-semibold">Todos os canais de TV ao vivo, incluindo canais exclusivos como UFC, Premiere e muito mais, para você acompanhar ao vivo seus programas e esportes favoritos.</p>
+                    </li>
+                    <li class="flex items-center  mb-5">
+                        <img class="mr-3" src="/images/seta-para-baixo-direita.png"/>
+                        <p class="text-[0.8rem] lg:text-base font-sans font-semibold">Conteúdo de qualidade em alta definição, com atualização constante e uma experiência sem interrupções.</p>
+                    </li>
                 </ul>
-                <MudButton Style="width: 50%" Variant="Variant.Filled" Color="Color.Primary" FullWidth="false" Size="Size.Large"
+                <MudButton class="self-center lg:self-start mt-5" Style="width: 50%; min-width: 300px;" Variant="Variant.Filled" Color="Color.Primary" FullWidth="false" Size="Size.Large"
                 ><span style="color: white;">Comprar</span></MudButton>
             </div>
         </div>
     </section>
-    <section class="section3" data-aos="fade-up" data-aos-duration="1000">
-        <div class="iptv-container"> 
-            <div class="iptv-info" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-                <div class="titulo-iptv-info">
+    <section class="flex flex-col min-h-[50vh] bg-[#131126] w-full items-center justify-start overflow-hidden" data-aos="fade-up" data-aos-duration="1000">
+        <div class="flex flex-col w-[90%] items-center justify-center gap-3 mt-[60px] sm:flex-row lg:w-[70%]">
+            <div class="flex flex-col gap-[15px] w-full sm:w-[70%]" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <div class="font-serif text-[#FFD700] text-[1.6rem] font-extrabold mb-[20px] lg:text-[2.5rem]">
                     Como Nosso Produto Funciona?
                 </div>
-                <p class="texto-iptv-info">
+                <p class="text-[0.9rem] text-white lg:text-base font-sans font-semibold">
                     A TVBOX UniTV é a solução definitiva para quem busca entretenimento ilimitado sem precisar pagar mensalidades. Com um único investimento, você tem acesso vitalício a todos os canais, incluindo filmes, séries e até canais de esporte, como o Premiere.
                 </p>
-                <p class="texto-iptv-info">
+                <p class="text-[0.9rem] text-white lg:text-base font-sans font-semibold">
                     Basta conectar a TVBOX UniTV à sua televisão e à internet para aproveitar uma experiência completa de TV digital. Assista aos seus conteúdos favoritos com alta qualidade e sem interrupções, garantindo diversão para toda a família.
                 </p>
-                <p class="texto-iptv-info">
+                <p class="text-[0.9rem] text-white lg:text-base font-sans font-semibold">
                     Simples, prático e sem custos recorrentes. Com a UniTV, você tem tudo o que precisa em um só lugar!
                 </p>
             </div>
-            <img src="/images/network-image.png" alt="imagem UniTV BOX" style="width: 30%" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"/>
+            <img src="/images/network-image.png" class="w-[80%] sm:w-[30%]" alt="imagem UniTV BOX" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"/>
         </div>
-        <div class="iptv-container">
-            <img src="/images/configuracao.png" alt="imagem UniTV BOX" style="width: 30%" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"/>
-            <div class="iptv-info" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                <div class="titulo-iptv-info">
+        <div class="flex flex-col w-[90%] items-center justify-center gap-3 mt-[60px] sm:flex-row lg:w-[70%]">
+            <img class="hidden md:flex sm:w-[30%]" src="/images/configuracao.png" alt="imagem UniTV BOX" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"/>
+            <div class="flex flex-col gap-[15px] w-full sm:w-[70%]" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="font-serif text-[#FFD700] text-[1.6rem] font-extrabold mb-[20px] lg:text-[2.5rem]">
                     Preciso Configurar?
                 </div>
-                <p class="texto-iptv-info">
+                <p class="text-[0.9rem] text-white lg:text-base font-sans font-semibold">
                     Não se preocupe com configurações! A TVBOX UniTV já chega totalmente configurada para você. Basta conectar à sua televisão e à internet para começar a aproveitar acesso vitalício a todos os canais, incluindo filmes, séries, esportes e muito mais.
                 </p>
-                <p class="texto-iptv-info">
+                <p class="text-[0.9rem] text-white lg:text-base font-sans font-semibold">
                     Esqueça instalações complicadas ou ajustes manuais. Com a UniTV, a experiência é simples e imediata: ligou, conectou, assistiu!
                 </p>
             </div>
+            <img class="flex sm:hidden" src="/images/configuracao.png" alt="imagem UniTV BOX" style="width: 60%" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"/>
         </div>
-        <div class="iptv-container" style="margin-bottom: 90px;">
-            <div class="iptv-info" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-                <div class="titulo-iptv-info">
+        <div class="flex flex-col w-[90%] items-center justify-center gap-3 mt-[60px] sm:flex-row lg:w-[70%]" style="margin-bottom: 90px;">
+            <div class="flex flex-col gap-[15px] w-full sm:w-[70%]" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <div class="font-serif text-[#FFD700] text-[1.6rem] font-extrabold mb-[20px] lg:text-[2.5rem]">
                     Preciso Pagar Mensalidade?
                 </div>
-                <p class="texto-iptv-info">
+                <p class="text-[0.9rem] text-white lg:text-base font-sans font-semibold">
                     <span style="font-weight: 700; font-size: 1.5rem;">Não!</span> Com a TVBOX UniTV, você faz um único pagamento pelo produto e aproveita acesso vitalício a todos os canais, filmes, séries e esportes, sem mensalidades ou taxas escondidas.
                 </p>
-                <p class="texto-iptv-info">
+                <p class="text-[0.9rem] text-white lg:text-base font-sans font-semibold">
                     Diferente de outros serviços de TV por assinatura, a UniTV garante entretenimento ilimitado sem cobranças recorrentes. Pague uma vez e assista para sempre!
                 </p>
             </div>
-            <img src="/images/cartao-de-credito.png" alt="imagem UniTV BOX" style="width: 30%" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"/>
+            <img src="/images/cartao-de-credito.png" alt="imagem UniTV BOX" class="w-[80%] sm:w-[30%]" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"/>
         </div>
     </section>
-    <section class="section4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+    @*<section class="section4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
         <img src="/images/avaliacao-icon.png" alt="avaliacao icone" style="width: 90px; margin-bottom: 200px;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"/>
         <h1 class="titulo-avaliacao" data-aos="fade-up" data-aos-duration="1000">O que dizem os clientes que já compraram conosco</h1>
         <MudCarousel Style="height: 50vh;max-height: 350px; width: 60%; overflow: hidden;" ShowArrows="true" EnableSwipeGesture="true" TData="object" ShowBullets="false" AutoCycle="false" data-aos="fade-up" data-aos-duration="1000">
@@ -122,8 +130,8 @@ else
                 <img style="height: 100%;" src="/images/avaliacao4.svg" alt="sla"/>
             </MudCarouselItem>
         </MudCarousel>
-    </section>
-    <section class="section5" >
+    </section>*@
+    @*<section class="section5" >
         <h1 class="catalogo-titulo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Nosso Catálogo</h1>
         <div class="card-container">
             <div class="card-produto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
@@ -136,5 +144,15 @@ else
 
             </div>
         </div>
-    </section>
+    </section>*@
+    <MudDrawer @bind-Open="@_open" Width="50vw" Height="100vh" Anchor="@_anchor" Elevation="1" Variant="@DrawerVariant.Temporary">
+        <MudDrawerHeader>
+            <MudText Typo="Typo.h6">My App</MudText>
+        </MudDrawerHeader>
+        <MudNavMenu>
+            <MudNavLink Match="NavLinkMatch.All">Store</MudNavLink>
+            <MudNavLink Match="NavLinkMatch.All">Library</MudNavLink>
+            <MudNavLink Match="NavLinkMatch.All">Community</MudNavLink>
+        </MudNavMenu>
+    </MudDrawer>
 }
