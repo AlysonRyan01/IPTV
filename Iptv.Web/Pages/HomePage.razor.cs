@@ -14,6 +14,7 @@ public partial class HomePage : ComponentBase
     private bool PageIsBusy { get; set; }
 
     [Inject] public AuthStateProvider AuthStateProvider { get; set; } = null!;
+    [Inject] public IJSRuntime JsRuntime { get; set; } = null!;
 
     protected override async Task OnInitializedAsync()
     {
@@ -29,6 +30,14 @@ public partial class HomePage : ComponentBase
         finally
         {
             PageIsBusy = false;
+        }
+    }
+    
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JsRuntime.InvokeVoidAsync("initializePlyr");
         }
     }
 
