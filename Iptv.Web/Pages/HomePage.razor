@@ -12,11 +12,11 @@ else
             <img @onclick="OpenDrawer" src="/images/cardapio.png" alt="menu" class="w-11 h-10 lg:hidden"/>
             
             <div class="hidden lg:flex flex-row items-center m-0 gap-10">
-                <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="nav-menu-link">Home</p></MudLink>
-                <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="nav-menu-link">Detalhes</p></MudLink>
-                <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="nav-menu-link">Preço</p></MudLink>
+                <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="font-sans font-medium text-base text-white m-0">Home</p></MudLink>
+                <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="font-sans font-medium text-base text-white m-0">Detalhes</p></MudLink>
+                <MudLink Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="font-sans font-medium text-base text-white m-0">Preço</p></MudLink>
                 <MudButton Variant="Variant.Filled" Color="Color.Primary" FullWidth="false" StartIcon="@Icons.Material.Outlined.ShoppingCart" IconColor="Color.Secondary" Size="Size.Medium" 
-                ><span style="color: white;">Comprar</span></MudButton>
+                ><span class="text-white">Comprar</span></MudButton>
             </div>
         </div>  
         <div class="flex flex-col lg:flex-row lg:justify-between sm:w-[70%] lg:w-[70%] items-center w-[90%] gap-[30px] self-center h-full">
@@ -32,7 +32,7 @@ else
                 ><span class="text-white">Comprar</span></MudButton>
             </div>
             <div class="hidden lg:flex items-center flex-col w-2/4 min-w-[400px]">
-                <img class="cssanimation hu__hu__ sequence" src="/images/streaming-on-line.png" alt="foto do aparelho ROKU EXPRESS" style="width: 70%;">
+                <img class="cssanimation hu__hu__ sequence w-[70%]" src="/images/streaming-on-line.png" alt="foto do aparelho ROKU EXPRESS">
             </div>
         </div>
     </section>
@@ -64,12 +64,12 @@ else
                     </li>
                 </ul>
                 <MudButton class="self-center lg:self-start mt-5" Style="width: 50%; min-width: 300px;" Variant="Variant.Filled" Color="Color.Primary" FullWidth="false" Size="Size.Large"
-                ><span style="color: white;">Comprar</span></MudButton>
+                ><span class="text-white">Comprar</span></MudButton>
             </div>
         </div>
     </section>
     <section class="flex flex-col min-h-[50vh] bg-[#131126] w-full items-center justify-start overflow-hidden" data-aos="fade-up" data-aos-duration="1000">
-        <div class="flex flex-col w-[90%] items-center justify-center gap-3 mt-[60px] sm:flex-row lg:w-[70%]">
+        <div class="flex flex-col w-[80%] items-center justify-center gap-3 mt-[60px] sm:flex-row lg:w-[70%]">
             <div class="flex flex-col gap-[15px] w-full sm:w-[70%]" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                 <div class="font-serif text-[#FFD700] text-[1.6rem] font-extrabold mb-[20px] lg:text-[2.5rem]">
                     Como Nosso Produto Funciona?
@@ -86,7 +86,7 @@ else
             </div>
             <img src="/images/network-image.png" class="w-[80%] sm:w-[30%]" alt="imagem UniTV BOX" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"/>
         </div>
-        <div class="flex flex-col w-[90%] items-center justify-center gap-3 mt-[60px] sm:flex-row lg:w-[70%]">
+        <div class="flex flex-col w-[80%] items-center justify-center gap-3 mt-[60px] sm:flex-row lg:w-[70%]">
             <img class="hidden md:flex sm:w-[30%]" src="/images/configuracao.png" alt="imagem UniTV BOX" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"/>
             <div class="flex flex-col gap-[15px] w-full sm:w-[70%]" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                 <div class="font-serif text-[#FFD700] text-[1.6rem] font-extrabold mb-[20px] lg:text-[2.5rem]">
@@ -101,7 +101,7 @@ else
             </div>
             <img class="flex sm:hidden" src="/images/configuracao.png" alt="imagem UniTV BOX" style="width: 60%" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"/>
         </div>
-        <div class="flex flex-col w-[90%] items-center justify-center gap-3 mt-[60px] sm:flex-row lg:w-[70%]" style="margin-bottom: 90px;">
+        <div class="flex flex-col w-[80%] items-center justify-center gap-3 mt-[60px] mb-[90px] sm:flex-row lg:w-[70%]">
             <div class="flex flex-col gap-[15px] w-full sm:w-[70%]" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                 <div class="font-serif text-[#FFD700] text-[1.6rem] font-extrabold mb-[20px] lg:text-[2.5rem]">
                     Preciso Pagar Mensalidade?
@@ -116,21 +116,40 @@ else
             <img src="/images/cartao-de-credito.png" alt="imagem UniTV BOX" class="w-[80%] sm:w-[30%]" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"/>
         </div>
     </section>
-    @*<section class="section4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-        <img src="/images/avaliacao-icon.png" alt="avaliacao icone" style="width: 90px; margin-bottom: 200px;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"/>
-        <h1 class="titulo-avaliacao" data-aos="fade-up" data-aos-duration="1000">O que dizem os clientes que já compraram conosco</h1>
-        <MudCarousel Style="height: 50vh;max-height: 350px; width: 60%; overflow: hidden;" ShowArrows="true" EnableSwipeGesture="true" TData="object" ShowBullets="false" AutoCycle="false" data-aos="fade-up" data-aos-duration="1000">
-
-            <MudCarouselItem Style="height: 80%; width: 80%; display: flex; justify-self: center; justify-content: center; gap: 30px;">
-                <img style="height: 100%;" src="/images/avaliacao2.svg" alt="sla"/>
-                <img style="height: 100%;" src="/images/avaliacao3.svg" alt="sla"/>
-            </MudCarouselItem>
-            <MudCarouselItem Style="height: 80%; width: 80%; display: flex; justify-self: center; justify-content: center; gap: 30px;">
-                <img style="height: 100%;" src="/images/avaliacao1.svg" alt="sla"/>
-                <img style="height: 100%;" src="/images/avaliacao4.svg" alt="sla"/>
-            </MudCarouselItem>
-        </MudCarousel>
-    </section>*@
+    <section class="flex flex-col lg:flex-row w-[80%] min-h-[70vh] items-center self-center justify-self-center mb-7" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <div class="flex flex-col w-full mt-[60px] lg:w-[50%] lg:mt-0">
+            <img src="/images/avaliacao-icon.png" alt="avaliacao icone" style="width: 90px;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"/>
+            <h1 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#262626]" data-aos="fade-up" data-aos-duration="1000">O que dizem os clientes que já compraram conosco</h1>
+        </div>
+        <div class="w-full lg:hidden">
+            <MudCarousel Class="h-[40vh] max-h-[600px] w-full overflow-hidden" ShowArrows="true" EnableSwipeGesture="true" TData="object" ShowBullets="false" AutoCycle="false" data-aos="fade-up" data-aos-duration="1000">
+                <MudCarouselItem Style="height: 100%; width: 100%; display: flex; justify-self: center; justify-content: center;">
+                    <img style="height: 80%; align-self: center;" src="/images/avaliacao2.svg" alt="sla"/>
+                </MudCarouselItem>
+                <MudCarouselItem Style="height: 100%; width: 100%; display: flex; justify-self: center; justify-content: center;">
+                    <img style="height: 80%; align-self: center;" src="/images/avaliacao3.svg" alt="sla"/>
+                </MudCarouselItem>
+                <MudCarouselItem Style="height: 100%; width: 100%; display: flex; justify-self: center; justify-content: center;">
+                    <img style="height: 80%; align-self: center;" src="/images/avaliacao1.svg" alt="sla"/>
+                </MudCarouselItem>
+                <MudCarouselItem Style="height: 100%; width: 100%; display: flex; justify-self: center; justify-content: center;">
+                    <img style="height: 80%; align-self: center;" src="/images/avaliacao4.svg" alt="sla"/>
+                </MudCarouselItem>
+            </MudCarousel>
+        </div>
+        <div class="hidden lg:flex sm:w-[65%]">
+            <MudCarousel Class="h-[50vh] max-h-[600px] w-full overflow-hidden" ShowArrows="true" EnableSwipeGesture="true" TData="object" ShowBullets="false" AutoCycle="false" data-aos="fade-up" data-aos-duration="1000">
+                <MudCarouselItem Style="width: 100%; display: flex; justify-self: center; justify-content: center; gap: 30px;">
+                    <img style="max-height: 80%; width: 40%; align-self: center;" src="/images/avaliacao2.svg" alt="sla"/>
+                    <img style="max-height: 80%; width: 40%; align-self: center;" src="/images/avaliacao3.svg" alt="sla"/>
+                </MudCarouselItem>
+                <MudCarouselItem Style="width: 100%; display: flex; justify-self: center; justify-content: center; gap: 30px;">
+                    <img style="max-height: 80%; width: 40%; align-self: center;" src="/images/avaliacao1.svg" alt="sla"/>
+                    <img style="max-height: 80%; width: 40%; align-self: center;" src="/images/avaliacao4.svg" alt="sla"/>
+                </MudCarouselItem>
+            </MudCarousel>
+        </div>
+    </section>
     @*<section class="section5" >
         <h1 class="catalogo-titulo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Nosso Catálogo</h1>
         <div class="card-container">

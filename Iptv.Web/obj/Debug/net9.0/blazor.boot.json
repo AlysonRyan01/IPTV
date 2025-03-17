@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Iptv.Web",
   "resources": {
-    "hash": "sha256-0O1r5i2SMHH2Os9c7sXKOPzz7M0ItIUsYPrtlJN8E24=",
+    "hash": "sha256-a67yEz1+T6r1PO0uz52WQXaDcnJ8WFj8jivdMNuudhc=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
@@ -245,10 +245,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Iptv.Core.vbuc8gsueb.wasm": "Iptv.Core.wasm",
-      "Iptv.Core.okyespo2z4.pdb": "Iptv.Core.pdb",
-      "Iptv.Web.w0pdfuw4qk.wasm": "Iptv.Web.wasm",
-      "Iptv.Web.sfkf3x7o44.pdb": "Iptv.Web.pdb"
+      "Iptv.Core.q7d3vw9u2p.wasm": "Iptv.Core.wasm",
+      "Iptv.Core.sq0c1oom0a.pdb": "Iptv.Core.pdb",
+      "Iptv.Web.bhs7tsxtnv.wasm": "Iptv.Web.wasm",
+      "Iptv.Web.qiziwruelz.pdb": "Iptv.Web.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -502,12 +502,12 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "Iptv.Core.vbuc8gsueb.wasm": "sha256-i6xrW6uYqa80oXYuT2+bZMyTqZ7BML39j1tYX/IQhc4=",
-      "Iptv.Web.w0pdfuw4qk.wasm": "sha256-EJlR329aWzrQEnu+zQErpNfwA/wJ7JkkQsFEhx3RHKk="
+      "Iptv.Core.q7d3vw9u2p.wasm": "sha256-pnS6UpJt4R0UwPfGkpYp+iVHbrKn8ehwZG+Q+hE/8FY=",
+      "Iptv.Web.bhs7tsxtnv.wasm": "sha256-7wiITbxG8vBQ3sqN/s8zg5kWA2qmQgmnB3bVUgO9S1Y="
     },
     "pdb": {
-      "Iptv.Core.okyespo2z4.pdb": "sha256-eLk0NSHgd9mrQVW4x4XmZoqywK+kbZ6oq3cxUy9Z/xI=",
-      "Iptv.Web.sfkf3x7o44.pdb": "sha256-OIy674SwLK0xlaZGDBqpG/Bcdjt4GFmzTAqi1wviiwY="
+      "Iptv.Core.sq0c1oom0a.pdb": "sha256-xI9sBY6xrhMqJIlXt4HHLwvsRTkXOuZ2jc8WgR8xeQ8=",
+      "Iptv.Web.qiziwruelz.pdb": "sha256-rq+yqs91zlrLO1rCRX9mQrWwsMTDUMXoNWa+z/SEPWk="
     }
   },
   "cacheBootResources": true,
