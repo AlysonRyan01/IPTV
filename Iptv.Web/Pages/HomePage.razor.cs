@@ -12,6 +12,7 @@ public partial class HomePage : ComponentBase
     private bool _open;
     private readonly Anchor _anchor = Anchor.Left;
     private bool PageIsBusy { get; set; }
+    private int Quantidade { get; set; } = 1;
 
     [Inject] public AuthStateProvider AuthStateProvider { get; set; } = null!;
     [Inject] public IJSRuntime JsRuntime { get; set; } = null!;

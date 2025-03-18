@@ -935,16 +935,20 @@ video {
   height: 100vh;
 }
 
+.h-\[700px\] {
+  height: 700px;
+}
+
+.max-h-\[180px\] {
+  max-height: 180px;
+}
+
 .max-h-\[600px\] {
   max-height: 600px;
 }
 
 .max-h-\[950px\] {
   max-height: 950px;
-}
-
-.max-h-\[180px\] {
-  max-height: 180px;
 }
 
 .min-h-\[100vh\] {
@@ -961,6 +965,10 @@ video {
 
 .min-h-\[80vh\] {
   min-height: 80vh;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-11 {
@@ -1005,6 +1013,18 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
 }
 
 .min-w-\[400px\] {
@@ -1545,6 +1565,10 @@ video {
   gap: 1rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .gap-7 {
   gap: 1.75rem;
 }
@@ -1889,6 +1913,10 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2041,6 +2069,10 @@ video {
   background-image: url('/images/background-rainbow.svg');
 }
 
+.bg-\[url\(\'\/images\/background-produto\.svg\'\)\] {
+  background-image: url('/images/background-produto.svg');
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2157,6 +2189,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-1 {
@@ -2291,6 +2327,21 @@ video {
   line-height: 1rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2397,9 +2448,42 @@ video {
   color: rgb(255 215 0 / var(--tw-text-opacity, 1));
 }
 
+.text-roxo {
+  --tw-text-opacity: 1;
+  color: rgb(124 69 173 / var(--tw-text-opacity, 1));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-titlecolor {
+  --tw-text-opacity: 1;
+  color: rgb(38 38 38 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#FF\] {
+  color: #FF;
+}
+
+.text-\[\#FF0000\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#0067AE\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 103 174 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#7838A4\] {
+  --tw-text-opacity: 1;
+  color: rgb(120 56 164 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -2593,6 +2677,12 @@ video {
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 

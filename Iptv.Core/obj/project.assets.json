@@ -2920,24 +2920,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alyso\\.nuget\\packages\\": {}
+    "/Users/alysonryanullirsch/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj",
+      "projectUniqueName": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Core/Iptv.Core.csproj",
       "projectName": "Iptv.Core",
-      "projectPath": "C:\\Projetos\\IPTV\\Iptv.Core\\Iptv.Core.csproj",
-      "packagesPath": "C:\\Users\\alyso\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\IPTV\\Iptv.Core\\obj\\",
+      "projectPath": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Core/Iptv.Core.csproj",
+      "packagesPath": "/Users/alysonryanullirsch/.nuget/packages/",
+      "outputPath": "/Users/alysonryanullirsch/Documents/APIs/IPTV/Iptv.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alyso\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/alysonryanullirsch/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2987,7 +2988,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -6,9 +6,9 @@
 }
 else
 {
-    <section class="flex flex-col h-screen max-h-[950px] bg-[url('/images/background-rainbow.svg')] bg-no-repeat bg-cover font-['Open_Sans',sans-serif] overflow-hidden">
+    <section class="flex flex-col min-h-screen bg-[url('/images/background-rainbow.svg')] bg-no-repeat bg-cover font-['Open_Sans',sans-serif] overflow-hidden">
         <div class="flex flex-row w-[90%] self-center h-fit justify-between pt-5 sm:w-[70%] lg:w-[70%]">
-            <h1 class="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white">UniTV <span class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-light text-white ">canais</span></h1>
+            <h1 class="font-serif font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white">UniTV <span class="text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-light text-white ">canais</span></h1>
             <img @onclick="OpenDrawer" src="/images/cardapio.png" alt="menu" class="w-11 h-10 lg:hidden"/>
             
             <div class="hidden lg:flex flex-row items-center m-0 gap-10">
@@ -51,15 +51,15 @@ else
                 </p>
                 <ul class="list-none mt-4">
                     <li class="flex items-start mb-5">
-                        <img class="mr-3" src="/images/seta-para-baixo-direita.png"/>
+                        <img class="mr-3" src="/images/seta-para-baixo-direita.png" alt="foto seta"/>
                         <p class="text-[0.8rem] lg:text-base font-sans font-semibold">Acesso completo a filmes, séries, documentários e muito mais, com conteúdos de todas as principais plataformas de streaming, tudo em um único lugar!</p>
                     </li>
                     <li class="flex items-start  mb-5">
-                        <img class="mr-3" src="/images/seta-para-baixo-direita.png"/>
+                        <img class="mr-3" src="/images/seta-para-baixo-direita.png" alt="foto seta"/>
                         <p class="text-[0.8rem] lg:text-base font-sans font-semibold">Todos os canais de TV ao vivo, incluindo canais exclusivos como UFC, Premiere e muito mais, para você acompanhar ao vivo seus programas e esportes favoritos.</p>
                     </li>
                     <li class="flex items-center  mb-5">
-                        <img class="mr-3" src="/images/seta-para-baixo-direita.png"/>
+                        <img class="mr-3" src="/images/seta-para-baixo-direita.png" alt="seta"/>
                         <p class="text-[0.8rem] lg:text-base font-sans font-semibold">Conteúdo de qualidade em alta definição, com atualização constante e uma experiência sem interrupções.</p>
                     </li>
                 </ul>
@@ -125,16 +125,16 @@ else
             <div class="w-full lg:hidden">
                 <MudCarousel Class="h-[40vh] max-h-[600px] w-full overflow-hidden" ShowArrows="true" EnableSwipeGesture="true" TData="object" ShowBullets="false" AutoCycle="false" data-aos="fade-up" data-aos-duration="1000">
                     <MudCarouselItem Style="height: 100%; width: 100%; display: flex; justify-self: center; justify-content: center;">
-                        <img style="height: 80%; align-self: center;" src="/images/avaliacao2.svg" alt="sla"/>
+                        <img style="height: 100%; align-self: center;" src="/images/avaliacao2.svg" alt="sla"/>
                     </MudCarouselItem>
                     <MudCarouselItem Style="height: 100%; width: 100%; display: flex; justify-self: center; justify-content: center;">
-                        <img style="height: 80%; align-self: center;" src="/images/avaliacao3.svg" alt="sla"/>
+                        <img style="height: 100%; align-self: center;" src="/images/avaliacao3.svg" alt="sla"/>
                     </MudCarouselItem>
                     <MudCarouselItem Style="height: 100%; width: 100%; display: flex; justify-self: center; justify-content: center;">
-                        <img style="height: 80%; align-self: center;" src="/images/avaliacao1.svg" alt="sla"/>
+                        <img style="height: 100%; align-self: center;" src="/images/avaliacao1.svg" alt="sla"/>
                     </MudCarouselItem>
                     <MudCarouselItem Style="height: 100%; width: 100%; display: flex; justify-self: center; justify-content: center;">
-                        <img style="height: 80%; align-self: center;" src="/images/avaliacao4.svg" alt="sla"/>
+                        <img style="height: 100%; align-self: center;" src="/images/avaliacao4.svg" alt="sla"/>
                     </MudCarouselItem>
                 </MudCarousel>
             </div>
@@ -152,17 +152,144 @@ else
             </div>
         </div>
     </section>
-    <section class="flex flex-col w-full items-center min-h-[100vh] bg-background pb-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-        <h1 class="font-serif text-[#FFD700] font-extrabold text-4xl mt-12 mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Nosso Catálogo</h1>
+    <section class="flex flex-col w-full items-center min-h-[100vh] bg-background pb-12" data-aos="fade-up"
+             data-aos-duration="1000" data-aos-delay="100">
+        <h1 class="font-serif text-white font-extrabold text-4xl mt-12 mb-10" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="200">Nossos Produtos</h1>
         <div class="flex flex-col w-full items-center gap-8">
-            <div class="flex flex-column items-center rounded-lg w-[80%] h-[600px] gap-4 bg-[url('/images/background-produto1.svg')] bg-no-repeat bg-cover" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                <img src="/images/androidtv.png" alt="foto tvbox" class="w-[70%] mt-[40px]"/>
+            <div
+                class="flex flex-column gap-8 items-center rounded-xl w-[90%] h-[700px] bg-[url('/images/background-produto.svg')] bg-no-repeat bg-cover shadow-xl"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <img src="/images/iptv-unitv.svg" alt="foto tvbox" class="w-[70%] mt-[40px]"/>
+                <div class="flex flex-col w-full items-center">
+                    <h1 class="font-sans text-3xl text-titlecolor font-extrabold">
+                        UniTV V10
+                    </h1>
+                    <h1 class="font-sans text-3xl text-titlecolor font-extrabold">
+                        <img src="/images/mais.png" alt="mais icone"/>
+                    </h1>
+                    <h1 class="font-sans text-3xl text-titlecolor font-extrabold">
+                        IPTV Vitalício
+                    </h1>
+                    <h1 class="font-sans text-1xl text-[#7838A4] font-extrabold">
+                        (Sem Mensalidade)
+                    </h1>
+                </div>
+                <div class="flex flex-col w-[90%]">
+                    <p class="font-sans text-sm text-center">Tenha acesso ilimitado aos seus canais favoritos com a
+                        UniTV V10! Assista a canais, séries, filmes e esportes ao vivo sem mensalidade. Qualidade e
+                        estabilidade garantidas para sua diversão! </p>
+                </div>
+                <div class="flex flex-col w-[90%] items-center">
+                    <h1 class="font-sans font-extrabold text-[#0067AE] text-3xl">
+                        R$ 449,99
+                    </h1>
+                    <h1 class="font-sans font-extrabold text-[#0067AE] text-1xl">
+                        ou
+                    </h1>
+                    <h1 class="font-sans font-extrabold text-[#0067AE] text-1xl">
+                        6x R$ 74,99
+                    </h1>
+                </div>
+                <div class="flex flex-row w-[80%] justify-between items-center">
+                    <div class="w-[30%]">
+                        <MudNumericField @bind-Value="Quantidade" Label="Quantidade" Variant="Variant.Text" Min="1"
+                                         Max="10"/>
+                    </div>
+                    <div class="w-[60%]">
+                        <MudButton FullWidth="true" Variant="Variant.Filled" Size="Size.Large" Color="Color.Primary">
+                            <span class="text-white">Comprar</span></MudButton>
+                    </div>
+                </div>
             </div>
-            <div class="flex flex-column items-center rounded-lg w-[80%] h-[600px] gap-4 bg-[url('/images/background-produto1.svg')] bg-no-repeat bg-cover" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div class="flex flex-column items-center rounded-xl w-[90%] h-[700px] gap-4 bg-[url('/images/background-produto.svg')] bg-no-repeat bg-cover shadow-xl"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <img src="/images/firestick.png" alt="foto tvbox" class="max-w-[70%] max-h-[180px] mt-[40px]"/>
+                <div class="flex flex-col w-full items-center">
+                    <h1 class="font-sans text-3xl text-titlecolor font-extrabold">
+                        UniTV V10
+                    </h1>
+                    <h1 class="font-sans text-3xl text-titlecolor font-extrabold">
+                        <img src="/images/mais.png" alt="mais icone"/>
+                    </h1>
+                    <h1 class="font-sans text-3xl text-titlecolor font-extrabold">
+                        IPTV Vitalício
+                    </h1>
+                    <h1 class="font-sans text-1xl text-[#7838A4] font-extrabold">
+                        (Sem Mensalidade)
+                    </h1>
+                </div>
+                <div class="flex flex-col w-[90%]">
+                    <p class="font-sans text-sm text-center">Tenha acesso ilimitado aos seus canais favoritos com a
+                        UniTV V10! Assista a canais, séries, filmes e esportes ao vivo sem mensalidade. Qualidade e
+                        estabilidade garantidas para sua diversão! </p>
+                </div>
+                <div class="flex flex-col w-[90%] items-center">
+                    <h1 class="font-sans font-extrabold text-[#0067AE] text-3xl">
+                        R$ 449,99
+                    </h1>
+                    <h1 class="font-sans font-extrabold text-[#0067AE] text-1xl">
+                        ou
+                    </h1>
+                    <h1 class="font-sans font-extrabold text-[#0067AE] text-1xl">
+                        6x R$ 74,99
+                    </h1>
+                </div>
+                <div class="flex flex-row w-[80%] justify-between items-center">
+                    <div class="w-[30%]">
+                        <MudNumericField @bind-Value="Quantidade" Label="Quantidade" Variant="Variant.Text" Min="1"
+                                         Max="10"/>
+                    </div>
+                    <div class="w-[60%]">
+                        <MudButton FullWidth="true" Variant="Variant.Filled" Size="Size.Large" Color="Color.Primary">
+                            <span class="text-white">Comprar</span></MudButton>
+                    </div>
+                </div>
             </div>
-            <div class="flex flex-column items-center rounded-lg w-[80%] h-[600px] gap-4 bg-[url('/images/background-produto1.svg')] bg-no-repeat bg-cover" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                <img src="/images/iptv-unitv.svg" alt="foto tvbox" class="max-w-[70%] max-h-[180px] mt-[40px]"/>
+            <div
+                class="flex flex-column items-center rounded-xl w-[90%] h-[700px] gap-4 bg-[url('/images/background-produto.svg')] bg-no-repeat bg-cover shadow-xl"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <img src="/images/androidtv.png" alt="foto tvbox" class="max-w-[70%] max-h-[180px] mt-[40px]"/>
+                <div class="flex flex-col w-full items-center">
+                    <h1 class="font-sans text-3xl text-titlecolor font-extrabold">
+                        UniTV V10
+                    </h1>
+                    <h1 class="font-sans text-3xl text-titlecolor font-extrabold">
+                        <img src="/images/mais.png" alt="mais icone"/>
+                    </h1>
+                    <h1 class="font-sans text-3xl text-titlecolor font-extrabold">
+                        IPTV Vitalício
+                    </h1>
+                    <h1 class="font-sans text-1xl text-[#7838A4] font-extrabold">
+                        (Sem Mensalidade)
+                    </h1>
+                </div>
+                <div class="flex flex-col w-[90%]">
+                    <p class="font-sans text-sm text-center">Tenha acesso ilimitado aos seus canais favoritos com a
+                        UniTV V10! Assista a canais, séries, filmes e esportes ao vivo sem mensalidade. Qualidade e
+                        estabilidade garantidas para sua diversão! </p>
+                </div>
+                <div class="flex flex-col w-[90%] items-center">
+                    <h1 class="font-sans font-extrabold text-[#0067AE] text-3xl">
+                        R$ 449,99
+                    </h1>
+                    <h1 class="font-sans font-extrabold text-[#0067AE] text-1xl">
+                        ou
+                    </h1>
+                    <h1 class="font-sans font-extrabold text-[#0067AE] text-1xl">
+                        6x R$ 74,99
+                    </h1>
+                </div>
+                <div class="flex flex-row w-[80%] justify-between items-center">
+                    <div class="w-[30%]">
+                        <MudNumericField @bind-Value="Quantidade" Label="Quantidade" Variant="Variant.Text" Min="1"
+                                         Max="10"/>
+                    </div>
+                    <div class="w-[60%]">
+                        <MudButton FullWidth="true" Variant="Variant.Filled" Size="Size.Large" Color="Color.Primary">
+                            <span class="text-white">Comprar</span></MudButton>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
