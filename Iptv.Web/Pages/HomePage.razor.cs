@@ -18,6 +18,11 @@ public partial class HomePage : ComponentBase
     bool _pergunta3 = false;
     bool _pergunta4 = false;
     bool _pergunta5 = false;
+    public ElementReference PrimeiraSection;
+    public ElementReference SegundaSection;
+    public ElementReference TerceiraSection;
+    public ElementReference QuartaSection;
+    public ElementReference QuintaSection;
 
     private void AbrirPergunta1() {
         _pergunta1 = !_pergunta1;
@@ -58,17 +63,39 @@ public partial class HomePage : ComponentBase
             PageIsBusy = false;
         }
     }
-    
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            await JsRuntime.InvokeVoidAsync("initializePlyr");
-        }
-    }
 
     private void OpenDrawer()
     {
         _open = true;
+    }
+    
+    private async Task ScrollToPrimeiraSection()
+    {
+        _open = false;
+        await JsRuntime.InvokeVoidAsync("scrollToSection", PrimeiraSection);
+    }
+    
+    private async Task ScrollToSegundaSection()
+    {
+        _open = false;
+        await JsRuntime.InvokeVoidAsync("scrollToSection", SegundaSection);
+    }
+    
+    private async Task ScrollToTerceiraSection()
+    {
+        _open = false;
+        await JsRuntime.InvokeVoidAsync("scrollToSection", TerceiraSection);
+    }
+    
+    private async Task ScrollToQuartaSection()
+    {
+        _open = false;
+        await JsRuntime.InvokeVoidAsync("scrollToSection", QuartaSection);
+    }
+    
+    private async Task ScrollToQuintaSection()
+    {
+        _open = false;
+        await JsRuntime.InvokeVoidAsync("scrollToSection", QuintaSection);
     }
 }

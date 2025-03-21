@@ -52,6 +52,18 @@
     <script src="js/JSClass.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.min.js"></script>
     <script src="js/plyr-init.js"></script>
+    <script>
+        function scrollToSection(element) {
+            const offset = 100;
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+    </script>
 </body>
 
 </html>
