@@ -169,7 +169,7 @@ else
     </section>
     <section class="flex flex-col w-full items-center min-h-[100vh] bg-background pb-[80px]" data-aos="fade-up"
              data-aos-duration="1000" data-aos-delay="100">
-        <h1 class="font-serif text-white font-extrabold text-4xl mt-12 mb-12" data-aos="fade-up"
+        <h1 class="font-serif text-white font-extrabold text-4xl mt-12 mb-[70px] sm:mb-[100px]" data-aos="fade-up"
             data-aos-duration="1000" data-aos-delay="200">Nossos Produtos</h1>
         <div class="flex flex-col w-full items-center gap-8 lg:flex-row sm:justify-center">
             <div
@@ -305,16 +305,86 @@ else
         </div>
     </section>
     <section class="flex flex-col w-full min-h-[70vh] items-center gap-8">
-        <h1 class="font-sans text-titlecolor font-bold text-4xl mt-[50px]">
+        <h1 class="font-sans max-w-[90%] text-titlecolor font-bold text-3xl mt-[50px] mb-4">
             Perguntas Frequentes
         </h1>
-        <div class="flex flex-col w-full items-center">
-            <MudButton Class="rounded-xl" EndIcon="@Icons.Material.Filled.ArrowForward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" Style="width: 50%" OnClick="AbrirPergunta1"><span class="text-white">Como o IPTV funciona?</span></MudButton>
-            <MudCollapse Expanded="_pergunta1">
-                This content is collapsible.
+        <div class="flex flex-col w-[90%] sm:w-[80%] lg:w-[50%]  items-center">
+            @if (_pergunta1)
+            {
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowDownward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta1"><span class="text-white">Como o IPTV funciona?</span></MudButton>
+            }
+            else
+            {
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowForward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta1"><span class="text-white">Como o IPTV funciona?</span></MudButton>
+            }
+            <MudCollapse Style="overflow-wrap: break-word" Expanded="_pergunta1">
+                <p style="border: 0.5px solid #7C45AD" class="p-4 flex-wrap text-wrap rounded-lg">
+                    
+                </p>
+            </MudCollapse>
+        </div>
+        <div class="flex flex-col w-[90%] sm:w-[80%] lg:w-[50%] items-center">
+            @if (_pergunta2)
+            {
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowDownward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta2"><span class="text-white">Como o IPTV funciona?</span></MudButton>
+            }
+            else
+            {
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowForward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta2"><span class="text-white">Como o IPTV funciona?</span></MudButton>
+            }
+            <MudCollapse Style="overflow-wrap: break-word" Expanded="_pergunta2">
+                <p style="border: 0.5px solid #7C45AD" class="p-4 flex-wrap text-wrap rounded-lg">
+
+                </p>
+            </MudCollapse>
+        </div>
+        <div class="flex flex-col w-[90%] sm:w-[80%] lg:w-[50%] items-center">
+            @if (_pergunta3)
+            {
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowDownward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta3"><span class="text-white">Como o IPTV funciona?</span></MudButton>
+            }
+            else
+            {
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowForward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta3"><span class="text-white">Como o IPTV funciona?</span></MudButton>
+            }
+            <MudCollapse Style="overflow-wrap: break-word" Expanded="_pergunta3">
+                <p style="border: 0.5px solid #7C45AD" class="p-4 flex-wrap text-wrap rounded-lg">
+
+                </p>
+            </MudCollapse>
+        </div>
+        <div class="flex flex-col w-[90%] sm:w-[80%] lg:w-[50%] items-center">
+            @if (_pergunta4)
+            {
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowDownward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta4"><span class="text-white">Como o IPTV funciona?</span></MudButton>
+            }
+            else
+            {
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowForward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta4"><span class="text-white">Como o IPTV funciona?</span></MudButton>
+            }
+            <MudCollapse Style="overflow-wrap: break-word" Expanded="_pergunta4">
+                <p style="border: 0.5px solid #7C45AD" class="p-4 flex-wrap text-wrap rounded-lg">
+
+                </p>
+            </MudCollapse>
+        </div>
+        <div class="flex flex-col w-[90%] sm:w-[80%] lg:w-[50%] items-center">
+            @if (_pergunta5)
+            {
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowDownward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta5"><span class="text-white">Como o IPTV funciona?</span></MudButton>
+            }
+            else
+            {
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowForward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta5"><span class="text-white">Como o IPTV funciona?</span></MudButton>
+            }
+            <MudCollapse Style="overflow-wrap: break-word" Expanded="_pergunta5">
+                <p style="border: 0.5px solid #7C45AD" class="p-4 flex-wrap text-wrap rounded-lg">
+
+                </p>
             </MudCollapse>
         </div>
     </section>
+    
     <MudDrawer @bind-Open="@_open" Width="50vw" Height="100vh" Anchor="@_anchor" Elevation="1" Variant="@DrawerVariant.Temporary">
         <MudDrawerHeader>
             <MudText Typo="Typo.h6">My App</MudText>
