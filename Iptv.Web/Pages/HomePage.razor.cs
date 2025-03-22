@@ -18,6 +18,7 @@ public partial class HomePage : ComponentBase
     bool _pergunta3 = false;
     bool _pergunta4 = false;
     bool _pergunta5 = false;
+    bool _contato = false;
     public ElementReference PrimeiraSection;
     public ElementReference SegundaSection;
     public ElementReference TerceiraSection;
@@ -42,6 +43,10 @@ public partial class HomePage : ComponentBase
     
     private void AbrirPergunta5() {
         _pergunta5 = !_pergunta5;
+    }
+    
+    private void AbrirContato() {
+        _contato = !_contato;
     }
 
     [Inject] public AuthStateProvider AuthStateProvider { get; set; } = null!;

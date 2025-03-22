@@ -364,11 +364,11 @@ else
         <div class="flex flex-col w-[90%] sm:w-[80%] lg:w-[50%] items-center mb-[60px]">
             @if (_pergunta5)
             {
-                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowDownward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta5"><span class="text-white">A empresa tem suporte ao cliente?</span></MudButton>
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowDownward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta5"><span class="text-white">Tem suporte ao cliente?</span></MudButton>
             }
             else
             {
-                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowForward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta5"><span class="text-white">A empresa tem suporte ao cliente?</span></MudButton>
+                <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowForward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta5"><span class="text-white">Tem suporte ao cliente?</span></MudButton>
             }
             <MudCollapse Style="overflow-wrap: break-word" Expanded="_pergunta5">
                 <p style="border: 0.5px solid #7C45AD" class="p-4 flex-wrap text-wrap rounded-lg font-sans">
@@ -376,6 +376,54 @@ else
                     Além disso, estamos sempre disponíveis para responder a perguntas sobre o funcionamento, instalação e uso do produto. Nossa equipe está pronta para ajudar você!
                 </p>
             </MudCollapse>
+        </div>
+    </section>
+    <section class="flex flex-col sm:flex-row w-[100%] items-center sm:justify-center bg-background">
+        <div class="flex flex-col sm:flex-row sm:justify-evenly w-full sm:w-[80%] items-center p-[30px]">
+            <h1 class="font-serif font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl text-white mt-4">UniTV <span class="text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-white ">canais</span></h1>
+            <div class="flex flex-col w-[100%] items-center mt-4 sm:hidden">
+                <div style="border-bottom: 0.5px solid gray; border-top: 0.5px solid gray;" class="flex flex-col w-full items-center">
+                    <button @onclick="ScrollToSegundaSection" Underline="Underline.Always" Color="Color.Primary" Href="/">
+                        <p class="font-sans font-medium text-base text-white m-0 p-3">DETALHES</p></button>
+                </div>
+                <div style="border-bottom: 0.5px solid gray" class="flex flex-col w-full items-center">
+                    <button @onclick="ScrollToQuartaSection" Underline="Underline.Always" Color="Color.Primary" Href="/">
+                        <p class="font-sans font-medium text-base text-white m-0 p-3">PREÇOS</p></button>
+                </div>
+                <div style="border-bottom: 0.5px solid gray" class="flex flex-col w-full items-center">
+                    <button EndIcon="@Icons.Material.Filled.ArrowDownward" @onclick="AbrirContato" Underline="Underline.Always" Color="Color.Primary">
+                        <p class="font-sans font-medium text-base text-white m-0 p-3">CONTATO</p></button>
+                    <MudCollapse Style="overflow-wrap: break-word" Expanded="_contato">
+                        <p class="p-2 flex-wrap text-wrap rounded-lg font-sans text-white">
+                            Email: Unitvcanais@gmail.com <br/>
+                            Fone: (41) 99756-1468
+                        </p>
+                    </MudCollapse>
+                </div>
+            </div>
+            <div class="hidden sm:flex sm:flex-col items-center mt-4">
+                <div class="flex flex-col items-center">
+                    <button @onclick="ScrollToSegundaSection" Underline="Underline.Always" Color="Color.Primary" Href="/">
+                        <p class="font-sans font-medium text-base text-white m-0 p-3">DETALHES</p></button>
+                </div>
+                <div class="flex flex-col items-center">
+                    <button @onclick="ScrollToQuartaSection" Underline="Underline.Always" Color="Color.Primary" Href="/">
+                        <p class="font-sans font-medium text-base text-white m-0 p-3">PREÇOS</p></button>
+                </div>
+                <div class="flex flex-col items-center">
+                    <button EndIcon="@Icons.Material.Filled.ArrowDownward" @onclick="AbrirContato" Underline="Underline.Always" Color="Color.Primary">
+                        <p class="font-sans font-medium text-base text-white m-0 p-3">CONTATO</p></button>
+                    <MudCollapse Style="overflow-wrap: break-word" Expanded="_contato">
+                        <p class="p-2 flex-wrap text-wrap rounded-lg font-sans text-white">
+                            Email: Unitvcanais@gmail.com <br/>
+                            Fone: (41) 99756-1468
+                        </p>
+                    </MudCollapse>
+                </div>
+            </div>
+            <div>
+                <p class="font-sans font-medium text-base text-white m-0 p-8">2025 - Direitos reservados</p>
+            </div>
         </div>
     </section>
     
