@@ -1,4 +1,4 @@
-@page "/cadastro"
+@page "/cadastrar"
 
 @if (PageIsBusy)
 {
@@ -6,12 +6,12 @@
 }
 else
 {
-    <div class="min-vh-100 w-100 d-flex align-items-center justify-content-center ">
-        <video autoplay muted loop class="video-background">
-            <source src="/images/Video%20Background%20in%20Pink%20Blue%20Green%20Gradient%20Style%20.mp4" type="video/mp4">
+    <div class="flex min-h-[100vh] w-full items-center justify-center">
+        <video autoplay loop muted class="absolute inset-0 w-full h-full object-cover">
+            <source src="/images/Video%20Background%20in%20Pink%20Blue%20Green%20Gradient%20Style%20.mp4" type="video/mp4" />
         </video>
-        <section style="min-height: 70vh;" class="flex flex-column gap-4 justify-content-center p-4 rounded-3 shadow align-items-center text-center col-12 col-sm-10 col-lg-3 col-md-7 bg-white">
-            <h1 class="titulo-cadastro">Cadastrar</h1>
+        <section class="flex flex-col min-h-[100vh] sm:min-h-[70vh] w-full sm:w-[25%] min-w-[400px] gap-4 justify-center p-4 sm:rounded-xl shadow-lg items-center text-center bg-white " style="z-index: 1;">
+            <h1 class="font-serif text-4xl text-roxo pt-5 pb-5">Cadastrar</h1>
             <EditForm Model="Request" OnValidSubmit="Register" Style="width: 90%; align-self: center; justify-self: center; justify-items: center;">
                 <DataAnnotationsValidator/>
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\IPTV\\Iptv.Api\\Iptv.Api.csproj": {}
+    "C:\\Projetos\\IPTV\\iptv.api\\Iptv.Api.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\IPTV\\Iptv.Api\\Iptv.Api.csproj": {
+    "C:\\Projetos\\IPTV\\iptv.api\\Iptv.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\IPTV\\Iptv.Api\\Iptv.Api.csproj",
+        "projectUniqueName": "C:\\Projetos\\IPTV\\iptv.api\\Iptv.Api.csproj",
         "projectName": "Iptv.Api",
-        "projectPath": "C:\\Projetos\\IPTV\\Iptv.Api\\Iptv.Api.csproj",
+        "projectPath": "C:\\Projetos\\IPTV\\iptv.api\\Iptv.Api.csproj",
         "packagesPath": "C:\\Users\\alyso\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\IPTV\\Iptv.Api\\obj\\",
+        "outputPath": "C:\\Projetos\\IPTV\\iptv.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alyso\\AppData\\Roaming\\NuGet\\NuGet.Config"

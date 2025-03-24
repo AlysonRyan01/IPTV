@@ -109,6 +109,10 @@
       "PackagePath": "staticwebassets\\images\\configuracao.png"
     },
     {
+      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\email.png",
+      "PackagePath": "staticwebassets\\images\\email.png"
+    },
+    {
       "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\firestick-banner.jpg",
       "PackagePath": "staticwebassets\\images\\firestick-banner.jpg"
     },
@@ -147,6 +151,26 @@
     {
       "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\network-image.png",
       "PackagePath": "staticwebassets\\images\\network-image.png"
+    },
+    {
+      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\pedidos.png",
+      "PackagePath": "staticwebassets\\images\\pedidos.png"
+    },
+    {
+      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\perfil.png",
+      "PackagePath": "staticwebassets\\images\\perfil.png"
+    },
+    {
+      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\sair.png",
+      "PackagePath": "staticwebassets\\images\\sair.png"
+    },
+    {
+      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\seguranca.png",
+      "PackagePath": "staticwebassets\\images\\seguranca.png"
+    },
+    {
+      "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\seta-baixo.png",
+      "PackagePath": "staticwebassets\\images\\seta-baixo.png"
     },
     {
       "Id": "C:\\Projetos\\IPTV\\iptv.web\\wwwroot\\images\\seta-para-baixo-direita.png",

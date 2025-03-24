@@ -1,5 +1,7 @@
 @page "/"
 
+<MudPopoverProvider />
+
 @if (PageIsBusy)
 {
     <MudProgressCircular Size="Size.Large" Class="align-self-center" Color="Color.Info" Indeterminate="true" />
@@ -12,10 +14,46 @@ else
             <img @onclick="OpenDrawer" src="/images/cardapio.png" alt="menu" class="w-11 h-10 lg:hidden"/>
             
             <div class="hidden lg:flex flex-row items-center m-0 gap-10">
-                <button @onclick="ScrollToSegundaSection" Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="font-sans font-medium text-base text-white m-0">Detalhes</p></button>
-                <button @onclick="ScrollToQuartaSection" Underline="Underline.Always" Color="Color.Primary" Href="/"><p class="font-sans font-medium text-base text-white m-0">Preço</p></button>
-                <MudButton OnClick="ScrollToQuartaSection" Variant="Variant.Filled" Color="Color.Primary" FullWidth="false" StartIcon="@Icons.Material.Outlined.ShoppingCart" IconColor="Color.Secondary" Size="Size.Medium" 
-                ><span class="text-white">Comprar</span></MudButton>
+                <div>
+                    @if (UserLoggedIn == false)
+                    {
+                        <section class="flex flex-col">
+                            <p class="text-white"><a href="/entrar" class="font-sans font-medium text-base text-white hover:text-roxo">Entrar</a> /</p>
+                            <a href="/cadastrar" class="font-sans font-medium text-base text-white hover:text-roxo">Cadastrar</a>
+                        </section>
+                    }
+                    else
+                    {
+                        <MudMenu Style="display: flex; align-self: end; align-items: end;" ActivationEvent="@MouseEvent.MouseOver" AnchorOrigin="Origin.BottomCenter" TransformOrigin="Origin.TopCenter">
+                            <ActivatorContent>
+                                <div class="flex flex-col items-center" style="cursor: pointer;">
+                                    <section class="flex fle-row gap-2 justify-center items-center">
+                                        <MudAvatar Color="Color.Primary" Size="Size.Small" Style="color: white;">
+                                            @Username[0].ToString().ToUpper()
+                                        </MudAvatar>
+                                        <p class="text-white font-sans font-normal text-base">@Username.Split(' ')[0]</p>
+                                    </section>
+                                    <div class="absolute bottom-[-25px] left-1/2 transform -translate-x-1/2">
+                                        <img src="/images/seta-baixo.png" alt="foto de uma seta" />
+                                    </div>
+                                </div>
+                                
+                            </ActivatorContent>
+                            <ChildContent>
+                                <MudMenuItem Href="/perfil" Style="width: 300px;" Label="Meu Perfil" />
+                                <MudMenuItem Href="/carrinho" Style="width: 300px;" Label="Carrinho" />
+                                <MudMenuItem Href="/pedidos" Style="width: 300px;" Label="Pedidos" />
+                                <MudMenuItem Href="/logout" Style="width: 300px;" Label="Sair" />
+                            </ChildContent>
+                        </MudMenu>
+
+                    }
+                </div>
+                <button @onclick="ScrollToSegundaSection" Underline="Underline.Always" Color="Color.Primary" Href="/">
+                    <p class="font-sans font-medium text-base text-white m-0">Detalhes</p></button>
+                <button @onclick="ScrollToQuartaSection" Underline="Underline.Always" Color="Color.Primary" Href="/">
+                    <p class="font-sans font-medium text-base text-white m-0">Preço</p></button>
+                <MudButton OnClick="ScrollToQuartaSection" Variant="Variant.Filled" Color="Color.Primary" FullWidth="false" StartIcon="@Icons.Material.Outlined.ShoppingCart" IconColor="Color.Secondary" Size="Size.Medium"><span class="text-white">Comprar</span></MudButton>
             </div>
         </div>  
         <div class="flex flex-col h-[80vh] mt-6 justify-center lg:flex-row lg:justify-between sm:w-[70%] lg:w-[70%] items-center w-[90%] gap-[30px] self-center">
@@ -68,7 +106,7 @@ else
         </div>
     </section>
     <section @ref="SegundaSection" class="flex flex-col min-h-[50vh] bg-[#131126] w-full items-center justify-start overflow-hidden" data-aos="fade-up" data-aos-duration="1000">
-        <div class="flex flex-col w-[90%] items-center justify-center gap-7 mt-[60px] sm:flex-row md:w-[70%]">
+        <div class="flex flex-col w-[90%] items-center justify-center gap-7 mt-[60px] sm:flex-row md:w-[80%]">
             <div class="flex flex-col gap-[15px] w-full sm:w-[70%]" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                 <div class="font-serif text-[#FFD700] text-[1.6rem] font-extrabold mb-[20px] lg:text-[2.5rem]">
                     Como Nosso Produto Funciona?
@@ -85,7 +123,7 @@ else
             </div>
             <img src="/images/network-image.png" class="w-[80%] sm:w-[25%]" alt="imagem UniTV BOX" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"/>
         </div>
-        <div class="flex flex-col w-[90%] items-center justify-center gap-7 mt-[60px] sm:flex-row md:w-[70%]">
+        <div class="flex flex-col w-[90%] items-center justify-center gap-7 mt-[60px] sm:flex-row md:w-[80%]">
             <img class="hidden md:flex sm:w-[25%]" src="/images/configuracao.png" alt="imagem UniTV BOX" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"/>
             <div class="flex flex-col gap-[15px] w-full sm:w-[70%]" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                 <div class="font-serif text-[#FFD700] text-[1.6rem] font-extrabold mb-[20px] lg:text-[2.5rem]">
@@ -100,7 +138,7 @@ else
             </div>
             <img class="flex sm:hidden" src="/images/configuracao.png" alt="imagem UniTV BOX" style="width: 60%" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"/>
         </div>
-        <div class="flex flex-col w-[90%] items-center justify-center gap-7 mt-[60px] sm:flex-row md:w-[70%]">
+        <div class="flex flex-col w-[90%] items-center justify-center gap-7 mt-[60px] sm:flex-row md:w-[80%]">
             <div class="flex flex-col gap-[15px] w-full sm:w-[70%]" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                 <div class="font-serif text-[#FFD700] text-[1.6rem] font-extrabold mb-[20px] lg:text-[2.5rem]">
                     Preciso Pagar Mensalidade?
@@ -114,7 +152,7 @@ else
             </div>
             <img src="/images/cartao-de-credito.png" alt="imagem UniTV BOX" class="w-[80%] sm:w-[25%]" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"/>
         </div>
-        <div class="flex flex-col w-[90%] items-center justify-center gap-7 mt-[60px] mb-[80px] sm:flex-row md:w-[70%]">
+        <div class="flex flex-col w-[90%] items-center justify-center gap-7 mt-[60px] mb-[80px] sm:flex-row md:w-[80%]">
             <img class="hidden md:flex sm:w-[25%]" src="/images/garantido.png" alt="imagem UniTV BOX" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"/>
             <div class="flex flex-col gap-[15px] w-full sm:w-[70%]" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                 <div class="font-serif text-[#FFD700] text-[1.6rem] font-extrabold mb-[20px] lg:text-[2.5rem]">
@@ -160,7 +198,7 @@ else
             data-aos-duration="1000" data-aos-delay="200">Nossos Produtos</h1>
         <div class="flex flex-col w-full items-center gap-8 lg:flex-row sm:justify-center">
             <div
-                class="flex flex-column gap-8 items-center rounded-xl w-[90%] sm:w-[60%] lg:w-[25%] h-[770px] bg-[url('/images/background-produto.svg')] bg-no-repeat bg-cover shadow-xl"
+                class="flex flex-column gap-8 items-center rounded-lg w-[90%] sm:w-[60%] lg:w-[25%] h-[770px] bg-[url('/images/background-produto.svg')] bg-no-repeat bg-cover shadow-xl"
                 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <img src="/images/iptv-unitv.svg" alt="foto tvbox" class="w-[70%] max-h-[180px] mt-[40px]"/>
                 <div class="flex flex-col w-full items-center">
@@ -195,7 +233,7 @@ else
                 </div>
                 <div class="flex flex-row w-[80%] justify-between items-center">
                     <div class="w-[30%]">
-                        <MudNumericField @bind-Value="Quantidade" Label="Quantidade" Variant="Variant.Text" Min="1"
+                        <MudNumericField @bind-Value="Quantity" Label="Quantidade" Variant="Variant.Text" Min="1"
                                          Max="10"/>
                     </div>
                     <div class="w-[60%]">
@@ -204,7 +242,7 @@ else
                     </div>
                 </div>
             </div>
-            <div class="flex flex-column items-center rounded-xl w-[90%] sm:w-[60%] lg:w-[25%] h-[770px] gap-8 bg-[url('/images/background-produto.svg')] bg-no-repeat bg-cover shadow-xl"
+            <div class="flex flex-column items-center rounded-lg w-[90%] sm:w-[60%] lg:w-[25%] h-[770px] gap-8 bg-[url('/images/background-produto.svg')] bg-no-repeat bg-cover shadow-xl"
                  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <img src="/images/firestick.png" alt="foto tvbox" class="max-w-[70%] max-h-[180px] mt-[40px]"/>
                 <div class="flex flex-col w-full items-center">
@@ -237,7 +275,7 @@ else
                 </div>
                 <div class="flex flex-row w-[80%] justify-between items-center">
                     <div class="w-[30%]">
-                        <MudNumericField @bind-Value="Quantidade" Label="Quantidade" Variant="Variant.Text" Min="1"
+                        <MudNumericField @bind-Value="Quantity" Label="Quantidade" Variant="Variant.Text" Min="1"
                                          Max="10"/>
                     </div>
                     <div class="w-[60%]">
@@ -247,7 +285,7 @@ else
                 </div>
             </div>
             <div
-                class="flex flex-column items-center rounded-xl w-[90%] sm:w-[60%] lg:w-[25%] h-[770px] gap-8 bg-[url('/images/background-produto.svg')] bg-no-repeat bg-cover shadow-xl"
+                class="flex flex-column items-center rounded-lg w-[90%] sm:w-[60%] lg:w-[25%] h-[770px] gap-8 bg-[url('/images/background-produto.svg')] bg-no-repeat bg-cover shadow-xl"
                 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <img src="/images/androidtv.png" alt="foto tvbox" class="max-w-[70%] max-h-[180px] mt-[40px]"/>
                 <div class="flex flex-col w-full items-center">
@@ -280,7 +318,7 @@ else
                 </div>
                 <div class="flex flex-row w-[80%] justify-between items-center">
                     <div class="w-[30%]">
-                        <MudNumericField @bind-Value="Quantidade" Label="Quantidade" Variant="Variant.Text" Min="1"
+                        <MudNumericField @bind-Value="Quantity" Label="Quantidade" Variant="Variant.Text" Min="1"
                                          Max="10"/>
                     </div>
                     <div class="w-[60%]">
@@ -292,7 +330,7 @@ else
         </div>
     </section>
     <section @ref="QuintaSection" class="flex flex-col w-full items-center gap-8">
-        <h1 class="font-serif max-w-[90%] text-titlecolor font-extrabold text-3xl lg:text-4xl mt-[50px] mb-4">
+        <h1 class="font-serif max-w-[90%] text-titlecolor font-extrabold text-3xl lg:text-4xl mt-[100px] mb-4">
             Perguntas Frequentes
         </h1>
         <div class="flex flex-col w-[90%] sm:w-[80%] lg:w-[50%]  items-center">
@@ -361,7 +399,7 @@ else
                 </p>
             </MudCollapse>
         </div>
-        <div class="flex flex-col w-[90%] sm:w-[80%] lg:w-[50%] items-center mb-[60px]">
+        <div class="flex flex-col w-[90%] sm:w-[80%] lg:w-[50%] items-center mb-[100px]">
             @if (_pergunta5)
             {
                 <MudButton Class="rounded-xl" FullWidth="true" EndIcon="@Icons.Material.Filled.ArrowDownward" IconColor="Color.Secondary" Color="Color.Primary" Size="Size.Large" Variant="Variant.Filled" OnClick="AbrirPergunta5"><span class="text-white">Tem suporte ao cliente?</span></MudButton>
@@ -380,17 +418,17 @@ else
     </section>
     <section class="flex flex-col sm:flex-row w-[100%] items-center sm:justify-center bg-background">
         <div class="flex flex-col sm:flex-row sm:justify-evenly w-full sm:w-[80%] items-center p-[30px]">
-            <h1 class="font-serif font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl text-white mt-4">UniTV <span class="text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-white ">canais</span></h1>
+            <h1 class="font-serif font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl text-roxo mt-4">UniTV <span class="text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-roxo ">canais</span></h1>
             <div class="flex flex-col w-[100%] items-center mt-4 sm:hidden">
-                <div style="border-bottom: 0.5px solid gray; border-top: 0.5px solid gray;" class="flex flex-col w-full items-center">
+                <div style="border-bottom: 0.5px solid #7C45AD; border-top: 0.5px solid #7C45AD;" class="flex flex-col w-full items-center">
                     <button @onclick="ScrollToSegundaSection" Underline="Underline.Always" Color="Color.Primary" Href="/">
                         <p class="font-sans font-medium text-base text-white m-0 p-3">DETALHES</p></button>
                 </div>
-                <div style="border-bottom: 0.5px solid gray" class="flex flex-col w-full items-center">
+                <div style="border-bottom: 0.5px solid #7C45AD" class="flex flex-col w-full items-center">
                     <button @onclick="ScrollToQuartaSection" Underline="Underline.Always" Color="Color.Primary" Href="/">
                         <p class="font-sans font-medium text-base text-white m-0 p-3">PREÇOS</p></button>
                 </div>
-                <div style="border-bottom: 0.5px solid gray" class="flex flex-col w-full items-center">
+                <div style="border-bottom: 0.5px solid #7C45AD" class="flex flex-col w-full items-center">
                     <button EndIcon="@Icons.Material.Filled.ArrowDownward" @onclick="AbrirContato" Underline="Underline.Always" Color="Color.Primary">
                         <p class="font-sans font-medium text-base text-white m-0 p-3">CONTATO</p></button>
                     <MudCollapse Style="overflow-wrap: break-word" Expanded="_contato">
@@ -421,20 +459,66 @@ else
                     </MudCollapse>
                 </div>
             </div>
-            <div>
+            <div class="flex flex-col items-center text-center">
                 <p class="font-sans font-medium text-base text-white m-0 p-8">2025 - Direitos reservados</p>
+                <img src="/images/seguranca.png" class="w-[70px] sm:w-[100px]"/>
             </div>
         </div>
     </section>
     
     <MudDrawer Style="overflow:hidden; position:fixed;" @bind-Open="@_open" Width="70vw" Height="100vh" Anchor="@_anchor" Elevation="1" Variant="@DrawerVariant.Temporary">
-        <MudDrawerHeader>
-            <h1 class="font-serif font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-roxo">UniTV <span class="text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-light ">canais</span></h1>
+        <MudDrawerHeader Class="flex flex-col gap-5 mb-5 bg-roxo">
+            <h1 class="font-serif font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-titlecolor mb-3">UniTV <span class="text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-light ">canais</span></h1>
+            <div class="flex">
+                @if (UserLoggedIn == false)
+                {
+                    <section class="flex flex-col">
+                        <p class="text-white"><a href="/entrar" class="font-sans font-medium text-base text-white hover:text-roxo">Entrar</a> /</p>
+                        <a href="/cadastrar" class="font-sans font-medium text-base text-white hover:text-roxo">Cadastrar</a>
+                    </section>
+                }
+                else
+                {
+                    <section class="flex flex-col gap-2 justify-center">
+                        <MudAvatar Color="Color.Secondary" Size="Size.Large" Style="color: #7C45AD;">
+                            @Username[0].ToString().ToUpper()
+                        </MudAvatar>
+                        <p class="text-white font-sans font-normal text-base">@UserInfo.Email</p>
+                    </section>
+                }
+            </div>
         </MudDrawerHeader>
         <MudNavMenu>
-            <MudNavLink @onclick="ScrollToSegundaSection" Match="NavLinkMatch.All">Detalhes</MudNavLink>
-            <MudNavLink @onclick="ScrollToQuartaSection" Match="NavLinkMatch.All">Preços</MudNavLink>
-            <MudNavLink @onclick="ScrollToQuartaSection" Match="NavLinkMatch.All">Comprar</MudNavLink>
+            @if (UserLoggedIn)
+            {
+                <div class="flex flex-col gap-3 pl-4 pb-2 pt-2">
+                    <div class="flex flw-row gap-3 ml-[12px]">
+                        <img src="/images/perfil.png" alt="imagem de perfil"/>
+                        <a href="/perfil" class="text-base font-sans">Perfil</a>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 pl-4 pb-2 pt-2">
+                    <div class="flex flw-row gap-3 ml-[12px]">
+                        <img src="/images/pedidos.png" alt="pedidos"/>
+                        <a href="/pedidos" class="text-base font-sans">Pedidos</a>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 pl-4 pb-2 pt-2 mb-5">
+                    <div class="flex flw-row gap-3 ml-[12px]">
+                        <img src="/images/sair.png" alt="sair"/>
+                        <a href="/sair" class="text-base font-sans">Sair</a>
+                    </div>
+                </div>
+            }
+            else
+            {
+                
+            }
+            <hr class="border-t-1 border-gray my-4">
+
+            <MudNavLink @onclick="ScrollToSegundaSection" Match="NavLinkMatch.All"><p class="text-base font-bold font-sans">Detalhes</p></MudNavLink>
+            <MudNavLink @onclick="ScrollToQuartaSection" Match="NavLinkMatch.All"><p class="text-base font-bold font-sans">Preços</p></MudNavLink>
+            <MudNavLink @onclick="ScrollToQuartaSection" Match="NavLinkMatch.All"><p class="text-base font-bold font-sans">Comprar</p></MudNavLink>
         </MudNavMenu>
     </MudDrawer>
 }

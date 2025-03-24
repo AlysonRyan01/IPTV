@@ -91,7 +91,7 @@ public class IdentityHandler(
         }
     }
 
-    public async Task<BaseResponse<UserInfo>> UserInfo(string userId)
+    public async Task<BaseResponse<UserInfo>> UserInfo(string? userId)
     {
         try
         {

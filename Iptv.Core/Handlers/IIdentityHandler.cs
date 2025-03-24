@@ -8,5 +8,5 @@ public interface IIdentityHandler
 {
     Task<BaseResponse<string>> RegisterAsync(RegisterRequest request);
     Task<BaseResponse<string>> LoginAsync(LoginRequest request);
-    Task<BaseResponse<UserInfo>> UserInfo(string userId);
+    Task<BaseResponse<UserInfo>> UserInfo(string? userId);
 }
