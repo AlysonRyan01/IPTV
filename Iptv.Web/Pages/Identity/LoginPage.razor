@@ -63,7 +63,14 @@ else
                 </div>
             </EditForm>
             <p class="nao-tem-conta">Não tem uma conta?</p>
-            <a href="/cadastro" class="login-cadastrar mb-20">Cadastrar</a>
+            @if (ProductId != null && !string.IsNullOrEmpty(ProductId))
+            {
+                <a href="@($"/cadastrar?redirect={Redirect.ToString()}&product={ProductId}&quantity={Quantity}")">Cadastrar</a>
+            }
+            else
+            {
+                <a href="/cadastrar" class="login-cadastrar mb-20">Cadastrar</a>
+            }
         </section>
     </div>
 

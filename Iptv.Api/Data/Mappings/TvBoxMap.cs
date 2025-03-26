@@ -19,9 +19,6 @@ public class TvBoxMap : IEntityTypeConfiguration<TvBox>
             .HasMaxLength(100)
             .IsRequired();
         
-        builder.Property(t => t.Quantity)
-            .IsRequired();
-        
         builder.Property(t => t.Amount)
             .HasColumnType("MONEY")
             .IsRequired();

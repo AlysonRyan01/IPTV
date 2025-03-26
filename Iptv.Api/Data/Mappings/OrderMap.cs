@@ -37,6 +37,10 @@ public class OrderMap : IEntityTypeConfiguration<Order>
             .HasForeignKey(o => o.TvBoxId)
             .OnDelete(DeleteBehavior.Restrict);
         
+        builder.Property(o => o.Quantity)
+            .HasColumnType("INT")
+            .IsRequired();
+        
         builder.Property(o => o.CreatedAt)
             .HasColumnType("DATETIME2")
             .IsRequired();

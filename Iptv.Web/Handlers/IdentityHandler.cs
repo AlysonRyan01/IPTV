@@ -1,13 +1,10 @@
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
-using Blazored.LocalStorage;
 using Iptv.Core.Handlers;
 using Iptv.Core.Models;
 using Iptv.Core.Requests.IdentityRequests;
 using Iptv.Core.Responses;
-using Iptv.Web.Authentication;
 using Iptv.Web.Services;
-using Microsoft.IdentityModel.JsonWebTokens;
 
 namespace Iptv.Web.Handlers;
 
@@ -84,7 +81,7 @@ public class IdentityHandler : IIdentityHandler
         }
     }
 
-    public async Task<BaseResponse<UserInfo>> UserInfo(string userId)
+    public async Task<BaseResponse<UserInfo>> UserInfo(string? userId)
     {
         try
         {

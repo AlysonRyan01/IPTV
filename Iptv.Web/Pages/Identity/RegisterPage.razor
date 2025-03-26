@@ -104,8 +104,17 @@ else
                     }
                 </div>
             </EditForm>
-            <p class="nao-tem-conta">Já tem uma conta?</p>
-            <a href="/entrar" class="login-cadastrar mb-20">Entrar</a>
+            <div class="mb-10">
+                <p class="nao-tem-conta">Já tem uma conta?</p>
+                @if (Redirect && !string.IsNullOrEmpty(ProductId) && !string.IsNullOrEmpty(Quantity))
+                {
+                    <a href="@($"/entrar?redirect={Redirect.ToString()}&product={ProductId}&quantity={Quantity}")">Entrar</a>
+                }
+                else
+                {
+                    <a href="/entrar" class="login-cadastrar mb-20">Entrar</a>
+                }
+            </div>
         </section>
     </div>
 }

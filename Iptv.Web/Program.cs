@@ -1,4 +1,3 @@
-using Blazored.LocalStorage;
 using Iptv.Core;
 using Iptv.Core.Handlers;
 using Microsoft.AspNetCore.Components.Web;
@@ -24,7 +23,7 @@ WebConfiguration.BackendUrl = builder.Configuration.GetValue<string>("BackendUrl
 builder.Services.AddScoped<BaseAddressAuthorizationMessageHandler>();
 builder.Services.AddTransient<IdentityServices>();
 builder.Services.AddTransient<IIdentityHandler, IdentityHandler>();
-builder.Services.AddBlazoredLocalStorage();
+builder.Services.AddTransient<ITvboxHandler, TvboxHandler>();
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddAuthorizationCore(options =>
 {
@@ -41,6 +40,14 @@ builder.Services.AddHttpClient("identity", client =>
     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 })
 .AddHttpMessageHandler<CookieHandler>();
+
+builder.Services.AddHttpClient("tvbox", client =>
+    {
+        client.BaseAddress = new Uri($"{WebConfiguration.BackendUrl}/v1/tvbox/");
+        client.Timeout = TimeSpan.FromSeconds(60);
+        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+    })
+    .AddHttpMessageHandler<CookieHandler>();
 
 builder.Services.AddScoped<AuthStateProvider>();
 builder.Services.AddScoped<AuthenticationStateProvider>(sp => sp.GetRequiredService<AuthStateProvider>());

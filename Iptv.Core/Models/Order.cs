@@ -14,6 +14,8 @@ public class Order
     public long TvBoxId { get; set; }
     public TvBox TvBox { get; set; } = null!;
     
+    public int Quantity { get; set; }
+    
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
@@ -26,7 +28,7 @@ public class Order
 
     public decimal ShippingCost { get; set; }
     
-    public decimal Amount => ((TvBox.Amount * TvBox.Quantity) + (ShippingCost * TvBox.Quantity));
+    public decimal Amount => ((TvBox.Amount * Quantity) + ShippingCost);
     
     
 }
