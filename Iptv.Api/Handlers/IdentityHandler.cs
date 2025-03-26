@@ -125,4 +125,50 @@ public class IdentityHandler(
             return new BaseResponse<UserInfo>(null, 500, "Erro ao retornar informações do cliente");
         }
     }
+
+    public async Task<BaseResponse<string>> UpdateUserInfo(UpdateUserInfoRequest updateUserInfo)
+    {
+        try
+        {
+            if (string.IsNullOrEmpty(updateUserInfo.UserId))
+                return new BaseResponse<string>("UserId não pode ser nulo ou vazio.", 400, "UserId não pode ser nulo ou vazio.");
+
+            var user = await userManager.FindByIdAsync(updateUserInfo.UserId);
+            
+            if (user == null)
+                return new BaseResponse<string>("Usuario não encontrado", 404, "Usuario não encontrado");
+            
+            user.FirstName = updateUserInfo.FirstName;
+            user.LastName = updateUserInfo.LastName;
+            user.Email = updateUserInfo.Email;
+            user.PhoneNumber = updateUserInfo.Phone;
+            
+            var result = await userManager.UpdateAsync(user);
+
+            if (!result.Succeeded)
+            {
+                var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+                return new BaseResponse<string>("Erro ao atualizar usuário", 400, errors);
+            }
+            
+            if (string.IsNullOrEmpty(updateUserInfo.Address.ZipCode))
+                return new BaseResponse<string>("Nao podemos atualizar sem um endereco valido", 500, "Nao podemos atualizar sem um endereco valido");
+            
+            var addressUpdateResult = await addressHandler.UpdateAddress(updateUserInfo.UserId ,updateUserInfo.Address);
+
+            if (!addressUpdateResult.IsSuccess)
+            {
+                var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+                return new BaseResponse<string>("Erro ao atualizar usuário", 400, errors);
+            }
+
+            await context.SaveChangesAsync();
+
+            return new BaseResponse<string>("Usuario atualizado com sucesso!", 200, "Usuario atualizado com sucesso");
+        }
+        catch (Exception e)
+        {
+            return new BaseResponse<string>(e.Message, 500, e.Message);
+        }
+    }
 }

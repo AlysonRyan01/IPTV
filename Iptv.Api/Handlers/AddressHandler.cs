@@ -26,4 +26,34 @@ public class AddressHandler(IptvDbContext context) : IAddressHandler
             return new BaseResponse<Address>(null, 500, e.Message);
         }
     }
+
+    public async Task<BaseResponse<string>> UpdateAddress(string userId, Address address)
+    {
+        try
+        {
+            long userIdLong = long.Parse(userId);
+            
+            var result = await context.Addresses.FirstOrDefaultAsync(x => x.UserId == userIdLong);
+
+            if (result == null)
+                return new BaseResponse<string>("Endereco nao encontrado", 404, "Endereco nao encontrado");
+            
+            result.Street = address.Street;
+            result.Number = address.Number;
+            result.City = address.City;
+            result.State = address.State;
+            result.ZipCode = address.ZipCode;
+            result.Neighborhood = address.Neighborhood;
+            
+            context.Addresses.Update(result);
+            
+            await context.SaveChangesAsync();
+            
+            return new BaseResponse<string>("Endereco atualizado com sucesso!", 200, "Endereco atualizado com sucesso!");
+        }
+        catch (Exception e)
+        {
+            return new BaseResponse<string>(null, 500, e.Message);
+        }
+    }
 }

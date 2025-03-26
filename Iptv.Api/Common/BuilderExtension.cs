@@ -6,6 +6,7 @@ using Iptv.Api.Models;
 using Iptv.Api.Services;
 using Iptv.Core;
 using Iptv.Core.Handlers;
+using Iptv.Core.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -38,6 +39,8 @@ public static class BuilderExtension
         builder.Services.AddTransient<IOrderHandler, OrderHandler>();
         builder.Services.AddTransient<IAddressHandler, AddressHandler>();
         builder.Services.AddTransient<ITvboxHandler, TvboxHandler>();
+        builder.Services.AddTransient<IMelhorEnvioService, MelhorEnvioService>();
+        builder.Services.AddHttpClient();
     }
 
     public static void AddJwtConfiguration(this WebApplicationBuilder builder)

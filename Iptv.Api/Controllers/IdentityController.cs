@@ -139,4 +139,36 @@ public class IdentityController(IIdentityHandler identityHandler, TokenService t
             return StatusCode(500, new BaseResponse<string>("Erro inesperado", 500, "Ocorreu um erro no servidor. Tente novamente mais tarde."));
         }
     }
+
+    [Authorize]
+    [HttpPut("update-user")]
+    public async Task<IActionResult> UpdateUserAsync(UpdateUserInfoRequest request)
+    {
+        if (!ModelState.IsValid)
+        {
+            var errors = ModelState.Values.SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+            
+            return BadRequest(new BaseResponse<string>("Erro de validação", 400, string.Join(", ", errors)));
+        }
+        
+        try
+        {
+            var user = User;
+
+            if (user.Identity == null || !user.Identity.IsAuthenticated)
+                return Unauthorized();
+            
+            request.UserId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? string.Empty;
+            
+            var result = await identityHandler.UpdateUserInfo(request);
+            
+            return result.IsSuccess ? Ok(result) : Unauthorized(result);
+        }
+        catch
+        {
+            return StatusCode(500, new BaseResponse<string>("Erro inesperado", 500, "Ocorreu um erro no servidor. Tente novamente mais tarde."));
+        }
+    }
 }

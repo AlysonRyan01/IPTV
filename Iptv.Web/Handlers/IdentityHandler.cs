@@ -103,4 +103,9 @@ public class IdentityHandler : IIdentityHandler
             return new BaseResponse<UserInfo>(null, 500, ex.Message);
         }
     }
+
+    public Task<BaseResponse<string>> UpdateUserInfo(UpdateUserInfoRequest updateUserInfo)
+    {
+        throw new NotImplementedException();
+    }
 }
