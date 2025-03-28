@@ -5,6 +5,6 @@ namespace Iptv.Core.Handlers;
 
 public interface IAddressHandler
 {
-    Task<BaseResponse<Address>> GetAddress(string userId);
-    Task<BaseResponse<string>> UpdateAddress(string userId, Address address);
+    Task<BaseResponse<Address>> GetAddress(string? userId);
+    Task<BaseResponse<string>> UpdateAddress(string? userId, Address address);
 }

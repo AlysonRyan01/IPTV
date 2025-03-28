@@ -27,10 +27,13 @@ public class TvboxHandler : ITvboxHandler
                 ? new BaseResponse<TvBox>(response.Data, 200, "TvBox obtido com sucesso!") 
                 : new BaseResponse<TvBox>(null, 500, "Erro ao obter o TvBox");
         }
-        catch (Exception e)
+        catch (HttpRequestException ex)
         {
-            Console.WriteLine(e);
-            throw;
+            return new BaseResponse<TvBox>(null, 500, ex.Message);
+        }
+        catch (Exception ex)
+        {
+            return new BaseResponse<TvBox>(null, 500, ex.Message);
         }
     }
 }

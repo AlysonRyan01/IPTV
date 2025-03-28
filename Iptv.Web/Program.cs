@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using MudBlazor.Services;
 using System.Net.Http.Headers;
+using Iptv.Core.Services;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
@@ -24,6 +25,8 @@ builder.Services.AddScoped<BaseAddressAuthorizationMessageHandler>();
 builder.Services.AddTransient<IdentityServices>();
 builder.Services.AddTransient<IIdentityHandler, IdentityHandler>();
 builder.Services.AddTransient<ITvboxHandler, TvboxHandler>();
+builder.Services.AddTransient<IMelhorEnvioService, MelhorEnvioService>();
+builder.Services.AddTransient<IAddressHandler, AddressHandler>();
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddAuthorizationCore(options =>
 {
@@ -44,6 +47,22 @@ builder.Services.AddHttpClient("identity", client =>
 builder.Services.AddHttpClient("tvbox", client =>
     {
         client.BaseAddress = new Uri($"{WebConfiguration.BackendUrl}/v1/tvbox/");
+        client.Timeout = TimeSpan.FromSeconds(60);
+        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+    })
+    .AddHttpMessageHandler<CookieHandler>();
+
+builder.Services.AddHttpClient("melhorenvio", client =>
+    {
+        client.BaseAddress = new Uri($"{WebConfiguration.BackendUrl}/v1/melhor-envio/");
+        client.Timeout = TimeSpan.FromSeconds(60);
+        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+    })
+    .AddHttpMessageHandler<CookieHandler>();
+
+builder.Services.AddHttpClient("address", client =>
+    {
+        client.BaseAddress = new Uri($"{WebConfiguration.BackendUrl}/v1/address/");
         client.Timeout = TimeSpan.FromSeconds(60);
         client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
     })

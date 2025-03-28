@@ -33,24 +33,50 @@ public class IdentityController(IIdentityHandler identityHandler, TokenService t
             
             return result.IsSuccess ? Ok(result) : Unauthorized(result);
         }
-        catch (DbException ex)
+        catch (ArgumentNullException ex)
         {
-            Console.WriteLine(ex);
-            return StatusCode(500, new BaseResponse<string>("Erro no banco de dados", 500, ex.Message));
-        }
-        catch (ArgumentException ex)
-        {
-            Console.WriteLine(ex);
-            return BadRequest(new BaseResponse<string>("Argumento inválido", 400, ex.Message));
+            Console.WriteLine($"Erro de argumento nulo: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Erro interno: dados necessários não foram fornecidos."
+            ));
         }
         catch (InvalidOperationException ex)
         {
-            Console.WriteLine(ex);
-            return BadRequest(new BaseResponse<string>("Erro de operação", 400, ex.Message));
+            Console.WriteLine($"Erro de operação inválida: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Erro interno: operação não pode ser concluída."
+            ));
         }
-        catch
+        catch (HttpRequestException ex)
         {
-            return StatusCode(500, new BaseResponse<string>("Erro inesperado", 500, "Ocorreu um erro no servidor. Tente novamente mais tarde."));
+            Console.WriteLine($"Erro de comunicação: {ex}");
+            return StatusCode(503, new BaseResponse<object>(
+                null,
+                503,
+                "Serviço temporariamente indisponível. Tente novamente mais tarde."
+            ));
+        }
+        catch (UnauthorizedAccessException ex)
+        {
+            Console.WriteLine($"Erro de autorização: {ex}");
+            return Unauthorized(new BaseResponse<object>(
+                null,
+                401,
+                "Acesso negado. Você não tem permissão para acessar este recurso."
+            ));
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro inesperado: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Ocorreu um erro inesperado. Por favor, contate o suporte técnico."
+            ));
         }
     }
     
@@ -77,25 +103,50 @@ public class IdentityController(IIdentityHandler identityHandler, TokenService t
             
             return result.IsSuccess ? Ok(result) : Unauthorized(result);
         }
-        catch (DbException ex)
+        catch (ArgumentNullException ex)
         {
-            Console.WriteLine(ex);
-            return StatusCode(500, new BaseResponse<string>("Erro no banco de dados", 500, ex.Message));
-        }
-        catch (ArgumentException ex)
-        {
-            Console.WriteLine(ex);
-            return BadRequest(new BaseResponse<string>("Argumento inválido", 400, ex.Message));
+            Console.WriteLine($"Erro de argumento nulo: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Erro interno: dados necessários não foram fornecidos."
+            ));
         }
         catch (InvalidOperationException ex)
         {
-            Console.WriteLine(ex);
-            return BadRequest(new BaseResponse<string>("Erro de operação", 400, ex.Message));
+            Console.WriteLine($"Erro de operação inválida: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Erro interno: operação não pode ser concluída."
+            ));
+        }
+        catch (HttpRequestException ex)
+        {
+            Console.WriteLine($"Erro de comunicação: {ex}");
+            return StatusCode(503, new BaseResponse<object>(
+                null,
+                503,
+                "Serviço temporariamente indisponível. Tente novamente mais tarde."
+            ));
+        }
+        catch (UnauthorizedAccessException ex)
+        {
+            Console.WriteLine($"Erro de autorização: {ex}");
+            return Unauthorized(new BaseResponse<object>(
+                null,
+                401,
+                "Acesso negado. Você não tem permissão para acessar este recurso."
+            ));
         }
         catch (Exception ex)
         {
-            Console.WriteLine(ex);
-            return StatusCode(500, new BaseResponse<string>("Erro inesperado", 500, "Ocorreu um erro no servidor. Tente novamente mais tarde."));
+            Console.WriteLine($"Erro inesperado: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Ocorreu um erro inesperado. Por favor, contate o suporte técnico."
+            ));
         }
     }
     
@@ -119,24 +170,50 @@ public class IdentityController(IIdentityHandler identityHandler, TokenService t
             
             return result.IsSuccess ? Ok(result) : Unauthorized(result);
         }
-        catch (DbException ex)
+        catch (ArgumentNullException ex)
         {
-            Console.WriteLine(ex);
-            return StatusCode(500, new BaseResponse<string>("Erro no banco de dados", 500, ex.Message));
-        }
-        catch (ArgumentException ex)
-        {
-            Console.WriteLine(ex);
-            return BadRequest(new BaseResponse<string>("Argumento inválido", 400, ex.Message));
+            Console.WriteLine($"Erro de argumento nulo: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Erro interno: dados necessários não foram fornecidos."
+            ));
         }
         catch (InvalidOperationException ex)
         {
-            Console.WriteLine(ex);
-            return BadRequest(new BaseResponse<string>("Erro de operação", 400, ex.Message));
+            Console.WriteLine($"Erro de operação inválida: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Erro interno: operação não pode ser concluída."
+            ));
         }
-        catch
+        catch (HttpRequestException ex)
         {
-            return StatusCode(500, new BaseResponse<string>("Erro inesperado", 500, "Ocorreu um erro no servidor. Tente novamente mais tarde."));
+            Console.WriteLine($"Erro de comunicação: {ex}");
+            return StatusCode(503, new BaseResponse<object>(
+                null,
+                503,
+                "Serviço temporariamente indisponível. Tente novamente mais tarde."
+            ));
+        }
+        catch (UnauthorizedAccessException ex)
+        {
+            Console.WriteLine($"Erro de autorização: {ex}");
+            return Unauthorized(new BaseResponse<object>(
+                null,
+                401,
+                "Acesso negado. Você não tem permissão para acessar este recurso."
+            ));
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro inesperado: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Ocorreu um erro inesperado. Por favor, contate o suporte técnico."
+            ));
         }
     }
 
@@ -166,9 +243,50 @@ public class IdentityController(IIdentityHandler identityHandler, TokenService t
             
             return result.IsSuccess ? Ok(result) : Unauthorized(result);
         }
-        catch
+        catch (ArgumentNullException ex)
         {
-            return StatusCode(500, new BaseResponse<string>("Erro inesperado", 500, "Ocorreu um erro no servidor. Tente novamente mais tarde."));
+            Console.WriteLine($"Erro de argumento nulo: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Erro interno: dados necessários não foram fornecidos."
+            ));
+        }
+        catch (InvalidOperationException ex)
+        {
+            Console.WriteLine($"Erro de operação inválida: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Erro interno: operação não pode ser concluída."
+            ));
+        }
+        catch (HttpRequestException ex)
+        {
+            Console.WriteLine($"Erro de comunicação: {ex}");
+            return StatusCode(503, new BaseResponse<object>(
+                null,
+                503,
+                "Serviço temporariamente indisponível. Tente novamente mais tarde."
+            ));
+        }
+        catch (UnauthorizedAccessException ex)
+        {
+            Console.WriteLine($"Erro de autorização: {ex}");
+            return Unauthorized(new BaseResponse<object>(
+                null,
+                401,
+                "Acesso negado. Você não tem permissão para acessar este recurso."
+            ));
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro inesperado: {ex}");
+            return StatusCode(500, new BaseResponse<object>(
+                null,
+                500,
+                "Ocorreu um erro inesperado. Por favor, contate o suporte técnico."
+            ));
         }
     }
 }
