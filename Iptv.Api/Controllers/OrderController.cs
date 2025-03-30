@@ -159,8 +159,8 @@ public class OrderController(IOrderHandler orderHandler) : ControllerBase
         }
     }
     
-    [HttpPost("cancel")]
-    public async Task<ActionResult<Order>> CancelOrderAsync(CancelOrderRequest request)
+    [HttpPost("cancel/{id:long}")]
+    public async Task<ActionResult<Order>> CancelOrderAsync(long id)
     {
         if (!ModelState.IsValid)
         {
@@ -178,8 +178,12 @@ public class OrderController(IOrderHandler orderHandler) : ControllerBase
             {
                 return Unauthorized("ID do usuário inválido.");
             }
-            
-            request.UserId = userId;
+
+            var request = new CancelOrderRequest
+            {
+                UserId = userId,
+                Id = id
+            };
             
             var result = await orderHandler.CancelAsync(request);
             
@@ -305,17 +309,9 @@ public class OrderController(IOrderHandler orderHandler) : ControllerBase
         }
     }
     
-    [HttpPost("GetAll")]
-    public async Task<ActionResult<Order>> GetAllOrdersAsync(GetAllOrdersRequest request)
+    [HttpGet("GetAll/{id:long}")]
+    public async Task<ActionResult<Order>> GetAllOrdersAsync(long id)
     {
-        if (!ModelState.IsValid)
-        {
-            var errors = ModelState.Values.SelectMany(v => v.Errors)
-                .Select(e => e.ErrorMessage)
-                .ToList();
-            
-            return BadRequest(new BaseResponse<string>("Erro de validação", 400, string.Join(", ", errors)));
-        }
         try
         {
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -324,8 +320,11 @@ public class OrderController(IOrderHandler orderHandler) : ControllerBase
             {
                 return Unauthorized("ID do usuário inválido.");
             }
-            
-            request.UserId = userId;
+
+            var request = new GetAllOrdersRequest
+            {
+                UserId = userId,
+            };
             
             var result = await orderHandler.GetAllAsync(request);
             
@@ -378,8 +377,8 @@ public class OrderController(IOrderHandler orderHandler) : ControllerBase
         }
     }
     
-    [HttpPost("GetByNumber")]
-    public async Task<ActionResult<Order>> GetOrderByNumberAsync(GetOrderByNumberRequest request)
+    [HttpGet("GetByNumber/{number}")]
+    public async Task<ActionResult<Order>> GetOrderByNumberAsync(string number)
     {
         if (!ModelState.IsValid)
         {
@@ -397,8 +396,12 @@ public class OrderController(IOrderHandler orderHandler) : ControllerBase
             {
                 return Unauthorized("ID do usuário inválido.");
             }
-            
-            request.UserId = userId;
+
+            var request = new GetOrderByNumberRequest
+            {
+                UserId = userId,
+                Number = number
+            };
             
             var result = await orderHandler.GetByNumberAsync(request);
             

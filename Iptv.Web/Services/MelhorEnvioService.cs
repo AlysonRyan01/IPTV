@@ -12,7 +12,7 @@ public class MelhorEnvioService : IMelhorEnvioService
 
     public MelhorEnvioService(IHttpClientFactory factory)
     {
-        _client = factory.CreateClient("melhor-envio");
+        _client = factory.CreateClient("melhorenvio");
     }
     
     public async Task<BaseResponse<List<CalculoFreteResponse>>> CalcularFreteAsync(CalcularFreteRequest request)
@@ -24,10 +24,12 @@ public class MelhorEnvioService : IMelhorEnvioService
             if (!result.IsSuccessStatusCode)
                 return new BaseResponse<List<CalculoFreteResponse>>(null, 500, "Erro no servidor");
             
-            var fretes = await result.Content.ReadFromJsonAsync<List<CalculoFreteResponse>>();
+            var response = await result.Content.ReadFromJsonAsync<MelhorEnvioResponse>();
                 
-            if (fretes is null || fretes.Count == 0)
+            if (response!.Data.Count == 0)
                 return new BaseResponse<List<CalculoFreteResponse>>(null, 500, "Erro no servidor");
+
+            var fretes = response.Data;
             
             return fretes.Any()
                 ? new BaseResponse<List<CalculoFreteResponse>>(fretes, 200, "Fretes obtidos com sucesso!") 

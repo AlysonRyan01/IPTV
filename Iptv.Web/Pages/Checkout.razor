@@ -1,8 +1,202 @@
 @page "/checkout"
+@using System.ComponentModel.DataAnnotations
 
-<section class="flex f-row w-full justify-center">
-    <div class="flex flex-row w-[90%] items-center">
-        <p class="font-sans text-titlecolor text-lg font-semibold">1</p>
-        <img src="/images/seta-checkout.png"/>
-    </div>
-</section>
+@if (PageIsBusy)
+{
+    <MudProgressCircular Size="Size.Large" Class="align-self-center" Color="Color.Info" Indeterminate="true" />
+}
+else
+{
+    <section class="flex flex-col w-full items-center">
+        <div class="flex w-full items-center justify-center bg-background">
+            <img src="/images/trancado.png" class="w-[24px]"/>
+            <p class="font-sans text-white font-normal text-sm pl-2 pt-5 pb-5">
+                Finalizar Compra
+            </p>
+        </div>
+        <div class="flex flex-row w-[90%] items-center mt-3">
+            @if (!UserValidated)
+            {
+                <p class="font-sans text-titlecolor text-xl font-semibold">
+                    1.
+                </p>
+                <img src="/images/seta-checkout.png" class="w-[40px]"/>
+                <p class="font-sans text-titlecolor text-lg font-semibold">
+                    Informações Pessoais
+                </p>
+            }
+            @if (UserValidated && !AddressValidated)
+            {
+                <p class="font-sans text-titlecolor text-xl font-semibold">
+                    1.
+                </p>
+                <img src="/images/seta-checkout.png" class="w-[40px]"/>
+                <p class="font-sans text-titlecolor text-xl font-semibold">
+                    2.
+                </p>
+                <img src="/images/seta-checkout.png" class="w-[40px]"/>
+                <p class="font-sans text-titlecolor text-lg font-semibold">
+                    Endereço Para Entrega
+                </p>
+            }
+            @if (UserValidated && AddressValidated)
+            {
+                <p class="font-sans text-titlecolor text-xl font-semibold">
+                    1.
+                </p>
+                <img src="/images/seta-checkout.png" class="w-[40px]"/>
+                <p class="font-sans text-titlecolor text-xl font-semibold">
+                    2.
+                </p>
+                <img src="/images/seta-checkout.png" class="w-[40px]"/>
+                <p class="font-sans text-titlecolor text-xl font-semibold">
+                    3.
+                </p>
+                <img src="/images/seta-checkout.png" class="w-[40px]"/>
+                <p class="font-sans text-titlecolor text-lg font-semibold">
+                    Escolher frete
+                </p>
+            }
+        </div>
+    </section>
+    <section class="flex flex-col w-full items-center mt-7">
+        @if (!UserValidated || !AddressValidated)
+        {
+            <div class="flex flex-col w-[90%] gap-3">
+                <h2 class="text-xl font-sans font-bold text-titlecolor">
+                    Confirmar dados
+                </h2>
+                <MudForm Model="UserInfo" @ref="UserInfoForm">
+                    <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" Label="Primeiro Nome" @bind-Value="UserInfo.FirstName" FullWidth Required="true"
+                                  RequiredError="O primeiro nome é obrigatório" />
+
+                    <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" Label="Ultimo Nome" @bind-Value="UserInfo.LastName" FullWidth Required="true"
+                                  RequiredError="O ultimo nome é obrigatório" />
+
+                    <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" Label="Email" @bind-Value="UserInfo.Email" FullWidth
+                                  Validation="@(new EmailAddressAttribute().IsValid)" />
+
+                    <MudTextField Margin="Margin.Dense" Variant="Variant.Outlined" Label="Celular"
+                                  FullWidth
+                                  Validation="ValidatePhone"
+                                  Mask="@(new PatternMask("(00) 00000-0000"))" @bind-Value="UserInfo.Phone"/>
+
+                    @if (FuncValidateUserIsBusy)
+                    {
+                        <MudProgressCircular Size="Size.Small" Class="align-self-center" Color="Color.Info" Indeterminate="true" />
+                    }
+                    else
+                    {
+                        <MudButton Class="mt-5" Variant="Variant.Filled" OnClick="ValidateUser" Disabled="@UserValidated" Color="Color.Primary"><p class="text-white">Confirmar</p></MudButton>
+                    }
+                </MudForm>
+            </div>
+        }
+        @if (UserValidated)
+        {
+            @if (!UserValidated || !AddressValidated)
+            {
+                <div class="flex flex-col w-[90%] gap-3 mt-10 mb-10">
+                <h2 class="text-xl font-sans font-bold text-titlecolor">
+                    Endereço de entrega
+                </h2>
+                <MudForm Model="Address" @ref="UserAdressForm">
+                    <div style="display: flex; width: 100%">
+                        <MudTextField Style="margin-right: 10px;"
+                                      Margin="Margin.Dense"
+                                      Variant="Variant.Outlined"
+                                      Label="Rua"
+                                      @bind-Value="Address.Street"
+                                      FullWidth
+                                      Required="true"
+                                      RequiredError="O campo Rua é obrigatório" />
+
+                        <MudTextField
+                            Style="width: 90px;"
+                            Margin="Margin.Dense"
+                            Variant="Variant.Outlined"
+                            Label="Número"
+                            @bind-Value="Address.Number"
+                            Required="true"
+                            RequiredError="O campo Número é obrigatório" />
+                    </div>
+
+                    <MudTextField
+                        Margin="Margin.Dense"
+                        Variant="Variant.Outlined"
+                        Label="Bairro"
+                        @bind-Value="Address.Neighborhood"
+                        FullWidth
+                        Required="true"
+                        RequiredError="O campo Bairro é obrigatório" />
+
+                    <MudTextField
+                        Margin="Margin.Dense"
+                        Variant="Variant.Outlined"
+                        Label="Cidade"
+                        @bind-Value="Address.City"
+                        FullWidth
+                        Required="true"
+                        RequiredError="O campo Cidade é obrigatório" />
+
+                    <MudTextField
+                        Margin="Margin.Dense"
+                        Variant="Variant.Outlined"
+                        Label="Estado"
+                        @bind-Value="Address.State"
+                        FullWidth
+                        Required="true"
+                        RequiredError="O campo Estado é obrigatório" />
+
+                    <MudTextField
+                        Style="width: 200px;"
+                        Margin="Margin.Dense"
+                        Variant="Variant.Outlined"
+                        Label="CEP"
+                        @bind-Value="Address.ZipCode"
+                        FullWidth
+                        Required="true"
+                        Mask="CepMask"
+                        RequiredError="O campo CEP é obrigatório"
+                        Validation="ValidateCep"/>
+
+                    @if (FuncValidateAddressIsBusy)
+                    {
+                        <MudProgressCircular Size="Size.Small" Class="align-self-center" Color="Color.Info" Indeterminate="true" />
+                    }
+                    else
+                    {
+                        <MudButton Class="mt-5" Variant="Variant.Filled" OnClick="ValidateAddress" Disabled="@AddressValidated" Color="Color.Primary"><p class="text-white">Confirmar</p></MudButton>
+                    }
+                </MudForm>
+            </div>
+            }
+            else
+            {
+                <div class="flex flex-col w-[90%]">
+                    <h2 class="text-xl font-sans font-bold text-titlecolor mb-7">
+                        Opções de Envio
+                    </h2>
+                    @foreach (var frete in Fretes)
+                    {
+                        if (frete.Price != "")
+                        {
+                            <div class="flex flex-col bg-cinza rounded-lg w-full items-center mb-5">
+                                <div class="flex flex-col p-5 gap-2 items-center">
+                                    <img src="@frete.Company.Picture" alt="foto correios" class="w-[100px] mb-2"/>
+                                    <p class="font-sans text-base font-bold">@frete.Name</p>
+                                    <p class="font-sans text-base font-normal">R$ @frete.Price</p>
+                                    @if (frete.DeliveryTime != 0)
+                                    {
+                                        <p class="font-sans text-base font-normal">@frete.DeliveryTime</p>
+                                    }
+                                </div>
+                                <MudButton Class="w-[40%] mb-7" FullWidth="false" Size="Size.Large" Variant="Variant.Filled" Color="Color.Primary"><p class="text-white">Escolher</p></MudButton>
+                            </div>
+                        }
+                    }
+                </div>
+            }
+        }
+    </section>
+}

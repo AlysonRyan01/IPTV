@@ -159,7 +159,7 @@ public class IdentityHandler : IIdentityHandler
     {
         try
         {
-            var response = await _httpClient.PutAsJsonAsync("user-info", updateUserInfo);
+            var response = await _httpClient.PutAsJsonAsync("update-user", updateUserInfo);
             
             if (!response.IsSuccessStatusCode)
             {

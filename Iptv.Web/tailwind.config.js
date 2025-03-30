@@ -8,7 +8,8 @@ module.exports = {
       "background" : "#131126",
       "white" : "#FFFFFF",
       "titlecolor": "#262626",
-      "roxo": "#7C45AD"
+      "roxo": "#7C45AD",
+      "cinza": "#F3F4F6"
     },
     extend: {
       fontFamily: {

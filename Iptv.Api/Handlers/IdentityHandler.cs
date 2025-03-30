@@ -150,17 +150,6 @@ public class IdentityHandler(
                 var errors = string.Join(", ", result.Errors.Select(e => e.Description));
                 return new BaseResponse<string>("Erro ao atualizar usuário", 400, errors);
             }
-            
-            if (string.IsNullOrEmpty(updateUserInfo.Address.ZipCode))
-                return new BaseResponse<string>("Nao podemos atualizar sem um endereco valido", 500, "Nao podemos atualizar sem um endereco valido");
-            
-            var addressUpdateResult = await addressHandler.UpdateAddress(updateUserInfo.UserId ,updateUserInfo.Address);
-
-            if (!addressUpdateResult.IsSuccess)
-            {
-                var errors = string.Join(", ", result.Errors.Select(e => e.Description));
-                return new BaseResponse<string>("Erro ao atualizar usuário", 400, errors);
-            }
 
             await context.SaveChangesAsync();
 

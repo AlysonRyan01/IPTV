@@ -8,11 +8,11 @@ namespace Iptv.Api.Handlers;
 
 public class AddressHandler(IptvDbContext context) : IAddressHandler
 {
-    public async Task<BaseResponse<Address>> GetAddress(string userId)
+    public async Task<BaseResponse<Address>> GetAddress(string? userId)
     {
         try
         {
-            long userIdLong = long.Parse(userId);
+            long userIdLong = long.Parse(userId!);
             
             var address = await context.Addresses.AsNoTracking().FirstOrDefaultAsync(x => x.UserId == userIdLong);
             
@@ -27,11 +27,11 @@ public class AddressHandler(IptvDbContext context) : IAddressHandler
         }
     }
 
-    public async Task<BaseResponse<string>> UpdateAddress(string userId, Address address)
+    public async Task<BaseResponse<string>> UpdateAddress(string? userId, Address address)
     {
         try
         {
-            long userIdLong = long.Parse(userId);
+            long userIdLong = long.Parse(userId!);
             
             var result = await context.Addresses.FirstOrDefaultAsync(x => x.UserId == userIdLong);
 

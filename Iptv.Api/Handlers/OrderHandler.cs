@@ -87,7 +87,9 @@ public class OrderHandler(IptvDbContext context) : IOrderHandler
         {
             UserId = request.UserId,
             TvBox = product,
-            TvBoxId = request.ProductId
+            TvBoxId = request.ProductId,
+            ShippingCost = request.ShippingCost,
+            Quantity = request.Quantity
         };
 
         try

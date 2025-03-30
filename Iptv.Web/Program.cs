@@ -27,6 +27,7 @@ builder.Services.AddTransient<IIdentityHandler, IdentityHandler>();
 builder.Services.AddTransient<ITvboxHandler, TvboxHandler>();
 builder.Services.AddTransient<IMelhorEnvioService, MelhorEnvioService>();
 builder.Services.AddTransient<IAddressHandler, AddressHandler>();
+builder.Services.AddTransient<IOrderHandler, OrderHandler>();
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddAuthorizationCore(options =>
 {
@@ -63,6 +64,14 @@ builder.Services.AddHttpClient("melhorenvio", client =>
 builder.Services.AddHttpClient("address", client =>
     {
         client.BaseAddress = new Uri($"{WebConfiguration.BackendUrl}/v1/address/");
+        client.Timeout = TimeSpan.FromSeconds(60);
+        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+    })
+    .AddHttpMessageHandler<CookieHandler>();
+
+builder.Services.AddHttpClient("order", client =>
+    {
+        client.BaseAddress = new Uri($"{WebConfiguration.BackendUrl}/v1/order/");
         client.Timeout = TimeSpan.FromSeconds(60);
         client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
     })

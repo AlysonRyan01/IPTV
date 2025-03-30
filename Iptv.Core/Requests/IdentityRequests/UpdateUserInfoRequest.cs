@@ -22,7 +22,4 @@ public class UpdateUserInfoRequest
     [Required(ErrorMessage = "O telefone é obrigatório.")]
     [Phone(ErrorMessage = "O telefone informado não é válido.")]
     public string Phone { get; set; } = string.Empty;
-
-    [Required(ErrorMessage = "O endereço é obrigatório.")]
-    public Address Address { get; set; } = new();
 }
