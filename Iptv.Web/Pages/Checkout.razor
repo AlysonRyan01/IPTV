@@ -10,7 +10,7 @@ else
     <section class="flex flex-col w-full items-center">
         <div class="flex w-full items-center justify-center bg-background">
             <img src="/images/trancado.png" class="w-[24px]"/>
-            <p class="font-sans text-white font-normal text-sm pl-2 pt-5 pb-5">
+            <p class="font-sans text-white font-normal text-sm pl-2 pt-5 pb-5 lg:pt-12 lg:pb-12">
                 Finalizar Compra
             </p>
         </div>
@@ -191,7 +191,7 @@ else
                                         <p class="font-sans text-base font-normal">@frete.DeliveryTime</p>
                                     }
                                 </div>
-                                <MudButton Class="w-[40%] mb-7" FullWidth="false" Size="Size.Large" Variant="Variant.Filled" Color="Color.Primary"><p class="text-white">Escolher</p></MudButton>
+                                <MudButton OnClick="@(() => CreateOrder(frete.Id))" Class="w-[40%] mb-7" FullWidth="false" Size="Size.Large" Variant="Variant.Filled" Color="Color.Primary"><p class="text-white">Escolher</p></MudButton>
                             </div>
                         }
                     }

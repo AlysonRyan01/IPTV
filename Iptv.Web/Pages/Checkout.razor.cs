@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Net;
 using System.Security.Authentication;
 using System.Text.Json;
@@ -343,12 +344,12 @@ public partial class Checkout : ComponentBase
         }
     }
     
-    public async Task CreateOrder(string freteId)
+    public async Task CreateOrder(int freteId)
     {
         FuncCreateOrderIsBusy = true;
         try
         {
-            var frete = Fretes.FirstOrDefault(x => x.Id == int.Parse(freteId));
+            var frete = Fretes.FirstOrDefault(x => x.Id == freteId);
 
             if (frete == null)
             {
@@ -362,10 +363,17 @@ public partial class Checkout : ComponentBase
                 Address = Address,
                 ProductId = long.Parse(ProductId),
                 Quantity = int.Parse(Quantity),
-                ShippingCost = decimal.Parse(frete.Price)
+                ShippingCost = decimal.Parse(frete.Price, CultureInfo.InvariantCulture)
             };
             
             var response = await OrderHandler.CreateAsync(request);
+
+            if (response.IsSuccess)
+            {
+                Snackbar.Add("Pedido criado com sucesso! Faça o pagamento para continuar", Severity.Success);
+            }
+            else
+                Snackbar.Add(response.Message ?? "Ocorreu um erro ao criar o pedido", Severity.Error);
         }
         catch (HttpRequestException ex) when (ex.StatusCode == HttpStatusCode.BadRequest)
         {

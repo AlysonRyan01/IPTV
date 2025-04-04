@@ -1,4 +1,3 @@
-using Azure;
 using Iptv.Api.Data;
 using Iptv.Core.Enums;
 using Iptv.Core.Handlers;
@@ -77,6 +76,7 @@ public class OrderHandler(IptvDbContext context) : IOrderHandler
                 return new BaseResponse<Order?>(null, 404, "Produto não encontrado ou inativo");
 
             context.Attach(product);
+            context.Attach(request.Address);
         }
         catch
         {
@@ -89,7 +89,9 @@ public class OrderHandler(IptvDbContext context) : IOrderHandler
             TvBox = product,
             TvBoxId = request.ProductId,
             ShippingCost = request.ShippingCost,
-            Quantity = request.Quantity
+            Quantity = request.Quantity,
+            Address = request.Address,
+            AddressId = request.Address.Id
         };
 
         try
